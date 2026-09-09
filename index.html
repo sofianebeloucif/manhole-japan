@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Manhole Japan — a map of Japan's decorative manhole covers</title>
+  <meta name="description" content="An interactive map of Japan's decorative manhole covers. Each city and ward has its own design.">
+  <meta property="og:title" content="Manhole Japan">
+  <meta property="og:description" content="An interactive map of Japan's decorative manhole covers.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map" aria-label="Map of Japan"></div>
+
+  <aside id="sidebar" aria-label="Controls">
+    <header class="brand">
+      <h1>Manhole&nbsp;Japan <span lang="ja">マンホール</span></h1>
+      <p>Japan's decorative manhole covers — every city and ward has its own design.
+         <span id="scope-note"></span></p>
+    </header>
+
+    <section id="stats" class="stats" aria-live="polite"></section>
+
+    <section class="filters">
+      <label class="field">
+        <span>Search</span>
+        <input type="search" id="q" placeholder="design, Pokémon, town…" autocomplete="off">
+      </label>
+      <label class="field">
+        <span>Prefecture</span>
+        <select id="prefecture"><option value="">All prefectures</option></select>
+      </label>
+      <fieldset id="categories">
+        <legend>Type</legend>
+      </fieldset>
+      <button type="button" id="reset" class="reset" hidden>Clear filters</button>
+    </section>
+
+    <section id="prefbars" class="prefbars" aria-label="Covers per prefecture"></section>
+
+    <footer class="credits">
+      <button type="button" id="theme-toggle" title="Toggle light / dark">◐ Theme</button>
+      <p>
+        Pokéfuta locations © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors (ODbL).
+        Basemap <a href="https://openfreemap.org">OpenFreeMap</a>.
+        A fan project — not affiliated with The Pokémon Company, Nintendo or GKP.
+        <a href="https://github.com/sofianebeloucif/manhole-japan">Source</a>.
+      </p>
+    </footer>
+  </aside>
+
+  <button id="sidebar-toggle" type="button" aria-expanded="true" aria-controls="sidebar" title="Show / hide panel">☰</button>
+
+  <article id="detail" hidden aria-live="polite">
+    <button type="button" id="detail-close" aria-label="Close">×</button>
+    <div id="detail-body"></div>
+  </article>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.min.js"></script>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

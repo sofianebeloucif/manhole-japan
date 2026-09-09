@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "manhole-japan cover feature",
+  "type": "object",
+  "required": ["type", "geometry", "properties"],
+  "properties": {
+    "type": { "const": "Feature" },
+    "geometry": {
+      "type": "object",
+      "required": ["type", "coordinates"],
+      "properties": {
+        "type": { "const": "Point" },
+        "coordinates": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": [
+            { "type": "number", "minimum": 122, "maximum": 154 },
+            { "type": "number", "minimum": 20, "maximum": 46 }
+          ]
+        }
+      }
+    },
+    "properties": {
+      "type": "object",
+      "required": ["id", "name_en", "prefecture_en", "category", "source", "source_url", "themes", "visited"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "name_en": { "type": "string", "minLength": 1 },
+        "name_ja": { "type": ["string", "null"] },
+        "prefecture_en": { "type": "string", "minLength": 1 },
+        "prefecture_ja": { "type": ["string", "null"] },
+        "municipality": { "type": ["string", "null"] },
+        "category": { "enum": ["pokefuta", "manhole_card", "personal", "osm"] },
+        "themes": { "type": "array", "items": { "type": "string" } },
+        "photo": { "type": ["string", "null"] },
+        "photo_thumb": { "type": ["string", "null"] },
+        "photo_credit": { "type": ["string", "null"] },
+        "photo_license": { "type": ["string", "null"] },
+        "installed": { "type": ["string", "null"] },
+        "source": { "type": "string" },
+        "source_url": { "type": "string", "format": "uri" },
+        "visited": { "type": "boolean" }
+      }
+    }
+  }
+}

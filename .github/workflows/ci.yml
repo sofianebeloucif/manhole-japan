@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm ci || npm install
+      - name: Lint
+        run: npx eslint src/
+      - name: Smoke test (headless)
+        run: node scripts/smoke.mjs
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Validate data
+        run: python scripts/validate.py
+      - name: Data is up to date with sources
+        run: |
+          python scripts/build_covers.py
+          git diff --exit-code -- data/covers.geojson \
+            || (echo "::error::data/covers.geojson is stale - run scripts/build_covers.py" && exit 1)

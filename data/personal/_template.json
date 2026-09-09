@@ -1,0 +1,23 @@
+[
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [139.700464, 35.690184] },
+    "properties": {
+      "id": "personal-example-shinjuku",
+      "name_en": "Example - replace me (Shinjuku ward flower design)",
+      "name_ja": null,
+      "prefecture_en": null,
+      "municipality": "Shinjuku, Tokyo",
+      "category": "personal",
+      "themes": ["flowers", "example"],
+      "photo": null,
+      "photo_thumb": null,
+      "photo_credit": "Sofiane Beloucif",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  }
+]

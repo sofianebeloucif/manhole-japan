@@ -1,0 +1,3672 @@
+{
+ "fetched_at": "2026-09-09T23:02:09.551219+00:00",
+ "source": "OpenStreetMap via Overpass",
+ "license": "ODbL 1.0",
+ "attribution": "(c) OpenStreetMap contributors",
+ "count": 259,
+ "elements": [
+  {
+   "type": "node",
+   "id": 6433717785,
+   "lat": 31.2310542,
+   "lon": 130.6445972,
+   "tags": {
+    "alt_name:en": "Pokémon Manhole (Glaceon)",
+    "man_made": "manhole",
+    "name": "グレイシア",
+    "name:en": "Poké Lids (Glaceon)",
+    "name:ru": "Канализационный люк с покемоном (グレイシア)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9515124067,
+   "lat": 33.9462776,
+   "lon": 130.9641113,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サーナイト・ルナトーン）",
+    "alt_name:en": "Pokémon Manhole (Gardevoir & Lunatone)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サーナイト・ルナトーン）",
+    "name:en": "Poké Lids (Gardevoir & Lunatone)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9516119161,
+   "lat": 33.8718335,
+   "lon": 130.8074243,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤミラミ・ジュラルドン）",
+    "alt_name:en": "Pokémon Manhole (Sableye & Duraludon)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤミラミ・ジュラルドン）",
+    "name:en": "Poké Lids (Sableye & Duraludon)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518187938,
+   "lat": 31.587944,
+   "lon": 131.4016876,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・ダイノーズ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Probopass)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・ダイノーズ）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Probopass)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518193597,
+   "lat": 32.5098038,
+   "lon": 131.3314972,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・レジロック）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Regirock)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・レジロック）",
+    "name:en": "Poké Lids (Exeggutor & Regirock)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518193609,
+   "lat": 32.0710564,
+   "lon": 131.5121918,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・マクノシタ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Makuhita)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・マクノシタ）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Makuhita)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518195654,
+   "lat": 32.2232513,
+   "lon": 131.1632843,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・ゴルーグ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Golurk)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・ゴルーグ）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Golurk)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518242207,
+   "lat": 33.8905296,
+   "lon": 130.884613,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラダグトリオ・トロッゴン）",
+    "alt_name:en": "Pokémon Manhole (Alolan Dugtrio & Carkol)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラダグトリオ・トロッゴン）",
+    "name:en": "Poké Lids (Alolan Dugtrio & Carkol)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518242208,
+   "lat": 32.1698875,
+   "lon": 131.4297485,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・メタモン）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Ditto)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・メタモン）",
+    "name:en": "Poké Lids (Exeggutor & Ditto)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518242209,
+   "lat": 31.9575005,
+   "lon": 131.1259766,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・モクロー）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Rowlet)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・モクロー）",
+    "name:en": "Poké Lids (Exeggutor & Rowlet)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518256149,
+   "lat": 31.3662777,
+   "lon": 131.3328094,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・ガラルポニータ）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Galarian)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・ガラルポニータ）",
+    "name:en": "Poké Lids (Exeggutor & Galarian)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518256150,
+   "lat": 32.4253883,
+   "lon": 131.6277466,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・オドリドリ）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Oricorio)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・オドリドリ）",
+    "name:en": "Poké Lids (Exeggutor & Oricorio)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518259288,
+   "lat": 32.6606407,
+   "lon": 131.3886414,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・レジスチル）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Registeel)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・レジスチル）",
+    "name:en": "Poké Lids (Exeggutor & Registeel)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518259289,
+   "lat": 31.7337494,
+   "lon": 131.1203003,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・コロモリ）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Woobat)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・コロモリ）",
+    "name:en": "Poké Lids (Exeggutor & Woobat)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518262276,
+   "lat": 31.8075008,
+   "lon": 131.45784,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・ポワルン）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Castform)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・ポワルン）",
+    "name:en": "Poké Lids (Exeggutor & Castform)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518262342,
+   "lat": 32.7077484,
+   "lon": 131.3058929,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・レジギガス）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Regigigas)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・レジギガス）",
+    "name:en": "Poké Lids (Exeggutor & Regigigas)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518262540,
+   "lat": 32.1915016,
+   "lon": 131.5289764,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・ヌマクロー）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Marshtomp)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・ヌマクロー）",
+    "name:en": "Poké Lids (Exeggutor & Marshtomp)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518262541,
+   "lat": 31.2638893,
+   "lon": 130.6629181,
+   "tags": {
+    "alt_name": "ポケモンマンホール（リーフィア）",
+    "alt_name:en": "Pokémon Manhole (Leafeon)",
+    "alt_name:ru": "Люк для покемонов (Лифеон)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（リーフィア）",
+    "name:en": "Poké Lids (Leafeon)",
+    "name:ru": "Поке Либс (Лифеон)",
+    "operator": "指宿市",
+    "ref": "ポケふた"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518263541,
+   "lat": 31.9885826,
+   "lon": 131.3219147,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・ゴクリン）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Gulpin)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・ゴクリン）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Gulpin)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518276632,
+   "lat": 31.9989719,
+   "lon": 131.2537537,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・ナマケロ）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Slakoth)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・ナマケロ）",
+    "name:en": "Poké Lids (Exeggutor & Slakoth)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518279766,
+   "lat": 31.7252216,
+   "lon": 131.0661926,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・メテノ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Minior)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・メテノ）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Minior)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518281770,
+   "lat": 32.2609177,
+   "lon": 131.5575867,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・ブイゼル）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Buizel)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・ブイゼル）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Buizel)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518282518,
+   "lat": 32.0503044,
+   "lon": 130.8059387,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・コータス）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Torkoal)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・コータス）",
+    "name:en": "Poké Lids (Exeggutor & Torkoal)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518282828,
+   "lat": 32.458168,
+   "lon": 131.1538391,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・シンボラー）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Sigilyph)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・シンボラー）",
+    "name:en": "Poké Lids (Exeggutor & Sigilyph)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518282829,
+   "lat": 31.9072227,
+   "lon": 130.9601898,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・ムチュール）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Smoochum)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・ムチュール）",
+    "name:en": "Poké Lids (Exeggutor & Smoochum)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518286560,
+   "lat": 32.4319725,
+   "lon": 131.4675598,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・タマタマ）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Exeggcute)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・タマタマ）",
+    "name:en": "Poké Lids (Exeggutor & Exeggcute)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518287106,
+   "lat": 32.6790543,
+   "lon": 131.2100525,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・レジアイス）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Regice)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・レジアイス）",
+    "name:en": "Poké Lids (Exeggutor & Regice)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518287107,
+   "lat": 32.1066399,
+   "lon": 131.4044952,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・キマワリ）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Sunflora)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・キマワリ）",
+    "name:en": "Poké Lids (Exeggutor & Sunflora)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518287138,
+   "lat": 32.6847229,
+   "lon": 131.8011169,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナッシー・アローラナッシー）",
+    "alt_name:en": "Pokémon Manhole (Exeggutor & Alolan Bergmite)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナッシー・アローラナッシー）",
+    "name:en": "Poké Lids (Exeggutor & Alolan Bergmite)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518288300,
+   "lat": 32.1159439,
+   "lon": 131.5328369,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・アローラライチュウ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Alolan Raichu)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・アローラライチュウ）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Alolan Raichu)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518288702,
+   "lat": 32.4870262,
+   "lon": 131.6767273,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラナッシー・マケンカニ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Exeggutor & Crabrawler)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラナッシー・マケンカニ）",
+    "name:en": "Poké Lids (Alolan Exeggutor & Crabrawler)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518289741,
+   "lat": 31.235445,
+   "lon": 130.6413879,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ニンフィア）",
+    "alt_name:en": "Pokémon Manhole (Sylveon)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ニンフィア）",
+    "name:en": "Poké Lids (Sylveon)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518289742,
+   "lat": 31.2368336,
+   "lon": 130.6421967,
+   "tags": {
+    "alt_name:en": "Pokémon Manhole (Umbreon)",
+    "alt_name:ru": "Люк для покемонов (Умбреон)",
+    "man_made": "manhole",
+    "name": "ブラッキー",
+    "name:en": "Poké Lids (Umbreon)",
+    "name:ru": "Поке Либс (Умбреон)",
+    "operator": "指宿市",
+    "ref": "ポケふた"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386386,
+   "lat": 31.2371941,
+   "lon": 130.642868,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イーブイ）",
+    "alt_name:en": "Pokémon Manhole (Eevee)",
+    "alt_name:ru": "Люк для покемонов (Еви)",
+    "man_made": "manhole",
+    "manhole": "sewer",
+    "name": "イーブイ",
+    "name:en": "Poké Lids (Eevee)",
+    "name:ru": "Поке Либс (Еви)",
+    "operator": "指宿市",
+    "ref": "ポケふた"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386387,
+   "lat": 34.4342711,
+   "lon": 133.8138504,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ルカリオ）",
+    "alt_name:en": "Pokémon Manhole (Lucario)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ルカリオ）",
+    "name:en": "Poké Lids (Lucario)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386388,
+   "lat": 43.1257782,
+   "lon": 143.6134491,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・メタモン）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Ditto)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・メタモン）",
+    "name:en": "Poké Lids (Vulpix & Ditto)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386389,
+   "lat": 43.2442207,
+   "lon": 143.5467529,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・アグノム・エムリット・ユクシー）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix, Azelf, Mesprit, Uxie)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・アグノム・エムリット・ユクシー）",
+    "name:en": "Poké Lids (Alolan Vulpix, Azelf, Mesprit, Uxie)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386390,
+   "lat": 34.1733322,
+   "lon": 133.8713837,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386391,
+   "lat": 34.2503891,
+   "lon": 133.9170837,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518386392,
+   "lat": 39.3572502,
+   "lon": 141.9031677,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ツボツボ）",
+    "alt_name:en": "Pokémon Manhole (Shuckle)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ツボツボ）",
+    "name:en": "Poké Lids (Shuckle)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518401249,
+   "lat": 38.7944717,
+   "lon": 140.8444214,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・コアルヒー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Ducklett)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・コアルヒー）",
+    "name:en": "Poké Lids (Lapras & Ducklett)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518401251,
+   "lat": 42.5661125,
+   "lon": 140.8190765,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・ウリムー）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Swinub)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・ウリムー）",
+    "name:en": "Poké Lids (Vulpix & Swinub)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518401252,
+   "lat": 34.4826927,
+   "lon": 134.1875,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン・メタモン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke & Ditto)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン・メタモン）",
+    "name:en": "Poké Lids (Slowpoke & Ditto)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518414196,
+   "lat": 35.3439445,
+   "lon": 134.4003296,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラサンド・ユキカブリ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Sandshrew & Snover)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラサンド・ユキカブリ）",
+    "name:en": "Poké Lids (Alolan Sandshrew & Snover)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518425681,
+   "lat": 24.734972,
+   "lon": 125.2630844,
+   "tags": {
+    "alt_name": "ポケモンマンホール（カイオーガ）",
+    "alt_name:en": "Pokémon Manhole (Kyogre)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（カイオーガ）",
+    "name:en": "Poké Lids (Kyogre)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518425682,
+   "lat": 35.5069427,
+   "lon": 133.6616058,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラサンド・ヒトモシ）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Alolan Sandshrew)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラサンド・ヒトモシ）",
+    "name:en": "Poké Lids (Sandshrew & Alolan Sandshrew)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518425683,
+   "lat": 38.5301399,
+   "lon": 140.8614197,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ハスブレロ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Lombre)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ハスブレロ）",
+    "name:en": "Poké Lids (Lapras & Lombre)",
+    "name:ja": "ポケふた（ラプラス・ハスブレロ）",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518426027,
+   "lat": 24.3374897,
+   "lon": 124.1570033,
+   "tags": {
+    "alt_name": "ポケモンマンホール（マンタイン・テッポウオ）",
+    "alt_name:en": "Pokémon Manhole (Mantine & Remoraid)",
+    "man_made": "manhole",
+    "name": "マンタイン・テッポウオ",
+    "name:en": "Poké Lids (Mantine & Remoraid)",
+    "note": "ポケフタ",
+    "source": "survey"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518426028,
+   "lat": 35.2958336,
+   "lon": 133.4740906,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Alolan Sandshrew)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・アローラサンド）",
+    "name:en": "Poké Lids (Sandshrew & Alolan Sandshrew)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518426029,
+   "lat": 35.5045815,
+   "lon": 133.5020905,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラサンド・ヒトモシ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Sandshrew & Litwick)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラサンド・ヒトモシ）",
+    "name:en": "Poké Lids (Alolan Sandshrew & Litwick)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518426030,
+   "lat": 38.0024986,
+   "lon": 140.6173553,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・クスネ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Nickit)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・クスネ）",
+    "name:en": "Poké Lids (Lapras & Nickit)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518426031,
+   "lat": 39.0859184,
+   "lon": 141.7102509,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サイホーン）",
+    "alt_name:en": "Pokémon Manhole (Rhyhorn)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サイホーン）",
+    "name:en": "Poké Lids (Rhyhorn)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429788,
+   "lat": 31.2280006,
+   "lon": 130.6530304,
+   "tags": {
+    "alt_name": "ポケモンマンホール（シャワーズ）",
+    "alt_name:en": "Pokémon Manhole (Vaporeon)",
+    "alt_name:ru": "Люк для покемонов (Вапореон)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（シャワーズ）",
+    "name:en": "Poké Lids (Vaporeon)",
+    "name:ru": "Поке Либс (Вапореон)",
+    "operator": "指宿市",
+    "ref": "ポケふた"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429789,
+   "lat": 35.4562492,
+   "lon": 133.3615265,
+   "tags": {
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Farfetch'd, Swanna)",
+    "man_made": "manhole",
+    "name:en": "Poké Lids (Sandshrew, Farfetch'd, Swanna)",
+    "note": "ポケふた（サンド・カモネギ・スワンナ）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429790,
+   "lat": 38.119057,
+   "lon": 140.7178162,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ベロベルト）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Lickilicky)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ベロベルト）",
+    "name:en": "Poké Lids (Lapras & Lickilicky)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429791,
+   "lat": 43.7595825,
+   "lon": 142.3484955,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・コオリッポ・クマシュン）",
+    "alt_name:en": "Pokémon Manhole (Vulpix, Eiscue, Cubchoo)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・コオリッポ・クマシュン）",
+    "name:en": "Poké Lids (Vulpix, Eiscue, Cubchoo)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429792,
+   "lat": 43.8750267,
+   "lon": 142.4716949,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ポッチャマ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Piplup)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ポッチャマ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Piplup)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429793,
+   "lat": 34.1252785,
+   "lon": 133.6552277,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン・ヤドキング）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke & Slowking)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン・ヤドキング）",
+    "name:en": "Poké Lids (Slowpoke & Slowking)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518429794,
+   "lat": 39.4641953,
+   "lon": 141.9510498,
+   "tags": {
+    "alt_name": "ポケモンマンホール（オムナイト）",
+    "alt_name:en": "Pokémon Manhole (Omanyte)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（オムナイト）",
+    "name:en": "Poké Lids (Omanyte)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518441872,
+   "lat": 26.1575546,
+   "lon": 127.6561127,
+   "tags": {
+    "alt_name": "ポケモンマンホール（キバゴ・ジャラコ）",
+    "alt_name:en": "Pokémon Manhole (Axew & Jangmo-o)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（キバゴ・ジャラコ）",
+    "name:en": "Poké Lids (Axew & Jangmo-o)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518441873,
+   "lat": 38.5721397,
+   "lon": 140.7285767,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ロゼリア）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Roselia)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ロゼリア）",
+    "name:en": "Poké Lids (Lapras & Roselia)",
+    "name:ja": "ポケふた（ラプラス・ロゼリア）",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518441874,
+   "lat": 38.3984428,
+   "lon": 140.8873829,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ブルー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Snubbull)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ブルー）",
+    "name:en": "Poké Lids (Lapras & Snubbull)",
+    "name:ja": "ポケふた（ラプラス・ブルー）",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518441875,
+   "lat": 44.3346405,
+   "lon": 143.3722229,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・タマザラシ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Relicanth)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・タマザラシ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Relicanth)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518441876,
+   "lat": 39.639473,
+   "lon": 141.969696,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ）",
+    "alt_name:en": "Pokémon Manhole (Geodude)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ）",
+    "name:en": "Poké Lids (Geodude)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518441877,
+   "lat": 37.8787498,
+   "lon": 140.9250336,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・オドシシ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Stantler)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・オドシシ）",
+    "name:en": "Poké Lids (Chansey & Stantler)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518449081,
+   "lat": 38.0485001,
+   "lon": 140.7380829,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・チェリム）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Cherrim)",
+    "alt_name:ja": "ポケモンマンホール（ラプラス・チェリム）",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・チェリム）",
+    "name:en": "Poké Lids (Lapras & Cherrim)",
+    "name:ja": "ポケふた（ラプラス・チェリム）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518449082,
+   "lat": 37.3110275,
+   "lon": 138.7956696,
+   "tags": {
+    "alt_name": "ポケモンマンホール（コイキング・ヒンバス）",
+    "alt_name:en": "Pokémon Manhole (Magikarp & Feebas)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（コイキング・ヒンバス）",
+    "name:en": "Poké Lids (Magikarp & Feebas)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518449083,
+   "lat": 36.5722771,
+   "lon": 139.8872223,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ボルトロス）",
+    "alt_name:en": "Pokémon Manhole (Thundurus)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ボルトロス）",
+    "name:en": "Poké Lids (Thundurus)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518449084,
+   "lat": 35.7974739,
+   "lon": 139.5055237,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ミニリュウ・アーマーガア）",
+    "alt_name:en": "Pokémon Manhole (Dratini & Corviknight)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ミニリュウ・アーマーガア）",
+    "name:en": "Poké Lids (Dratini & Corviknight)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518450307,
+   "lat": 43.554554,
+   "lon": 144.9696045,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・ワカシャモ）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Combusken)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・ワカシャモ）",
+    "name:en": "Poké Lids (Vulpix & Combusken)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518450308,
+   "lat": 39.1422768,
+   "lon": 141.5744476,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヨーギラス）",
+    "alt_name:en": "Pokémon Manhole (Larvitar)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヨーギラス）",
+    "name:en": "Poké Lids (Larvitar)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518450309,
+   "lat": 40.4061127,
+   "lon": 141.7195282,
+   "tags": {
+    "alt_name": "ポケモンマンホール（カブト）",
+    "alt_name:en": "Pokémon Manhole (Kabuto)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（カブト）",
+    "name:en": "Poké Lids (Kabuto)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518450310,
+   "lat": 27.0946102,
+   "lon": 142.1927795,
+   "tags": {
+    "alt_name": "ポケモンマンホール（カメックス）",
+    "alt_name:en": "Pokémon Manhole (Blastoise)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（カメックス）",
+    "name:en": "Poké Lids (Blastoise)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451772,
+   "lat": 35.4093323,
+   "lon": 133.8943939,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド・ケロマツ）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Alolan Sandshrew, Froakie)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・アローラサンド・ケロマツ）",
+    "name:en": "Poké Lids (Sandshrew, Alolan Sandshrew, Froakie)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451773,
+   "lat": 38.6166382,
+   "lon": 141.2355042,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ハスボー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Lotad)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ハスボー）",
+    "name:en": "Poké Lids (Lapras & Lotad)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451774,
+   "lat": 39.9166946,
+   "lon": 141.9386902,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ノズパス）",
+    "alt_name:en": "Pokémon Manhole (Nosepass)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ノズパス）",
+    "name:en": "Poké Lids (Nosepass)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451776,
+   "lat": 37.6676674,
+   "lon": 140.5767517,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・カラサリス・マユルド）",
+    "alt_name:en": "Pokémon Manhole (Chansey, Silcoon, Cascoon)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・カラサリス・マユルド）",
+    "name:en": "Poké Lids (Chansey, Silcoon, Cascoon)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451777,
+   "lat": 34.6018906,
+   "lon": 135.7391663,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ドータクン・バオッキー）",
+    "alt_name:en": "Pokémon Manhole (Bronzong & Simisear)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ドータクン・バオッキー）",
+    "name:en": "Poké Lids (Bronzong & Simisear)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451944,
+   "lat": 26.2455122,
+   "lon": 127.6879583,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ソルロック・ポポッコ）",
+    "alt_name:en": "Pokémon Manhole (Solrock & Skiploom)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ソルロック・ポポッコ）",
+    "name:en": "Poké Lids (Solrock & Skiploom)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451945,
+   "lat": 35.454277,
+   "lon": 133.8501129,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Alolan Sandshrew)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・アローラサンド）",
+    "name:en": "Poké Lids (Sandshrew & Alolan Sandshrew)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451946,
+   "lat": 37.9825287,
+   "lon": 140.4666138,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ビーダル）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Bibarel)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ビーダル）",
+    "name:en": "Poké Lids (Lapras & Bibarel)",
+    "name:ja": "ポケふた（ラプラス・ビーダル）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451947,
+   "lat": 37.9686284,
+   "lon": 140.807306,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ラティアス）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Latias)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ラティアス）",
+    "name:en": "Poké Lids (Lapras & Latias)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518451948,
+   "lat": 45.1032486,
+   "lon": 141.7786407,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ミルタンク）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Miltank)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ミルタンク）",
+    "name:en": "Poké Lids (Alolan Vulpix & Miltank)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518452284,
+   "lat": 41.8083878,
+   "lon": 140.0954132,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・ヒコザル）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Chimchar)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・ヒコザル）",
+    "name:en": "Poké Lids (Vulpix & Chimchar)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518452285,
+   "lat": 37.4963359,
+   "lon": 141.0009564,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー）",
+    "alt_name:en": "Pokémon Manhole (Chansey)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー）",
+    "name:en": "Poké Lids (Chansey)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518452286,
+   "lat": 37.6357765,
+   "lon": 140.9830627,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ギャロップ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Rapidash)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ギャロップ）",
+    "name:en": "Poké Lids (Chansey & Rapidash)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456375,
+   "lat": 26.4361954,
+   "lon": 127.8261108,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ケンタロス）",
+    "alt_name:en": "Pokémon Manhole (Tauros)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ケンタロス）",
+    "name:en": "Poké Lids (Tauros)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456376,
+   "lat": 26.3276672,
+   "lon": 127.8030014,
+   "tags": {
+    "alt_name": "ポケモンマンホール（バチンキー・ラランテス）",
+    "alt_name:en": "Pokémon Manhole (Thwackey & Lurantis)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（バチンキー・ラランテス）",
+    "name:en": "Poké Lids (Thwackey & Lurantis)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456377,
+   "lat": 35.4781685,
+   "lon": 133.8840027,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・シェルダー）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Shellder)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・シェルダー）",
+    "name:en": "Poké Lids (Sandshrew & Shellder)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456378,
+   "lat": 44.0688324,
+   "lon": 144.9906158,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・パルキア）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Palkia)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・パルキア）",
+    "name:en": "Poké Lids (Vulpix & Palkia)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456379,
+   "lat": 34.3129997,
+   "lon": 133.856308,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456380,
+   "lat": 39.8604431,
+   "lon": 141.796524,
+   "tags": {
+    "alt_name": "ポケモンマンホール（チゴラス）",
+    "alt_name:en": "Pokémon Manhole (Tyrunt)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（チゴラス）",
+    "name:en": "Poké Lids (Tyrunt)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518456816,
+   "lat": 34.5927505,
+   "lon": 133.7704773,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サルノリ・ワタシラガ）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Eldegoss)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サルノリ・ワタシラガ）",
+    "name:en": "Poké Lids (Grookey & Eldegoss)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459942,
+   "lat": 31.2382774,
+   "lon": 130.6450043,
+   "tags": {
+    "alt_name": "ポケモンマンホール（エーフィ）",
+    "alt_name:en": "Pokémon Manhole (Espeon)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（エーフィ）",
+    "name:en": "Poké Lids (Espeon)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459943,
+   "lat": 26.6916943,
+   "lon": 127.8779755,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ホエルオー）",
+    "alt_name:en": "Pokémon Manhole (Wailord)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ホエルオー）",
+    "name:en": "Poké Lids (Wailord)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459944,
+   "lat": 37.9239998,
+   "lon": 140.901001,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ラッキー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Chansey)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ラッキー）",
+    "name:en": "Poké Lids (Lapras & Chansey)",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459945,
+   "lat": 44.021946,
+   "lon": 144.2744141,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・マニューラ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Weavile)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・マニューラ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Weavile)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459946,
+   "lat": 45.4172516,
+   "lon": 141.6770782,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・アローラキュウコン）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Alolan Ninetales)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・アローラキュウコン）",
+    "name:en": "Poké Lids (Alolan Vulpix & Alolan Ninetales)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459947,
+   "lat": 40.1897507,
+   "lon": 141.7658386,
+   "tags": {
+    "alt_name": "ポケモンマンホール（プテラ）",
+    "alt_name:en": "Pokémon Manhole (Aerodactyl)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（プテラ）",
+    "name:en": "Poké Lids (Aerodactyl)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518459948,
+   "lat": 37.2501373,
+   "lon": 140.9975891,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ラビフット）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Raboot)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ラビフット）",
+    "name:en": "Poké Lids (Chansey & Raboot)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518460573,
+   "lat": 35.2419167,
+   "lon": 133.4410553,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド・チルット）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Alolan Sandshrew, Swablu)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・アローラサンド・チルット）",
+    "name:en": "Poké Lids (Sandshrew, Alolan Sandshrew, Swablu)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518460574,
+   "lat": 34.5955544,
+   "lon": 133.7688904,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ポチエナ・アゲハント）",
+    "alt_name:en": "Pokémon Manhole (Poochyena & Beautifly)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ポチエナ・ アゲハント）",
+    "name:en": "Poké Lids (Poochyena & Beautifly)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518460575,
+   "lat": 44.100029,
+   "lon": 142.3592987,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ヒトツキ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Honedge)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ヒトツキ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Honedge)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518460576,
+   "lat": 39.3268623,
+   "lon": 141.8878632,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ココドラ）",
+    "alt_name:en": "Pokémon Manhole (Aron)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ココドラ）",
+    "name:en": "Poké Lids (Aron)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518460577,
+   "lat": 40.0827012,
+   "lon": 141.8284645,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イワーク）",
+    "alt_name:en": "Pokémon Manhole (Onix)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イワーク）",
+    "name:en": "Poké Lids (Onix)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464631,
+   "lat": 26.1382771,
+   "lon": 127.6613312,
+   "tags": {
+    "alt_name": "ポケモンマンホール（カメール・スナバァ）",
+    "alt_name:en": "Pokémon Manhole (Wartortle & Sandygast)",
+    "covered": "yes",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（カメール ・スナバァ）",
+    "name:en": "Poké Lids (Wartortle & Sandygast)",
+    "source": "local knowledge;survey"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464632,
+   "lat": 38.4373506,
+   "lon": 140.8856328,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・タマゲタケ・ドダイトス）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Foongus, Torterra)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・タマゲタケ・ドダイトス）",
+    "name:en": "Poké Lids (Lapras, Foongus, Torterra);Poké Lids (Lapras and Foongus and Torterra)",
+    "name:ja": "ポケふた（ラプラス・タマゲタケ・ドダイトス）",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464633,
+   "lat": 43.4676933,
+   "lon": 143.7427216,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・カチコール）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Bergmite)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・カチコール）",
+    "name:en": "Poké Lids (Alolan Vulpix & Bergmite)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464773,
+   "lat": 31.2552927,
+   "lon": 130.6476068,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンダース）",
+    "alt_name:en": "Pokémon Manhole (Jolteon)",
+    "alt_name:ru": "Люк для покемонов (Джолтеон)",
+    "man_made": "manhole",
+    "name": "サンダース",
+    "name:en": "Poké Lids (Jolteon)",
+    "name:ru": "Поке Либс (Джолтеон)",
+    "operator": "指宿市",
+    "ref": "ポケふた"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464783,
+   "lat": 43.082695,
+   "lon": 142.8329163,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ヒメグマ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Teddiursa)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ヒメグマ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Teddiursa)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464784,
+   "lat": 34.4558334,
+   "lon": 133.9754944,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン・コイキング）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke & Magikarp)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン・コイキング）",
+    "name:en": "Poké Lids (Slowpoke & Magikarp)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464785,
+   "lat": 34.2688065,
+   "lon": 133.6322174,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン・シェルダー）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke & Shellder)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン・シェルダー）",
+    "name:en": "Poké Lids (Slowpoke & Shellder)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464786,
+   "lat": 37.1073074,
+   "lon": 140.9932709,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・キレイハナ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Bellossom)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・キレイハナ）",
+    "name:en": "Poké Lids (Chansey & Bellossom)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464787,
+   "lat": 34.6082764,
+   "lon": 135.7377014,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ブビィ・チリーン）",
+    "alt_name:en": "Pokémon Manhole (Magby & Chimecho)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ブビィ・チリーン）",
+    "name:en": "Poké Lids (Magby & Chimecho)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464788,
+   "lat": 34.6047516,
+   "lon": 135.7376099,
+   "tags": {
+    "alt_name": "ポケモンマンホール（マダツボミ・ガーディ）",
+    "alt_name:en": "Pokémon Manhole (Bellsprout & Growlithe)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（マダツボミ・ガーディ）",
+    "name:en": "Poké Lids (Bellsprout & Growlithe)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464909,
+   "lat": 43.2613068,
+   "lon": 141.9626617,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・オムナイト・ズガイドス）",
+    "alt_name:en": "Pokémon Manhole (Vulpix, Omanyte, Cranidos)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・オムナイト・ズガイドス）",
+    "name:en": "Poké Lids (Vulpix, Omanyte, Cranidos)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464910,
+   "lat": 44.0218887,
+   "lon": 143.4971313,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ユキメノコ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Froslass)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ユキメノコ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Froslass)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464912,
+   "lat": 37.3294716,
+   "lon": 140.8216095,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ヨワシ・サシカマス）",
+    "alt_name:en": "Pokémon Manhole (Chansey, Wishiwashi, Arrokuda)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ヨワシ・サシカマス）",
+    "name:en": "Poké Lids (Chansey, Wishiwashi, Arrokuda)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464913,
+   "lat": 34.9878381,
+   "lon": 135.7435121,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ワニノコ・マリルリ）",
+    "alt_name:en": "Pokémon Manhole (Totodile & Azumarill)",
+    "contact:website": "https://local.pokemon.jp/en/manhole/desc/163/?is_modal=1",
+    "man_made": "manhole",
+    "manhole": "pokéfuta",
+    "name": "ポケふた（ワニノコ・マリルリ）",
+    "name:en": "Poké Lids (Totodile & Azumarill)",
+    "name:fr": "Pokéfuta (Kaiminus & Azumarill)",
+    "ref": "163"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464914,
+   "lat": 34.9947777,
+   "lon": 135.7143402,
+   "tags": {
+    "alt_name": "ポケモンマンホール（チコリータ・ダーテング）",
+    "alt_name:en": "Pokémon Manhole (Chikorita & Shiftry)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（チコリータ・ダーテング）",
+    "name:en": "Poké Lids (Chikorita & Shiftry)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518464915,
+   "lat": 37.3098907,
+   "lon": 138.8129425,
+   "tags": {
+    "alt_name": "ポケモンマンホール（コイキング）",
+    "alt_name:en": "Pokémon Manhole (Magikarp)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（コイキング）",
+    "name:en": "Poké Lids (Magikarp)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466164,
+   "lat": 31.2294159,
+   "lon": 130.6519775,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ブースター）",
+    "alt_name:en": "Pokémon Manhole (Flareon)",
+    "alt_name:ru": "Люк для покемонов (Флареон)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ブースター）",
+    "name:en": "Poké Lids (Flareon)",
+    "name:ru": "Поке Либс (Флареон)",
+    "operator": "指宿市",
+    "ref": "ポケふた"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466165,
+   "lat": 35.2654152,
+   "lon": 134.2261047,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・サンドパン・ウソッキー）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Sandslash, Sudowoodo)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・サンドパン・ウソッキー）",
+    "name:en": "Poké Lids (Sandshrew, Sandslash, Sudowoodo)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466166,
+   "lat": 34.5982545,
+   "lon": 133.7702573,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ケンホロウ）",
+    "alt_name:en": "Pokémon Manhole (Unfezant)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ケンホロウ）",
+    "name:en": "Poké Lids (Unfezant)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466167,
+   "lat": 38.5392761,
+   "lon": 141.1267548,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・バンバドロ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Mudsdale)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・バンバドロ）",
+    "name:en": "Poké Lids (Lapras & Mudsdale)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466168,
+   "lat": 38.4240265,
+   "lon": 140.9926605,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・チュリネ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Petilil)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・チュリネ）",
+    "name:en": "Poké Lids (Lapras & Petilil)",
+    "name:ja": "ポケふた（ラプラス・チュリネ）",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466169,
+   "lat": 40.0028343,
+   "lon": 141.8857574,
+   "tags": {
+    "alt_name": "ポケモンマンホール（タテトプス）",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（タテトプス）",
+    "name:en": "Poké Lids (Shieldon)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518466170,
+   "lat": 35.7987213,
+   "lon": 139.4720001,
+   "tags": {
+    "alt_name": "ポケモンマンホール（カイリュー）",
+    "alt_name:en": "Pokémon Manhole (Dragonite)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（カイリュー）",
+    "name:en": "Poké Lids (Dragonite)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518467965,
+   "lat": 26.2814355,
+   "lon": 127.7321893,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サニーゴ・ラブカス）",
+    "alt_name:en": "Pokémon Manhole (Corsola & Luvdisc)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サニーゴ・ラブカス）",
+    "name:en": "Poké Lids (Corsola & Luvdisc)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518467966,
+   "lat": 43.1955566,
+   "lon": 140.9982758,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・トゲキッス）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・トゲキッス）",
+    "name:en": "Poké Lids (Alolan Vulpix)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518467967,
+   "lat": 42.6357498,
+   "lon": 141.6100769,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・キュウコン）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Ninetales)",
+    "check_date": "2026-06-30",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・キュウコン）",
+    "name:en": "Poké Lids (Vulpix & Ninetales)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518467968,
+   "lat": 34.2722778,
+   "lon": 133.7572479,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518467969,
+   "lat": 35.0148621,
+   "lon": 135.7820282,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヒノアラシ・ヒヒダルマ）",
+    "alt_name:en": "Pokémon Manhole (Cyndaquil & Darmanitan)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヒノアラシ・ヒヒダルマ）",
+    "name:en": "Poké Lids (Cyndaquil & Darmanitan)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518467970,
+   "lat": 34.5504456,
+   "lon": 134.9380798,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ベイリーフ・フレフワン）",
+    "alt_name:en": "Pokémon Manhole (Bayleef & Aromatisse)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ベイリーフ・フレフワン）",
+    "name:en": "Poké Lids (Bayleef & Aromatisse)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518468019,
+   "lat": 38.1236649,
+   "lon": 140.5771942,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ユキノオー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Abomasnow)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ユキノオー）",
+    "name:en": "Poké Lids (Lapras & Abomasnow)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518468020,
+   "lat": 38.1721382,
+   "lon": 140.9540558,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス）",
+    "alt_name:en": "Pokémon Manhole (Lapras)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス）",
+    "name:en": "Poké Lids (Lapras)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518468021,
+   "lat": 41.7559166,
+   "lon": 140.7156982,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・トゲキッス）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Togekiss)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・トゲキッス）",
+    "name:en": "Poké Lids (Alolan Vulpix & Togekiss)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518468022,
+   "lat": 44.8845291,
+   "lon": 141.7479706,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・アローラロコン）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Alolan Vulpix)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・アローラロコン）",
+    "name:en": "Poké Lids (Vulpix & Alolan Vulpix)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518468024,
+   "lat": 34.6694659,
+   "lon": 135.6305803,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ワンパチ・トゲデマル）",
+    "alt_name:en": "Pokémon Manhole (Yamper & Togedemaru)",
+    "artwork_type": "painting",
+    "man_made": "manhole",
+    "name": "ポケふた（ワンパチ・トゲデマル）",
+    "name:en": "Poké Lids (Yamper & Togedemaru)",
+    "name:ja": "ポケふた（ワンパチ・トゲデマル）",
+    "name:ja-Hira": "ぽけふた（わんぱち・とげでまる）",
+    "name:ja-Latn": "Pokefuta (Wanpachi・Togedemaru)",
+    "note": "ポケふた（ワンパチ・トゲデマル",
+    "tourism": "artwork"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469037,
+   "lat": 38.1775256,
+   "lon": 140.6436487,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス）",
+    "alt_name:en": "Pokémon Manhole (Lapras)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス）",
+    "name:en": "Poké Lids (Lapras)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469038,
+   "lat": 38.5758629,
+   "lon": 140.9559784,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ダグトリオ・オニスズメ）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Dugtrio, Spearow)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ダグトリオ・オニスズメ）",
+    "name:en": "Poké Lids (Lapras, Dugtrio, Spearow)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469039,
+   "lat": 38.1053047,
+   "lon": 140.866333,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・トゲピー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Togepi)",
+    "alt_name:ja": "ポケモンマンホール（ラプラス・トゲピー）",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・トゲピー）",
+    "name:en": "Poké Lids (Lapras & Togepi)",
+    "name:ja": "ポケふた（ラプラス・トゲピー）",
+    "tourism": "attraction"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469040,
+   "lat": 42.8971405,
+   "lon": 141.5857849,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン）",
+    "alt_name:en": "Pokémon Manhole (Vulpix)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン）",
+    "name:en": "Poké Lids (Vulpix)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469041,
+   "lat": 34.3134155,
+   "lon": 133.8075256,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ガラルヤドン・ヌオー）",
+    "alt_name:en": "Pokémon Manhole (Galarian Slowpoke & Quagsire)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ガラルヤドン・ヌオー）",
+    "name:en": "Poké Lids (Galarian Slowpoke & Quagsire)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469042,
+   "lat": 37.3444176,
+   "lon": 140.6742706,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ヘラクロス）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Heracross)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ヘラクロス）",
+    "name:en": "Poké Lids (Chansey & Heracross)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518469043,
+   "lat": 34.6797893,
+   "lon": 135.6012302,
+   "tags": {
+    "alt_name": "ポケモンマンホール（コイル・レアコイル）",
+    "alt_name:en": "Pokémon Manhole (Magnemite & Magneton)",
+    "man_made": "manhole",
+    "name:en": "Poké Lids (Magnemite & Magneton)",
+    "note": "ポケふた（コイル・レアコイル）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470556,
+   "lat": 26.2164173,
+   "lon": 127.689415,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ウインディ）",
+    "alt_name:en": "Pokémon Manhole  (Arcanine)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "map_size": "manhole",
+    "name": "ポケふた（ウインディ）",
+    "name:en": "Poké Lids (Arcanine)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470557,
+   "lat": 35.3664436,
+   "lon": 134.3394165,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラサンド・アローラサンドパン）",
+    "alt_name:en": "Pokémon Manhole (Alolan Sandshrew & Alolan Sandslash)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラサンド・アローラサンドパン）",
+    "name:en": "Poké Lids (Alolan Sandshrew & Alolan Sandslash)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470558,
+   "lat": 35.5909462,
+   "lon": 134.3215485,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・ネイティオ）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Xatu)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・ネイティオ）",
+    "name:en": "Poké Lids (Sandshrew & Xatu)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470559,
+   "lat": 43.6984177,
+   "lon": 142.5070343,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ディアルガ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Dialga)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ディアルガ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Dialga)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470560,
+   "lat": 42.9181938,
+   "lon": 143.2025604,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・アローラロコン・ドロバンコ）",
+    "alt_name:en": "Pokémon Manhole (Vulpix, Alolan Vulpix, Mudbray)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・アローラロコン・ドロバンコ）",
+    "name:en": "Poké Lids (Vulpix, Alolan Vulpix, Mudbray)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470561,
+   "lat": 42.10886,
+   "lon": 140.572937,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・マーイーカ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Inkay)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・マーイーカ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Inkay)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470562,
+   "lat": 34.1877518,
+   "lon": 133.8198853,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470564,
+   "lat": 35.0101929,
+   "lon": 135.8698883,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ギャラドス）",
+    "alt_name:en": "Pokémon Manhole (Gyarados)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ギャラドス）",
+    "name:en": "Poké Lids (Gyarados)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518470565,
+   "lat": 35.4511681,
+   "lon": 139.6315002,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ピカチュウ）",
+    "alt_name:en": "Pokémon Manhole (Pikachu)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ピカチュウ）",
+    "name:en": "Poké Lids (Pikachu)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518471097,
+   "lat": 35.4979172,
+   "lon": 133.8200226,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド アローラサンド）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Alolan Sandshrew)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド アローラサンド）",
+    "name:en": "Poké Lids (Sandshrew & Alolan Sandshrew)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518471098,
+   "lat": 35.1705284,
+   "lon": 133.3109436,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・バルビート・イルミーゼ）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Volbeat, Illumise)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・バルビート・イルミーゼ）",
+    "name:en": "Poké Lids (Sandshrew, Volbeat, Illumise)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518471099,
+   "lat": 37.9138603,
+   "lon": 140.7625275,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ニャース・ニャスパー）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Meowth, Espurr)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ニャース・ニャスパー）",
+    "name:en": "Poké Lids (Lapras, Meowth, Espurr)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518471100,
+   "lat": 35.7168045,
+   "lon": 139.7763824,
+   "tags": {
+    "alt_name": "ポケモンマンホール（チゴラス・ソーナノ）",
+    "alt_name:en": "Pokémon Manhole (Tyrunt & Wynaut)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（チゴラス・ソーナノ）",
+    "name:en": "Poké Lids (Tyrunt & Wynaut)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518471102,
+   "lat": 34.6098328,
+   "lon": 135.7352753,
+   "tags": {
+    "alt_name": "ポケモンマンホール（エンテイ）",
+    "alt_name:en": "Pokémon Manhole (Entei)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（エンテイ）",
+    "name:en": "Poké Lids (Entei)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518471103,
+   "lat": 34.6082497,
+   "lon": 135.7375488,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヒノヤコマ・シキジカ）",
+    "alt_name:en": "Pokémon Manhole (Fletchinder & Fletchinder)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヒノヤコマ・シキジカ）",
+    "name:en": "Poké Lids (Fletchinder & Fletchinder)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518472141,
+   "lat": 26.169098,
+   "lon": 127.8270842,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ハブネーク・ザングース）",
+    "alt_name:en": "Pokémon Manhole (Seviper & Zangoose)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ハブネーク・ザングース）",
+    "name:en": "Poké Lids (Seviper & Zangoose)",
+    "source": "local knowledge;survey",
+    "source:geometry": "GSImaps/std;Bing"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518472142,
+   "lat": 35.3474731,
+   "lon": 133.4233856,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド・ナックラー）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Alolan Sandshrew, Trapinch)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・アローラサンド・ナックラー）",
+    "name:en": "Poké Lids (Sandshrew, Alolan Sandshrew, Trapinch)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473243,
+   "lat": 38.4890556,
+   "lon": 141.1330566,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ドードー・ドードリオ）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Doduo, Dodrio)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ドードー・ドードリオ）",
+    "name:en": "Poké Lids (Lapras, Doduo, Dodrio)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473244,
+   "lat": 38.0591393,
+   "lon": 140.7682495,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・フラベベ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Flabébé)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・フラベベ）",
+    "name:en": "Poké Lids (Lapras & Flabébé)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473245,
+   "lat": 43.1440277,
+   "lon": 144.1454926,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ジュナイパー）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Decidueye)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ジュナイパー）",
+    "name:en": "Poké Lids (Alolan Vulpix & Decidueye)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473246,
+   "lat": 42.4550552,
+   "lon": 141.1818085,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・キテルグマ）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Bewear)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・キテルグマ）",
+    "name:en": "Poké Lids (Vulpix & Bewear)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473247,
+   "lat": 43.3359451,
+   "lon": 145.5981903,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・バリコオル）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Mr. Rime)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・アローラロコン ドロバンコ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Mr. Rime)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473248,
+   "lat": 44.175972,
+   "lon": 142.3924103,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・メリープ）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Mareep)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・メリープ）",
+    "name:en": "Poké Lids (Vulpix & Mareep)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473249,
+   "lat": 34.3213043,
+   "lon": 134.1732483,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン・ピッピ）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke & Clefairy)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン・ピッピ）",
+    "name:en": "Poké Lids (Slowpoke & Clefairy)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473251,
+   "lat": 34.6806724,
+   "lon": 135.6507796,
+   "tags": {
+    "alt_name": "ポケモンマンホール（エレキッド・クチート）",
+    "alt_name:en": "Pokémon Manhole (Elekid & Mawile)",
+    "artwork_type": "painting",
+    "location": "overground",
+    "man_made": "manhole",
+    "name": "ポケふた（エレキッド・クチート）",
+    "name:en": "Poké Lids (Elekid & Mawile)",
+    "name:ja": "ポケふた（エレキッド・クチート）",
+    "name:ja-Hira": "ぽけふた（えれきっど・くちーと",
+    "name:ja-Latn": "Pokefuta (Erekiddo・Kuchīto)",
+    "note": "ポケふた（エレキッド・クチート）",
+    "tourism": "artwork"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473252,
+   "lat": 37.3143044,
+   "lon": 138.783493,
+   "tags": {
+    "alt_name": "ポケモンマンホール（コイキング・ピジョン）",
+    "alt_name:en": "Pokémon Manhole (Magikarp & Pidgeotto)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（コイキング・ピジョン）",
+    "name:en": "Poké Lids (Magikarp & Pidgeotto)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473836,
+   "lat": 26.5873604,
+   "lon": 127.9857483,
+   "tags": {
+    "alt_name": "ポケモンマンホール（エモンガ・ツツケラ）",
+    "alt_name:en": "Pokémon Manhole (Emolga & Pikipek)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（エモンガ・ツツケラ）",
+    "name:en": "Poké Lids (Emolga & Pikipek)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473837,
+   "lat": 35.4412397,
+   "lon": 133.3796031,
+   "tags": {
+    "alt_name:en": "Pokémon Manhole (Sandshrew & Ditto)",
+    "man_made": "manhole",
+    "name:en": "Poké Lids (Sandshrew & Ditto)",
+    "note": "ポケふた（サンド・メタモン）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473856,
+   "lat": 34.2920265,
+   "lon": 133.7939453,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518473857,
+   "lat": 35.8883896,
+   "lon": 140.4975586,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ココガラ・タイレーツ）",
+    "alt_name:en": "Pokémon Manhole (Rookidee & Falinks)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ココガラ・タイレーツ）",
+    "name:en": "Poké Lids (Rookidee & Falinks)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474040,
+   "lat": 43.4622498,
+   "lon": 142.4790497,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・エネコロロ）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Delcatty)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・エネコロロ）",
+    "name:en": "Poké Lids (Alolan Vulpix & Delcatty)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474041,
+   "lat": 43.5858612,
+   "lon": 141.4238892,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・ナエトル）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Turtwig)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・ナエトル）",
+    "name:en": "Poké Lids (Vulpix & Turtwig)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474042,
+   "lat": 35.7177238,
+   "lon": 139.7753906,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤジロン・ドーミラー）",
+    "alt_name:en": "Pokémon Manhole (Baltoy & Bronzor)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤジロン・ドーミラー）",
+    "name:en": "Poké Lids (Baltoy & Bronzor)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474043,
+   "lat": 40.4584427,
+   "lon": 141.6083374,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ナマコブシ・バチンウニ・ユキハミ）",
+    "alt_name:en": "Pokémon Manhole (Pyukumuku, Pincurchin, Snom)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ナマコブシ・バチンウニ・ユキハミ）",
+    "name:en": "Poké Lids (Pyukumuku, Pincurchin, Snom)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474288,
+   "lat": 38.0421726,
+   "lon": 140.9157141,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・チルット・ムックル ・スバメ・マメパト）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Swablu, Starly, Taillow, Pidove)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・チルット・ムックル・スバメ・マメパト）",
+    "name:en": "Poké Lids (Lapras, Swablu, Starly, Taillow, Pidove)",
+    "name:ja": "ポケふた（ラプラス・チルット・ムックル・スバメ・マメパト）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474289,
+   "lat": 34.2685852,
+   "lon": 134.134552,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474290,
+   "lat": 27.094862,
+   "lon": 142.1940308,
+   "tags": {
+    "alt_name": "ポケモンマンホール（フシギバナ）",
+    "alt_name:en": "Pokémon Manhole (Venusaur)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（フシギバナ）",
+    "name:en": "Poké Lids (Venusaur)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474423,
+   "lat": 35.5396652,
+   "lon": 134.2372742,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド・ミミロル）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Alolan Sandshrew, Buneary)",
+    "man_made": "manhole",
+    "name": "サンド・アローラサンド・ミミロル",
+    "name:en": "Sandshrew, Alolan Sandshrew, Buneary",
+    "note": "ポケフタ"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474424,
+   "lat": 42.0178337,
+   "lon": 143.1461945,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・ルガルガン）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix & Lycanroc)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・ルガルガン）",
+    "name:en": "Poké Lids (Alolan Vulpix & Lycanroc)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474425,
+   "lat": 43.0512293,
+   "lon": 140.8442995,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アローラロコン・バニプッチ・ミブリム）",
+    "alt_name:en": "Pokémon Manhole (Alolan Vulpix, Vanillite, Hatenna)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アローラロコン・バニプッチ・ミブリム）",
+    "name:en": "Poké Lids (Alolan Vulpix, Vanillite, Hatenna)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474427,
+   "lat": 37.3142204,
+   "lon": 138.7947998,
+   "tags": {
+    "alt_name": "ポケモンマンホール（コイキング）",
+    "alt_name:en": "Pokémon Manhole (Magikarp)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（コイキング）",
+    "name:en": "Poké Lids (Magikarp)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474428,
+   "lat": 34.6018366,
+   "lon": 135.0094418,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ルギア）",
+    "alt_name:en": "Pokémon Manhole (Lugia)",
+    "man_made": "manhole",
+    "name": "ポケふた（ルギア）",
+    "name:en": "Poké Lids (Lugia)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474517,
+   "lat": 38.4693647,
+   "lon": 140.8901226,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・プルリル・ラブカス）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Frillish, Luvdisc)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・プルリル・ラブカス）",
+    "name:en": "Poké Lids (Lapras, Frillish, Luvdisc)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474518,
+   "lat": 39.0167503,
+   "lon": 141.6286926,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イワンコ）",
+    "alt_name:en": "Pokémon Manhole (Rockruff)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イワンコ）",
+    "name:en": "Poké Lids (Rockruff)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474519,
+   "lat": 34.4821396,
+   "lon": 134.8731079,
+   "tags": {
+    "alt_name": "ポケモンマンホール（パルシェン・トリトドン）",
+    "alt_name:en": "Pokémon Manhole (Cloyster & Gastrodon)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（パルシェン・トリトドン）",
+    "name:en": "Poké Lids (Cloyster & Gastrodon)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474840,
+   "lat": 43.915554,
+   "lon": 144.1713562,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ロコン・ムクホーク）",
+    "alt_name:en": "Pokémon Manhole (Vulpix & Staraptor)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ロコン・ムクホーク）",
+    "name:en": "Poké Lids (Vulpix & Staraptor)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474841,
+   "lat": 34.4708595,
+   "lon": 134.2358551,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474842,
+   "lat": 34.2253036,
+   "lon": 133.777298,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン・ヤドラン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke & Slowbro)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン・ヤドラン）",
+    "name:en": "Poké Lids (Slowpoke & Slowbro)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474843,
+   "lat": 34.3388901,
+   "lon": 134.049057,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ヤドン）",
+    "name:en": "Poké Lids (Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518474844,
+   "lat": 27.0947227,
+   "lon": 142.1932831,
+   "tags": {
+    "alt_name": "ポケモンマンホール（リザードン）",
+    "alt_name:en": "Pokémon Manhole (Charizard)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（リザードン）",
+    "name:en": "Poké Lids (Charizard)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518477728,
+   "lat": 35.0033607,
+   "lon": 135.7805786,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ピチュー・ピィ・ププリン）",
+    "alt_name:en": "Pokémon Manhole (Pichu, Cleffa, Igglybuff)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ピチュー・ピィ・ププリン）",
+    "name:en": "Poké Lids (Pichu, Cleffa, Igglybuff)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518477729,
+   "lat": 40.5379448,
+   "lon": 141.5580292,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・キャモメ）",
+    "alt_name:en": "Pokémon Manhole (Geodude & Wingull)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・キャモメ）",
+    "name:en": "Poké Lids (Geodude & Wingull)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518477850,
+   "lat": 35.8961945,
+   "lon": 140.506424,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ハスボー・タネボー・ムクバード）",
+    "alt_name:en": "Pokémon Manhole  (Lotad, Seedot, Staravia)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ハスボー・タネボー・ムクバード）",
+    "name:en": "Poké Lids (Lotad, Seedot, Staravia)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518477851,
+   "lat": 35.8944342,
+   "lon": 140.4939331,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ガラルカモネギ）",
+    "alt_name:en": "Pokémon Manhole (Galarian Farfetch'd)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ガラルカモネギ）",
+    "name:en": "Poké Lids (Galarian Farfetch'd)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518477852,
+   "lat": 36.5606561,
+   "lon": 139.9094482,
+   "tags": {
+    "alt_name": "ポケモンマンホール（エレブー・ホシガリス）",
+    "alt_name:en": "Pokémon Manhole (Electabuzz & Skwovet)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（エレブー・ホシガリス）",
+    "name:en": "Poké Lids (Electabuzz & Skwovet)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518478283,
+   "lat": 37.8277206,
+   "lon": 140.9632568,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ポニータ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Ponyta)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ポニータ）",
+    "name:en": "Poké Lids (Chansey & Ponyta)",
+    "name:ja": "ポケふた（ラッキー・ポニータ）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518478284,
+   "lat": 36.6342239,
+   "lon": 139.8310242,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラクライ・イワパレス）",
+    "alt_name:en": "Pokémon Manhole (Electrike & Crustle)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラクライ・イワパレス）",
+    "name:en": "Poké Lids (Electrike & Crustle)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518478817,
+   "lat": 35.928196,
+   "lon": 140.5233917,
+   "tags": {
+    "alt_name": "ポケモンマンホール（フラージェス・ヤヤコマ）",
+    "alt_name:en": "Pokémon Manhole (Florges & Thundurus)",
+    "contact:website": "https://local.pokemon.jp/en/manhole/desc/224/",
+    "man_made": "manhole",
+    "manhole": "pokéfuta",
+    "name": "ポケふた（フラージェス・ヤヤコマ）",
+    "name:en": "Poké Lids (Florges & Fletchling)",
+    "name:fr": "Pokéfuta (Florges - Passerouge)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518478818,
+   "lat": 35.7868881,
+   "lon": 139.4728851,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ハクリュー・エアームド）",
+    "alt_name:en": "Pokémon Manhole (Dragonair & Skarmory)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ハクリュー・エアームド）",
+    "name:en": "Poké Lids (Dragonair & Skarmory)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9518479519,
+   "lat": 34.9981117,
+   "lon": 135.8946075,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ギャラドス）",
+    "alt_name:en": "Pokémon Manhole (Gyarados)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ギャラドス）",
+    "name:en": "Poké Lids (Gyarados)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971346810,
+   "lat": 38.2584956,
+   "lon": 140.8726777,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ジラーチ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Jirachi)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ジラーチ）",
+    "name:en": "Poké Lids (Lapras & Jirachi)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971346811,
+   "lat": 38.318222,
+   "lon": 141.0230865,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・プラスル）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Plusle)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・プラスル）",
+    "name:en": "Poké Lids (Lapras & Plusle)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971357205,
+   "lat": 38.445694,
+   "lon": 141.446228,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・キャモメ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Wingull)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・キャモメ）",
+    "name:en": "Poké Lids (Lapras & Wingull)",
+    "name:ja": "ポケふた（ラプラス・キャモメ）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971371212,
+   "lat": 34.7626114,
+   "lon": 137.3829651,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アゴジムシ・アブリボン）",
+    "alt_name:en": "Pokémon Manhole (Grubbin & Ribombee)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（アゴジムシ・アブリボン）",
+    "name:en": "Poké Lids (Grubbin & Ribombee)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971371213,
+   "lat": 40.2485275,
+   "lon": 141.416748,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ホーホー・フクスロー）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Hoothoot, Dartrix)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ホーホー・フクスロー）",
+    "name:en": "Poké Lids (Geodude, Hoothoot, Dartrix)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971381956,
+   "lat": 26.2461662,
+   "lon": 127.6883621,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ソルロック・ポポッコ）",
+    "alt_name:en": "Pokémon Manhole (Solrock & Skiploom)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ソルロック・ポポッコ）",
+    "name:en": "Poké Lids (Solrock & Skiploom)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971392504,
+   "lat": 39.3144722,
+   "lon": 140.7765045,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ミノムッチ・メブキジカ）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Burmy, Sawsbuck)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ミノムッチ・メブキジカ）",
+    "name:en": "Poké Lids (Geodude, Burmy, Sawsbuck)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971392615,
+   "lat": 38.3043306,
+   "lon": 141.0833452,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・メタモン・ヒトデマン）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Ditto, Staryu)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・メタモン・ヒトデマン）",
+    "name:en": "Poké Lids (Lapras, Ditto, Staryu)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971392616,
+   "lat": 38.9866371,
+   "lon": 141.1081696,
+   "tags": {
+    "alt_name": "ポケモンマンホール（クレセリア・ルナトーン）",
+    "alt_name:en": "Pokémon Manhole (Cresselia & Lunatone)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（クレセリア・ルナトーン）",
+    "name:en": "Poké Lids (Cresselia & Lunatone)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971397256,
+   "lat": 39.9685822,
+   "lon": 141.2137451,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・アローラメタモン・イシツブテ）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Ditto, Alolan Geodude)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・メタモン・アローライシツブテ）",
+    "name:en": "Poké Lids (Geodude, Ditto, Alolan Geodude)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971397604,
+   "lat": 34.720974,
+   "lon": 137.4294434,
+   "tags": {
+    "alt_name": "ポケモンマンホール（バクフーン）",
+    "alt_name:en": "Pokémon Manhole (Typhlosion)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（バクフーン）",
+    "name:en": "Poké Lids (Typhlosion)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971397605,
+   "lat": 38.3294983,
+   "lon": 140.9752502,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・マイナン）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Minun)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた (ラプラス・マイナン)",
+    "name:en": "Poké Lids (Lapras & Minun)",
+    "name:ja": "ポケふた (ラプラス・マイナン)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971398007,
+   "lat": 39.8795815,
+   "lon": 141.0993958,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・アマルス）",
+    "alt_name:en": "Pokémon Manhole (Geodude & Amaura)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・アマルス）",
+    "name:en": "Poké Lids (Geodude & Amaura)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971399665,
+   "lat": 34.7688599,
+   "lon": 137.3938293,
+   "tags": {
+    "alt_name": "ポケモンマンホール（カブト・クワガノン）",
+    "alt_name:en": "Pokémon Manhole (Kabuto & Vikavolt)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（カブト・クワガノン）",
+    "name:en": "Poké Lids (Kabuto & Vikavolt)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971402066,
+   "lat": 37.6981392,
+   "lon": 140.7355499,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・フラエッテ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Floette)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・フラエッテ）",
+    "name:en": "Poké Lids (Chansey & Floette)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971402067,
+   "lat": 38.9056931,
+   "lon": 141.5746613,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・イシツブテ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Geodude)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・イシツブテ）",
+    "name:en": "Poké Lids (Lapras & Geodude)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971402068,
+   "lat": 39.3306389,
+   "lon": 141.5288544,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ハスブレロ・ルンパッパ）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Lombre, Ludicolo)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ハスブレロ・ルンパッパ）",
+    "name:en": "Poké Lids (Geodude, Lombre, Ludicolo)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971402371,
+   "lat": 40.3226395,
+   "lon": 141.3817749,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ナゲツケサル・イワンコ）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Passimian, Rockruff)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ナゲツケサル・イワンコ）",
+    "name:en": "Poké Lids (Geodude, Passimian, Rockruff)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971403457,
+   "lat": 34.9605293,
+   "lon": 136.1651611,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ゲッコウガ）",
+    "alt_name:en": "Pokémon Manhole (Greninja)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ゲッコウガ）",
+    "name:en": "Poké Lids (Greninja)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971404670,
+   "lat": 38.7170563,
+   "lon": 141.5211334,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・オクタン）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Octillery)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・オクタン）",
+    "name:en": "Poké Lids (Lapras & Octillery)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971404671,
+   "lat": 38.9895821,
+   "lon": 141.2552795,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ダンゴロ・ドサイドン）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Roggenrola, Rhyperior)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ダンゴロ・ドサイドン）",
+    "name:en": "Poké Lids (Geodude, Roggenrola, Rhyperior)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971406890,
+   "lat": 37.5281944,
+   "lon": 139.7226715,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ピンプク）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Happiny)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ピンプク）",
+    "name:en": "Poké Lids (Chansey & Happiny)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971407122,
+   "lat": 35.5214729,
+   "lon": 133.2583618,
+   "tags": {
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Alolan Sandshrew, Krabby)",
+    "man_made": "manhole",
+    "name:en": "Poké Lids (Sandshrew, Alolan Sandshrew, Krabby)",
+    "note": "ポケふた（サンド・アローラサンド・オニゴーリ）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971410700,
+   "lat": 38.3689995,
+   "lon": 141.0612183,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス）",
+    "alt_name:en": "Pokémon Manhole (Lapras)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた (ラプラス)",
+    "name:en": "Poké Lids (Lapras)",
+    "name:ja": "ポケふた (ラプラス)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971412098,
+   "lat": 34.6958885,
+   "lon": 137.4139404,
+   "tags": {
+    "alt_name": "ポケモンマンホール（スターミー・デンヂムシ）",
+    "alt_name:en": "Pokémon Manhole (Starmie & Charjabug)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（スターミー・デンヂムシ）",
+    "name:en": "Poké Lids (Starmie & Charjabug)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971412099,
+   "lat": 37.4574432,
+   "lon": 141.0269165,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ヒマナッツ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Sunkern)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ヒマナッツ）",
+    "name:en": "Poké Lids (Chansey & Sunkern)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971412100,
+   "lat": 39.5546379,
+   "lon": 141.1583099,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・アママイコ）",
+    "alt_name:en": "Pokémon Manhole (Geodud & Steenee)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・アママイコ）",
+    "name:en": "Poké Lids (Geodude & Steenee)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971412340,
+   "lat": 34.900444,
+   "lon": 136.2293854,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ゲッコウガ・ゲコガシラ）",
+    "alt_name:en": "Pokémon Manhole (Greninja & Frogadier)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ゲッコウガ・ゲコガシラ）",
+    "name:en": "Poké Lids (Greninja & Frogadier)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971412341,
+   "lat": 38.4338341,
+   "lon": 141.3030548,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ニャース・ニャビー・エネコ・ニャルマー）",
+    "alt_name:en": "Pokémon Manhole (Lapras, Meowth, Litten, Skitty, Glameow)",
+    "alt_name:ja": "ポケモンマンホール（ラプラス・ニャース・ニャビー・エネコ・ニャルマー）",
+    "artwork_type": "painting",
+    "location": "surface",
+    "man_made": "manhole",
+    "name": "ポケふた（ラプラス・ニャース・ニャビー・エネコ・ニャルマー）",
+    "name:en": "Poké Lids (Lapras, Meowth, Litten, Skitty, Glameow)",
+    "name:ja": "ポケふた（ラプラス・ニャース・ニャビー・エネコ・ニャルマー）",
+    "tourism": "artwork"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971413234,
+   "lat": 37.8044167,
+   "lon": 140.4109192,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・モルペコ）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Morpeko)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・モルペコ）",
+    "name:en": "Poké Lids (Chansey & Morpeko)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971413235,
+   "lat": 38.2919426,
+   "lon": 141.0071716,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・タッツー）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Horsea)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・タッツー）",
+    "name:en": "Poké Lids (Lapras & Horsea)",
+    "name:ja": "ポケふた（ラプラス・タッツー）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971414964,
+   "lat": 37.325695,
+   "lon": 139.6306458,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・クルミル）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Sewaddle)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・クルミル）",
+    "name:en": "Poké Lids (Chansey & Sewaddle)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971414965,
+   "lat": 38.3794174,
+   "lon": 141.156723,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・ラティオス）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Latios)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラプラス・ラティオス）",
+    "name:en": "Poké Lids (Lapras & Latios)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971415090,
+   "lat": 37.2057228,
+   "lon": 139.7778931,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・ドッコラー）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Timburr)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・ドッコラー）",
+    "name:en": "Poké Lids (Chansey & Timburr)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971415133,
+   "lat": 40.2088762,
+   "lon": 141.3046746,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ヤジロン）",
+    "alt_name:en": "Pokémon Manhole (Geodude & Baltoy)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ヤジロン）",
+    "name:en": "Poké Lids (Geodude & Baltoy)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971417061,
+   "lat": 35.3833885,
+   "lon": 133.4584961,
+   "tags": {
+    "alt_name": "ポケモンマンホール（サンド・アローラサンド・オニゴーリ）",
+    "alt_name:en": "Pokémon Manhole (Sandshrew, Alolan Sandshrew, Glalie)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（サンド・アローラサンド・オニゴーリ）",
+    "name:en": "Poké Lids (Sandshrew, Alolan Sandshrew, Glalie)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971418219,
+   "lat": 34.9195824,
+   "lon": 136.1701965,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ゲッコウガ）",
+    "alt_name:en": "Pokémon Manhole (Greninja)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ゲッコウガ）",
+    "name:en": "Poké Lids (Greninja)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971418417,
+   "lat": 37.3967781,
+   "lon": 140.3561096,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラッキー・プリン）",
+    "alt_name:en": "Pokémon Manhole (Chansey & Jigglypuff)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ラッキー・プリン）",
+    "name:en": "Poké Lids (Chansey & Jigglypuff)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971418418,
+   "lat": 33.9571953,
+   "lon": 130.9616089,
+   "tags": {
+    "alt_name": "ポケモンマンホール（トロピウス）",
+    "alt_name:en": "Pokémon Manhole (Tropius)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（トロピウス）",
+    "name:en": "Poké Lids (Tropius)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971418419,
+   "lat": 39.7342418,
+   "lon": 141.0781655,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ドロバンコ・ルチャブル）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Mudbray, Hawlucha)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ドロバンコ・ルチャブル）",
+    "name:en": "Poké Lids (Geodude, Mudbray, Hawlucha)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971418420,
+   "lat": 40.3203316,
+   "lon": 141.3188629,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・ユキワラシ）",
+    "alt_name:en": "Pokémon Manhole (Geodude & Snorunt)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・ユキワラシ）",
+    "name:en": "Poké Lids (Geodude & Snorunt)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 9971418717,
+   "lat": 39.3920288,
+   "lon": 141.1116943,
+   "tags": {
+    "alt_name": "ポケモンマンホール（イシツブテ・コスモッグ・レックウザ）",
+    "alt_name:en": "Pokémon Manhole (Geodude, Cosmog, Rayquaza)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（イシツブテ・コスモッグ・レックウザ）",
+    "name:en": "Poké Lids (Geodude, Cosmog, Rayquaza)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10286706384,
+   "lat": 33.885014,
+   "lon": 130.8761976,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ボスゴドラ）",
+    "alt_name:en": "Pokémon Manhole (Aggron)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ボスゴドラ）",
+    "name:en": "Poké Lids (Aggron)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 10816098315,
+   "lat": 34.2474384,
+   "lon": 133.9327924,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ヤドン）",
+    "alt_name:en": "Pokémon Manhole (Slowpoke)",
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた（ガラルヤドン）",
+    "name:en": "Poké Lids (Galar Slowpoke)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12876544535,
+   "lat": 33.9340973,
+   "lon": 130.9309096,
+   "tags": {
+    "alt_name": "ポケモンマンホール（アーボ）",
+    "man_made": "manhole",
+    "name": "ポケふた（アーボ）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12876544536,
+   "lat": 33.9354957,
+   "lon": 130.9297345,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ドガース）",
+    "label": "ドガース",
+    "man_made": "manhole",
+    "name": "ポケふた（ドガース）"
+   }
+  },
+  {
+   "type": "node",
+   "id": 12987988100,
+   "lat": 36.5591316,
+   "lon": 136.6619508,
+   "tags": {
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた(ミロカロス)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13047818992,
+   "lat": 32.7537591,
+   "lon": 129.8674316,
+   "tags": {
+    "man_made": "manhole",
+    "manhole": "yes",
+    "name": "ポケふた(デンリュウ)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13271718279,
+   "lat": 36.6923239,
+   "lon": 137.2101664,
+   "tags": {
+    "man_made": "manhole",
+    "name": "ポケふた(キュワワー　レディバ)"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13276094577,
+   "lat": 38.3116656,
+   "lon": 140.9832611,
+   "tags": {
+    "alt_name": "ポケモンマンホール（ラプラス・スワンナ・タマンタ）",
+    "alt_name:en": "Pokémon Manhole (Lapras & Swanna & Mantyke)",
+    "alt_name:ja": "ポケモンマンホール（ラプラス・スワンナ・タマンタ）",
+    "location": "surface",
+    "man_made": "manhole",
+    "name": "ポケふた（ラプラス・スワンナ・タマンタ）",
+    "name:en": "Poké Lids (Lapras & Swanna & Mantyke )",
+    "name:ja": "ポケふた（ラプラス・スワンナ・タマンタ）",
+    "start_date": "2025-10-31"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13602009314,
+   "lat": 33.5133974,
+   "lon": 130.5151834,
+   "tags": {
+    "man_made": "manhole",
+    "name": "ポケふた　メブキジカ　ヤヤコマ　キルリア"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13602098428,
+   "lat": 33.5193584,
+   "lon": 130.53137,
+   "tags": {
+    "man_made": "manhole",
+    "name": "ポケふた　ヤドキング　ヤレユータン　フーディン"
+   }
+  },
+  {
+   "type": "node",
+   "id": 13998406913,
+   "lat": 35.1831723,
+   "lon": 136.9046422,
+   "tags": {
+    "man_made": "manhole",
+    "name": "ポケふた(なごや コイキング ネッコアラ)"
+   }
+  }
+ ]
+}

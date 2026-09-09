@@ -1,0 +1,8000 @@
+{
+ "type": "FeatureCollection",
+ "metadata": {
+  "sources_fetched_at": "2026-09-09T23:02:09.551219+00:00",
+  "count": 259,
+  "prefectures": 27,
+  "by_category": {
+   "pokefuta": 259
+  },
+  "attribution": [
+   "Pokefuta locations (c) OpenStreetMap contributors (ODbL)",
+   "Personal observations (c) Sofiane Beloucif"
+  ],
+  "disclaimer": "Fan project. Not affiliated with The Pokemon Company, Nintendo, or GKP."
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.904642,
+     35.183172
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-13998406913",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた(なごや コイキング ネッコアラ)",
+    "prefecture_en": "Aichi",
+    "prefecture_ja": "愛知県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/13998406913",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.382965,
+     34.762611
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971371212",
+    "name_en": "Poké Lids (Grubbin & Ribombee)",
+    "name_ja": "ポケふた（アゴジムシ・アブリボン）",
+    "prefecture_en": "Aichi",
+    "prefecture_ja": "愛知県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Grubbin",
+     "Ribombee"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971371212",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.429443,
+     34.720974
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971397604",
+    "name_en": "Poké Lids (Typhlosion)",
+    "name_ja": "ポケふた（バクフーン）",
+    "prefecture_en": "Aichi",
+    "prefecture_ja": "愛知県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Typhlosion"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971397604",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.393829,
+     34.76886
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971399665",
+    "name_en": "Poké Lids (Kabuto & Vikavolt)",
+    "name_ja": "ポケふた（カブト・クワガノン）",
+    "prefecture_en": "Aichi",
+    "prefecture_ja": "愛知県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Kabuto",
+     "Vikavolt"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971399665",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.41394,
+     34.695889
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971412098",
+    "name_en": "Poké Lids (Starmie & Charjabug)",
+    "name_ja": "ポケふた（スターミー・デンヂムシ）",
+    "prefecture_en": "Aichi",
+    "prefecture_ja": "愛知県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Starmie",
+     "Charjabug"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971412098",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.608337,
+     40.458443
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474043",
+    "name_en": "Poké Lids (Pyukumuku, Pincurchin, Snom)",
+    "name_ja": "ポケふた（ナマコブシ・バチンウニ・ユキハミ）",
+    "prefecture_en": "Aomori",
+    "prefecture_ja": "青森県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Pyukumuku",
+     "Pincurchin",
+     "Snom"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474043",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.558029,
+     40.537945
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518477729",
+    "name_en": "Poké Lids (Geodude & Wingull)",
+    "name_ja": "ポケふた（イシツブテ・キャモメ）",
+    "prefecture_en": "Aomori",
+    "prefecture_ja": "青森県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Wingull"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518477729",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.497559,
+     35.88839
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473857",
+    "name_en": "Poké Lids (Rookidee & Falinks)",
+    "name_ja": "ポケふた（ココガラ・タイレーツ）",
+    "prefecture_en": "Chiba",
+    "prefecture_ja": "千葉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Rookidee",
+     "Falinks"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473857",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.506424,
+     35.896195
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518477850",
+    "name_en": "Poké Lids (Lotad, Seedot, Staravia)",
+    "name_ja": "ポケふた（ハスボー・タネボー・ムクバード）",
+    "prefecture_en": "Chiba",
+    "prefecture_ja": "千葉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lotad",
+     "Seedot",
+     "Staravia"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518477850",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.493933,
+     35.894434
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518477851",
+    "name_en": "Poké Lids (Galarian Farfetch'd)",
+    "name_ja": "ポケふた（ガラルカモネギ）",
+    "prefecture_en": "Chiba",
+    "prefecture_ja": "千葉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Galarian Farfetch'd"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518477851",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.523392,
+     35.928196
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518478817",
+    "name_en": "Poké Lids (Florges & Fletchling)",
+    "name_ja": "ポケふた（フラージェス・ヤヤコマ）",
+    "prefecture_en": "Chiba",
+    "prefecture_ja": "千葉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Florges",
+     "Fletchling"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518478817",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.876198,
+     33.885014
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-10286706384",
+    "name_en": "Poké Lids (Aggron)",
+    "name_ja": "ポケふた（ボスゴドラ）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Aggron"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/10286706384",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.93091,
+     33.934097
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-12876544535",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた（アーボ）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/12876544535",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.929734,
+     33.935496
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-12876544536",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた（ドガース）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/12876544536",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.515183,
+     33.513397
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-13602009314",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた　メブキジカ　ヤヤコマ　キルリア",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/13602009314",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.53137,
+     33.519358
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-13602098428",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた　ヤドキング　ヤレユータン　フーディン",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/13602098428",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.964111,
+     33.946278
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9515124067",
+    "name_en": "Poké Lids (Gardevoir & Lunatone)",
+    "name_ja": "ポケふた（サーナイト・ルナトーン）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Gardevoir",
+     "Lunatone"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9515124067",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.807424,
+     33.871834
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9516119161",
+    "name_en": "Poké Lids (Sableye & Duraludon)",
+    "name_ja": "ポケふた（ヤミラミ・ジュラルドン）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sableye",
+     "Duraludon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9516119161",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.884613,
+     33.89053
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518242207",
+    "name_en": "Poké Lids (Alolan Dugtrio & Carkol)",
+    "name_ja": "ポケふた（アローラダグトリオ・トロッゴン）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Dugtrio",
+     "Carkol"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518242207",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.961609,
+     33.957195
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971418418",
+    "name_en": "Poké Lids (Tropius)",
+    "name_ja": "ポケふた（トロピウス）",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Tropius"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971418418",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.925034,
+     37.87875
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518441877",
+    "name_en": "Poké Lids (Chansey & Stantler)",
+    "name_ja": "ポケふた（ラッキー・オドシシ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Stantler"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518441877",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.576752,
+     37.667667
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451776",
+    "name_en": "Poké Lids (Chansey, Silcoon, Cascoon)",
+    "name_ja": "ポケふた（ラッキー・カラサリス・マユルド）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Silcoon",
+     "Cascoon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451776",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.000956,
+     37.496336
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518452285",
+    "name_en": "Poké Lids (Chansey)",
+    "name_ja": "ポケふた（ラッキー）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518452285",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.983063,
+     37.635776
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518452286",
+    "name_en": "Poké Lids (Chansey & Rapidash)",
+    "name_ja": "ポケふた（ラッキー・ギャロップ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Rapidash"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518452286",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.997589,
+     37.250137
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459948",
+    "name_en": "Poké Lids (Chansey & Raboot)",
+    "name_ja": "ポケふた（ラッキー・ラビフット）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Raboot"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459948",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.993271,
+     37.107307
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464786",
+    "name_en": "Poké Lids (Chansey & Bellossom)",
+    "name_ja": "ポケふた（ラッキー・キレイハナ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Bellossom"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464786",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.821609,
+     37.329472
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464912",
+    "name_en": "Poké Lids (Chansey, Wishiwashi, Arrokuda)",
+    "name_ja": "ポケふた（ラッキー・ヨワシ・サシカマス）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Wishiwashi",
+     "Arrokuda"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464912",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.674271,
+     37.344418
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469042",
+    "name_en": "Poké Lids (Chansey & Heracross)",
+    "name_ja": "ポケふた（ラッキー・ヘラクロス）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Heracross"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469042",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.963257,
+     37.827721
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518478283",
+    "name_en": "Poké Lids (Chansey & Ponyta)",
+    "name_ja": "ポケふた（ラッキー・ポニータ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Ponyta"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518478283",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.73555,
+     37.698139
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971402066",
+    "name_en": "Poké Lids (Chansey & Floette)",
+    "name_ja": "ポケふた（ラッキー・フラエッテ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Floette"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971402066",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.722671,
+     37.528194
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971406890",
+    "name_en": "Poké Lids (Chansey & Happiny)",
+    "name_ja": "ポケふた（ラッキー・ピンプク）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Happiny"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971406890",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.026916,
+     37.457443
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971412099",
+    "name_en": "Poké Lids (Chansey & Sunkern)",
+    "name_ja": "ポケふた（ラッキー・ヒマナッツ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Sunkern"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971412099",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.410919,
+     37.804417
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971413234",
+    "name_en": "Poké Lids (Chansey & Morpeko)",
+    "name_ja": "ポケふた（ラッキー・モルペコ）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Morpeko"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971413234",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.630646,
+     37.325695
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971414964",
+    "name_en": "Poké Lids (Chansey & Sewaddle)",
+    "name_ja": "ポケふた（ラッキー・クルミル）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Sewaddle"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971414964",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.777893,
+     37.205723
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971415090",
+    "name_en": "Poké Lids (Chansey & Timburr)",
+    "name_ja": "ポケふた（ラッキー・ドッコラー）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Timburr"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971415090",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.35611,
+     37.396778
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971418417",
+    "name_en": "Poké Lids (Chansey & Jigglypuff)",
+    "name_ja": "ポケふた（ラッキー・プリン）",
+    "prefecture_en": "Fukushima",
+    "prefecture_ja": "福島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chansey",
+     "Jigglypuff"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971418417",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.613449,
+     43.125778
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386388",
+    "name_en": "Poké Lids (Vulpix & Ditto)",
+    "name_ja": "ポケふた（ロコン・メタモン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Ditto"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386388",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.546753,
+     43.244221
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386389",
+    "name_en": "Poké Lids (Alolan Vulpix, Azelf, Mesprit, Uxie)",
+    "name_ja": "ポケふた（アローラロコン・アグノム・エムリット・ユクシー）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Azelf",
+     "Mesprit",
+     "Uxie"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386389",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.819076,
+     42.566113
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518401251",
+    "name_en": "Poké Lids (Vulpix & Swinub)",
+    "name_ja": "ポケふた（ロコン・ウリムー）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Swinub"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518401251",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.348496,
+     43.759583
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429791",
+    "name_en": "Poké Lids (Vulpix, Eiscue, Cubchoo)",
+    "name_ja": "ポケふた（アローラロコン・コオリッポ・クマシュン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Eiscue",
+     "Cubchoo"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429791",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.471695,
+     43.875027
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429792",
+    "name_en": "Poké Lids (Alolan Vulpix & Piplup)",
+    "name_ja": "ポケふた（アローラロコン・ポッチャマ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Piplup"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429792",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.372223,
+     44.33464
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518441875",
+    "name_en": "Poké Lids (Alolan Vulpix & Relicanth)",
+    "name_ja": "ポケふた（アローラロコン・タマザラシ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Relicanth"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518441875",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.969605,
+     43.554554
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518450307",
+    "name_en": "Poké Lids (Vulpix & Combusken)",
+    "name_ja": "ポケふた（ロコン・ワカシャモ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Combusken"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518450307",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.778641,
+     45.103249
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451948",
+    "name_en": "Poké Lids (Alolan Vulpix & Miltank)",
+    "name_ja": "ポケふた（アローラロコン・ミルタンク）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Miltank"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451948",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.095413,
+     41.808388
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518452284",
+    "name_en": "Poké Lids (Vulpix & Chimchar)",
+    "name_ja": "ポケふた（ロコン・ヒコザル）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Chimchar"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518452284",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.990616,
+     44.068832
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456378",
+    "name_en": "Poké Lids (Vulpix & Palkia)",
+    "name_ja": "ポケふた（ロコン・パルキア）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Palkia"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456378",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.274414,
+     44.021946
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459945",
+    "name_en": "Poké Lids (Alolan Vulpix & Weavile)",
+    "name_ja": "ポケふた（アローラロコン・マニューラ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Weavile"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459945",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.677078,
+     45.417252
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459946",
+    "name_en": "Poké Lids (Alolan Vulpix & Alolan Ninetales)",
+    "name_ja": "ポケふた（アローラロコン・アローラキュウコン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Alolan Ninetales"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459946",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.359299,
+     44.100029
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518460575",
+    "name_en": "Poké Lids (Alolan Vulpix & Honedge)",
+    "name_ja": "ポケふた（アローラロコン・ヒトツキ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Honedge"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518460575",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.742722,
+     43.467693
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464633",
+    "name_en": "Poké Lids (Alolan Vulpix & Bergmite)",
+    "name_ja": "ポケふた（アローラロコン・カチコール）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Bergmite"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464633",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.832916,
+     43.082695
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464783",
+    "name_en": "Poké Lids (Alolan Vulpix & Teddiursa)",
+    "name_ja": "ポケふた（アローラロコン・ヒメグマ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Teddiursa"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464783",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.962662,
+     43.261307
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464909",
+    "name_en": "Poké Lids (Vulpix, Omanyte, Cranidos)",
+    "name_ja": "ポケふた（ロコン・オムナイト・ズガイドス）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Omanyte",
+     "Cranidos"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464909",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.497131,
+     44.021889
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464910",
+    "name_en": "Poké Lids (Alolan Vulpix & Froslass)",
+    "name_ja": "ポケふた（アローラロコン・ユキメノコ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Froslass"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464910",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.998276,
+     43.195557
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518467966",
+    "name_en": "Poké Lids (Alolan Vulpix)",
+    "name_ja": "ポケふた（アローラロコン・トゲキッス）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518467966",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.610077,
+     42.63575
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518467967",
+    "name_en": "Poké Lids (Vulpix & Ninetales)",
+    "name_ja": "ポケふた（ロコン・キュウコン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Ninetales"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518467967",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.715698,
+     41.755917
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518468021",
+    "name_en": "Poké Lids (Alolan Vulpix & Togekiss)",
+    "name_ja": "ポケふた（アローラロコン・トゲキッス）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Togekiss"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518468021",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.747971,
+     44.884529
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518468022",
+    "name_en": "Poké Lids (Vulpix & Alolan Vulpix)",
+    "name_ja": "ポケふた（ロコン・アローラロコン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Alolan Vulpix"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518468022",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.585785,
+     42.89714
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469040",
+    "name_en": "Poké Lids (Vulpix)",
+    "name_ja": "ポケふた（ロコン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469040",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.507034,
+     43.698418
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470559",
+    "name_en": "Poké Lids (Alolan Vulpix & Dialga)",
+    "name_ja": "ポケふた（アローラロコン・ディアルガ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Dialga"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470559",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.20256,
+     42.918194
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470560",
+    "name_en": "Poké Lids (Vulpix, Alolan Vulpix, Mudbray)",
+    "name_ja": "ポケふた（ロコン・アローラロコン・ドロバンコ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Alolan Vulpix",
+     "Mudbray"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470560",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.572937,
+     42.10886
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470561",
+    "name_en": "Poké Lids (Alolan Vulpix & Inkay)",
+    "name_ja": "ポケふた（アローラロコン・マーイーカ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Inkay"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470561",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.145493,
+     43.144028
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473245",
+    "name_en": "Poké Lids (Alolan Vulpix & Decidueye)",
+    "name_ja": "ポケふた（アローラロコン・ジュナイパー）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Decidueye"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473245",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.181808,
+     42.455055
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473246",
+    "name_en": "Poké Lids (Vulpix & Bewear)",
+    "name_ja": "ポケふた（ロコン・キテルグマ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Bewear"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473246",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     145.59819,
+     43.335945
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473247",
+    "name_en": "Poké Lids (Alolan Vulpix & Mr. Rime)",
+    "name_ja": "ポケふた（ロコン・アローラロコン ドロバンコ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Mr. Rime"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473247",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.39241,
+     44.175972
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473248",
+    "name_en": "Poké Lids (Vulpix & Mareep)",
+    "name_ja": "ポケふた（ロコン・メリープ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Mareep"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473248",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.47905,
+     43.46225
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474040",
+    "name_en": "Poké Lids (Alolan Vulpix & Delcatty)",
+    "name_ja": "ポケふた（アローラロコン・エネコロロ）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Delcatty"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474040",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.423889,
+     43.585861
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474041",
+    "name_en": "Poké Lids (Vulpix & Turtwig)",
+    "name_ja": "ポケふた（ロコン・ナエトル）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Turtwig"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474041",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     143.146195,
+     42.017834
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474424",
+    "name_en": "Poké Lids (Alolan Vulpix & Lycanroc)",
+    "name_ja": "ポケふた（アローラロコン・ルガルガン）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Lycanroc"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474424",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.8443,
+     43.051229
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474425",
+    "name_en": "Poké Lids (Alolan Vulpix, Vanillite, Hatenna)",
+    "name_ja": "ポケふた（アローラロコン・バニプッチ・ミブリム）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Vulpix",
+     "Vanillite",
+     "Hatenna"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474425",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     144.171356,
+     43.915554
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474840",
+    "name_en": "Poké Lids (Vulpix & Staraptor)",
+    "name_ja": "ポケふた（ロコン・ムクホーク）",
+    "prefecture_en": "Hokkaido",
+    "prefecture_ja": "北海道",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Vulpix",
+     "Staraptor"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474840",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.93808,
+     34.550446
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518467970",
+    "name_en": "Poké Lids (Bayleef & Aromatisse)",
+    "name_ja": "ポケふた（ベイリーフ・フレフワン）",
+    "prefecture_en": "Hyogo",
+    "prefecture_ja": "兵庫県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Bayleef",
+     "Aromatisse"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518467970",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.009442,
+     34.601837
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474428",
+    "name_en": "Poké Lids (Lugia)",
+    "name_ja": "ポケふた（ルギア）",
+    "prefecture_en": "Hyogo",
+    "prefecture_ja": "兵庫県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lugia"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474428",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.873108,
+     34.48214
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474519",
+    "name_en": "Poké Lids (Cloyster & Gastrodon)",
+    "name_ja": "ポケふた（パルシェン・トリトドン）",
+    "prefecture_en": "Hyogo",
+    "prefecture_ja": "兵庫県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Cloyster",
+     "Gastrodon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474519",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.661951,
+     36.559132
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-12987988100",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた(ミロカロス)",
+    "prefecture_en": "Ishikawa",
+    "prefecture_ja": "石川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/12987988100",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.903168,
+     39.35725
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386392",
+    "name_en": "Poké Lids (Shuckle)",
+    "name_ja": "ポケふた（ツボツボ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Shuckle"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386392",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.710251,
+     39.085918
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518426031",
+    "name_en": "Poké Lids (Rhyhorn)",
+    "name_ja": "ポケふた（サイホーン）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Rhyhorn"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518426031",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.95105,
+     39.464195
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429794",
+    "name_en": "Poké Lids (Omanyte)",
+    "name_ja": "ポケふた（オムナイト）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Omanyte"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429794",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.969696,
+     39.639473
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518441876",
+    "name_en": "Poké Lids (Geodude)",
+    "name_ja": "ポケふた（イシツブテ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518441876",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.574448,
+     39.142277
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518450308",
+    "name_en": "Poké Lids (Larvitar)",
+    "name_ja": "ポケふた（ヨーギラス）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Larvitar"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518450308",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.719528,
+     40.406113
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518450309",
+    "name_en": "Poké Lids (Kabuto)",
+    "name_ja": "ポケふた（カブト）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Kabuto"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518450309",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.93869,
+     39.916695
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451774",
+    "name_en": "Poké Lids (Nosepass)",
+    "name_ja": "ポケふた（ノズパス）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Nosepass"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451774",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.796524,
+     39.860443
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456380",
+    "name_en": "Poké Lids (Tyrunt)",
+    "name_ja": "ポケふた（チゴラス）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Tyrunt"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456380",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.765839,
+     40.189751
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459947",
+    "name_en": "Poké Lids (Aerodactyl)",
+    "name_ja": "ポケふた（プテラ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Aerodactyl"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459947",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.887863,
+     39.326862
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518460576",
+    "name_en": "Poké Lids (Aron)",
+    "name_ja": "ポケふた（ココドラ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Aron"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518460576",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.828464,
+     40.082701
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518460577",
+    "name_en": "Poké Lids (Onix)",
+    "name_ja": "ポケふた（イワーク）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Onix"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518460577",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.885757,
+     40.002834
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466169",
+    "name_en": "Poké Lids (Shieldon)",
+    "name_ja": "ポケふた（タテトプス）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Shieldon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466169",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.628693,
+     39.01675
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474518",
+    "name_en": "Poké Lids (Rockruff)",
+    "name_ja": "ポケふた（イワンコ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Rockruff"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474518",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.416748,
+     40.248528
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971371213",
+    "name_en": "Poké Lids (Geodude, Hoothoot, Dartrix)",
+    "name_ja": "ポケふた（イシツブテ・ホーホー・フクスロー）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Hoothoot",
+     "Dartrix"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971371213",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.776504,
+     39.314472
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971392504",
+    "name_en": "Poké Lids (Geodude, Burmy, Sawsbuck)",
+    "name_ja": "ポケふた（イシツブテ・ミノムッチ・メブキジカ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Burmy",
+     "Sawsbuck"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971392504",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.10817,
+     38.986637
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971392616",
+    "name_en": "Poké Lids (Cresselia & Lunatone)",
+    "name_ja": "ポケふた（クレセリア・ルナトーン）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Cresselia",
+     "Lunatone"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971392616",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.213745,
+     39.968582
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971397256",
+    "name_en": "Poké Lids (Geodude, Ditto, Alolan Geodude)",
+    "name_ja": "ポケふた（イシツブテ・メタモン・アローライシツブテ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Ditto",
+     "Alolan Geodude"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971397256",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.099396,
+     39.879582
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971398007",
+    "name_en": "Poké Lids (Geodude & Amaura)",
+    "name_ja": "ポケふた（イシツブテ・アマルス）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Amaura"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971398007",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.528854,
+     39.330639
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971402068",
+    "name_en": "Poké Lids (Geodude, Lombre, Ludicolo)",
+    "name_ja": "ポケふた（イシツブテ・ハスブレロ・ルンパッパ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Lombre",
+     "Ludicolo"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971402068",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.381775,
+     40.32264
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971402371",
+    "name_en": "Poké Lids (Geodude, Passimian, Rockruff)",
+    "name_ja": "ポケふた（イシツブテ・ナゲツケサル・イワンコ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Passimian",
+     "Rockruff"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971402371",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.25528,
+     38.989582
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971404671",
+    "name_en": "Poké Lids (Geodude, Roggenrola, Rhyperior)",
+    "name_ja": "ポケふた（イシツブテ・ダンゴロ・ドサイドン）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Roggenrola",
+     "Rhyperior"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971404671",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.15831,
+     39.554638
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971412100",
+    "name_en": "Poké Lids (Geodude & Steenee)",
+    "name_ja": "ポケふた（イシツブテ・アママイコ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Steenee"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971412100",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.304675,
+     40.208876
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971415133",
+    "name_en": "Poké Lids (Geodude & Baltoy)",
+    "name_ja": "ポケふた（イシツブテ・ヤジロン）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Baltoy"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971415133",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.078166,
+     39.734242
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971418419",
+    "name_en": "Poké Lids (Geodude, Mudbray, Hawlucha)",
+    "name_ja": "ポケふた（イシツブテ・ドロバンコ・ルチャブル）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Mudbray",
+     "Hawlucha"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971418419",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.318863,
+     40.320332
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971418420",
+    "name_en": "Poké Lids (Geodude & Snorunt)",
+    "name_ja": "ポケふた（イシツブテ・ユキワラシ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Snorunt"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971418420",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.111694,
+     39.392029
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971418717",
+    "name_en": "Poké Lids (Geodude, Cosmog, Rayquaza)",
+    "name_ja": "ポケふた（イシツブテ・コスモッグ・レックウザ）",
+    "prefecture_en": "Iwate",
+    "prefecture_ja": "岩手県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Geodude",
+     "Cosmog",
+     "Rayquaza"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971418717",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.932792,
+     34.247438
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-10816098315",
+    "name_en": "Poké Lids (Galar Slowpoke)",
+    "name_ja": "ポケふた（ガラルヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Galar Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/10816098315",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.871384,
+     34.173332
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386390",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386390",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.917084,
+     34.250389
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386391",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386391",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.1875,
+     34.482693
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518401252",
+    "name_en": "Poké Lids (Slowpoke & Ditto)",
+    "name_ja": "ポケふた（ヤドン・メタモン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke",
+     "Ditto"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518401252",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.655228,
+     34.125279
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429793",
+    "name_en": "Poké Lids (Slowpoke & Slowking)",
+    "name_ja": "ポケふた（ヤドン・ヤドキング）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke",
+     "Slowking"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429793",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.856308,
+     34.313
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456379",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456379",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.632217,
+     34.268806
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464785",
+    "name_en": "Poké Lids (Slowpoke & Shellder)",
+    "name_ja": "ポケふた（ヤドン・シェルダー）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke",
+     "Shellder"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464785",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.757248,
+     34.272278
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518467968",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518467968",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.807526,
+     34.313415
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469041",
+    "name_en": "Poké Lids (Galarian Slowpoke & Quagsire)",
+    "name_ja": "ポケふた（ガラルヤドン・ヌオー）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Galarian Slowpoke",
+     "Quagsire"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469041",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.819885,
+     34.187752
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470562",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470562",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.173248,
+     34.321304
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473249",
+    "name_en": "Poké Lids (Slowpoke & Clefairy)",
+    "name_ja": "ポケふた（ヤドン・ピッピ）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke",
+     "Clefairy"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473249",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.793945,
+     34.292026
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473856",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473856",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.134552,
+     34.268585
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474289",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474289",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.235855,
+     34.47086
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474841",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474841",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.777298,
+     34.225304
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474842",
+    "name_en": "Poké Lids (Slowpoke & Slowbro)",
+    "name_ja": "ポケふた（ヤドン・ヤドラン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke",
+     "Slowbro"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474842",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.049057,
+     34.33889
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474843",
+    "name_en": "Poké Lids (Slowpoke)",
+    "name_ja": "ポケふた（ヤドン）",
+    "prefecture_en": "Kagawa",
+    "prefecture_ja": "香川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474843",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.644597,
+     31.231054
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-6433717785",
+    "name_en": "Poké Lids (Glaceon)",
+    "name_ja": "グレイシア",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Glaceon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/6433717785",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.662918,
+     31.263889
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518262541",
+    "name_en": "Poké Lids (Leafeon)",
+    "name_ja": "ポケふた（リーフィア）",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": "指宿市",
+    "category": "pokefuta",
+    "themes": [
+     "Leafeon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518262541",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.641388,
+     31.235445
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518289741",
+    "name_en": "Poké Lids (Sylveon)",
+    "name_ja": "ポケふた（ニンフィア）",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sylveon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518289741",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.642197,
+     31.236834
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518289742",
+    "name_en": "Poké Lids (Umbreon)",
+    "name_ja": "ブラッキー",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": "指宿市",
+    "category": "pokefuta",
+    "themes": [
+     "Umbreon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518289742",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.642868,
+     31.237194
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386386",
+    "name_en": "Poké Lids (Eevee)",
+    "name_ja": "イーブイ",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": "指宿市",
+    "category": "pokefuta",
+    "themes": [
+     "Eevee"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386386",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.65303,
+     31.228001
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429788",
+    "name_en": "Poké Lids (Vaporeon)",
+    "name_ja": "ポケふた（シャワーズ）",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": "指宿市",
+    "category": "pokefuta",
+    "themes": [
+     "Vaporeon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429788",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.645004,
+     31.238277
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459942",
+    "name_en": "Poké Lids (Espeon)",
+    "name_ja": "ポケふた（エーフィ）",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Espeon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459942",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.647607,
+     31.255293
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464773",
+    "name_en": "Poké Lids (Jolteon)",
+    "name_ja": "サンダース",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": "指宿市",
+    "category": "pokefuta",
+    "themes": [
+     "Jolteon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464773",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.651977,
+     31.229416
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466164",
+    "name_en": "Poké Lids (Flareon)",
+    "name_ja": "ポケふた（ブースター）",
+    "prefecture_en": "Kagoshima",
+    "prefecture_ja": "鹿児島県",
+    "municipality": "指宿市",
+    "category": "pokefuta",
+    "themes": [
+     "Flareon"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466164",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.6315,
+     35.451168
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470565",
+    "name_en": "Poké Lids (Pikachu)",
+    "name_ja": "ポケふた（ピカチュウ）",
+    "prefecture_en": "Kanagawa",
+    "prefecture_ja": "神奈川県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Pikachu"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470565",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.743512,
+     34.987838
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464913",
+    "name_en": "Poké Lids (Totodile & Azumarill)",
+    "name_ja": "ポケふた（ワニノコ・マリルリ）",
+    "prefecture_en": "Kyoto",
+    "prefecture_ja": "京都府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Totodile",
+     "Azumarill"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464913",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.71434,
+     34.994778
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464914",
+    "name_en": "Poké Lids (Chikorita & Shiftry)",
+    "name_ja": "ポケふた（チコリータ・ダーテング）",
+    "prefecture_en": "Kyoto",
+    "prefecture_ja": "京都府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Chikorita",
+     "Shiftry"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464914",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.782028,
+     35.014862
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518467969",
+    "name_en": "Poké Lids (Cyndaquil & Darmanitan)",
+    "name_ja": "ポケふた（ヒノアラシ・ヒヒダルマ）",
+    "prefecture_en": "Kyoto",
+    "prefecture_ja": "京都府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Cyndaquil",
+     "Darmanitan"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518467969",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.780579,
+     35.003361
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518477728",
+    "name_en": "Poké Lids (Pichu, Cleffa, Igglybuff)",
+    "name_ja": "ポケふた（ピチュー・ピィ・ププリン）",
+    "prefecture_en": "Kyoto",
+    "prefecture_ja": "京都府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Pichu",
+     "Cleffa",
+     "Igglybuff"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518477728",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.983261,
+     38.311666
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-13276094577",
+    "name_en": "Poké Lids (Lapras & Swanna & Mantyke )",
+    "name_ja": "ポケふた（ラプラス・スワンナ・タマンタ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Swanna",
+     "Mantyke"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": "2025-10-31",
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/13276094577",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.844421,
+     38.794472
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518401249",
+    "name_en": "Poké Lids (Lapras & Ducklett)",
+    "name_ja": "ポケふた（ラプラス・コアルヒー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Ducklett"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518401249",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.86142,
+     38.53014
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518425683",
+    "name_en": "Poké Lids (Lapras & Lombre)",
+    "name_ja": "ポケふた（ラプラス・ハスブレロ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Lombre"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518425683",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.617355,
+     38.002499
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518426030",
+    "name_en": "Poké Lids (Lapras & Nickit)",
+    "name_ja": "ポケふた（ラプラス・クスネ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Nickit"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518426030",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.717816,
+     38.119057
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429790",
+    "name_en": "Poké Lids (Lapras & Lickilicky)",
+    "name_ja": "ポケふた（ラプラス・ベロベルト）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Lickilicky"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429790",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.728577,
+     38.57214
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518441873",
+    "name_en": "Poké Lids (Lapras & Roselia)",
+    "name_ja": "ポケふた（ラプラス・ロゼリア）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Roselia"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518441873",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.887383,
+     38.398443
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518441874",
+    "name_en": "Poké Lids (Lapras & Snubbull)",
+    "name_ja": "ポケふた（ラプラス・ブルー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Snubbull"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518441874",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.738083,
+     38.0485
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518449081",
+    "name_en": "Poké Lids (Lapras & Cherrim)",
+    "name_ja": "ポケふた（ラプラス・チェリム）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Cherrim"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518449081",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.235504,
+     38.616638
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451773",
+    "name_en": "Poké Lids (Lapras & Lotad)",
+    "name_ja": "ポケふた（ラプラス・ハスボー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Lotad"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451773",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.466614,
+     37.982529
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451946",
+    "name_en": "Poké Lids (Lapras & Bibarel)",
+    "name_ja": "ポケふた（ラプラス・ビーダル）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Bibarel"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451946",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.807306,
+     37.968628
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451947",
+    "name_en": "Poké Lids (Lapras & Latias)",
+    "name_ja": "ポケふた（ラプラス・ラティアス）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Latias"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451947",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.901001,
+     37.924
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459944",
+    "name_en": "Poké Lids (Lapras & Chansey)",
+    "name_ja": "ポケふた（ラプラス・ラッキー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Chansey"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459944",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.885633,
+     38.437351
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464632",
+    "name_en": "Poké Lids (Lapras, Foongus, Torterra);Poké Lids (Lapras and Foongus and Torterra)",
+    "name_ja": "ポケふた（ラプラス・タマゲタケ・ドダイトス）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Foongus",
+     "Torterra);Poké Lids (Lapras",
+     "Foongus",
+     "Torterra"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464632",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.126755,
+     38.539276
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466167",
+    "name_en": "Poké Lids (Lapras & Mudsdale)",
+    "name_ja": "ポケふた（ラプラス・バンバドロ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Mudsdale"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466167",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.99266,
+     38.424026
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466168",
+    "name_en": "Poké Lids (Lapras & Petilil)",
+    "name_ja": "ポケふた（ラプラス・チュリネ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Petilil"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466168",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.577194,
+     38.123665
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518468019",
+    "name_en": "Poké Lids (Lapras & Abomasnow)",
+    "name_ja": "ポケふた（ラプラス・ユキノオー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Abomasnow"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518468019",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.954056,
+     38.172138
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518468020",
+    "name_en": "Poké Lids (Lapras)",
+    "name_ja": "ポケふた（ラプラス）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518468020",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.643649,
+     38.177526
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469037",
+    "name_en": "Poké Lids (Lapras)",
+    "name_ja": "ポケふた（ラプラス）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469037",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.955978,
+     38.575863
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469038",
+    "name_en": "Poké Lids (Lapras, Dugtrio, Spearow)",
+    "name_ja": "ポケふた（ラプラス・ダグトリオ・オニスズメ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Dugtrio",
+     "Spearow"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469038",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.866333,
+     38.105305
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469039",
+    "name_en": "Poké Lids (Lapras & Togepi)",
+    "name_ja": "ポケふた（ラプラス・トゲピー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Togepi"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469039",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.762528,
+     37.91386
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518471099",
+    "name_en": "Poké Lids (Lapras, Meowth, Espurr)",
+    "name_ja": "ポケふた（ラプラス・ニャース・ニャスパー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Meowth",
+     "Espurr"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518471099",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.133057,
+     38.489056
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473243",
+    "name_en": "Poké Lids (Lapras, Doduo, Dodrio)",
+    "name_ja": "ポケふた（ラプラス・ドードー・ドードリオ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Doduo",
+     "Dodrio"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473243",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.768249,
+     38.059139
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473244",
+    "name_en": "Poké Lids (Lapras & Flabébé)",
+    "name_ja": "ポケふた（ラプラス・フラベベ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Flabébé"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473244",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.915714,
+     38.042173
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474288",
+    "name_en": "Poké Lids (Lapras, Swablu, Starly, Taillow, Pidove)",
+    "name_ja": "ポケふた（ラプラス・チルット・ムックル・スバメ・マメパト）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Swablu",
+     "Starly",
+     "Taillow",
+     "Pidove"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474288",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.890123,
+     38.469365
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474517",
+    "name_en": "Poké Lids (Lapras, Frillish, Luvdisc)",
+    "name_ja": "ポケふた（ラプラス・プルリル・ラブカス）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Frillish",
+     "Luvdisc"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474517",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.872678,
+     38.258496
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971346810",
+    "name_en": "Poké Lids (Lapras & Jirachi)",
+    "name_ja": "ポケふた（ラプラス・ジラーチ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Jirachi"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971346810",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.023087,
+     38.318222
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971346811",
+    "name_en": "Poké Lids (Lapras & Plusle)",
+    "name_ja": "ポケふた（ラプラス・プラスル）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Plusle"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971346811",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.446228,
+     38.445694
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971357205",
+    "name_en": "Poké Lids (Lapras & Wingull)",
+    "name_ja": "ポケふた（ラプラス・キャモメ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Wingull"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971357205",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.083345,
+     38.304331
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971392615",
+    "name_en": "Poké Lids (Lapras, Ditto, Staryu)",
+    "name_ja": "ポケふた（ラプラス・メタモン・ヒトデマン）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Ditto",
+     "Staryu"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971392615",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.97525,
+     38.329498
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971397605",
+    "name_en": "Poké Lids (Lapras & Minun)",
+    "name_ja": "ポケふた (ラプラス・マイナン)",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Minun"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971397605",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.574661,
+     38.905693
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971402067",
+    "name_en": "Poké Lids (Lapras & Geodude)",
+    "name_ja": "ポケふた（ラプラス・イシツブテ）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Geodude"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971402067",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.521133,
+     38.717056
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971404670",
+    "name_en": "Poké Lids (Lapras & Octillery)",
+    "name_ja": "ポケふた（ラプラス・オクタン）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Octillery"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971404670",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.061218,
+     38.369
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971410700",
+    "name_en": "Poké Lids (Lapras)",
+    "name_ja": "ポケふた (ラプラス)",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971410700",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.303055,
+     38.433834
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971412341",
+    "name_en": "Poké Lids (Lapras, Meowth, Litten, Skitty, Glameow)",
+    "name_ja": "ポケふた（ラプラス・ニャース・ニャビー・エネコ・ニャルマー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Meowth",
+     "Litten",
+     "Skitty",
+     "Glameow"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971412341",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.007172,
+     38.291943
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971413235",
+    "name_en": "Poké Lids (Lapras & Horsea)",
+    "name_ja": "ポケふた（ラプラス・タッツー）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Horsea"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971413235",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.156723,
+     38.379417
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971414965",
+    "name_en": "Poké Lids (Lapras & Latios)",
+    "name_ja": "ポケふた（ラプラス・ラティオス）",
+    "prefecture_en": "Miyagi",
+    "prefecture_ja": "宮城県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lapras",
+     "Latios"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971414965",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.401688,
+     31.587944
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518187938",
+    "name_en": "Poké Lids (Alolan Exeggutor & Probopass)",
+    "name_ja": "ポケふた（アローラナッシー・ダイノーズ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Probopass"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518187938",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.331497,
+     32.509804
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518193597",
+    "name_en": "Poké Lids (Exeggutor & Regirock)",
+    "name_ja": "ポケふた（ナッシー・レジロック）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Regirock"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518193597",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.512192,
+     32.071056
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518193609",
+    "name_en": "Poké Lids (Alolan Exeggutor & Makuhita)",
+    "name_ja": "ポケふた（アローラナッシー・マクノシタ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Makuhita"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518193609",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.163284,
+     32.223251
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518195654",
+    "name_en": "Poké Lids (Alolan Exeggutor & Golurk)",
+    "name_ja": "ポケふた（アローラナッシー・ゴルーグ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Golurk"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518195654",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.429748,
+     32.169888
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518242208",
+    "name_en": "Poké Lids (Exeggutor & Ditto)",
+    "name_ja": "ポケふた（ナッシー・メタモン）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Ditto"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518242208",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.125977,
+     31.9575
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518242209",
+    "name_en": "Poké Lids (Exeggutor & Rowlet)",
+    "name_ja": "ポケふた（ナッシー・モクロー）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Rowlet"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518242209",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.332809,
+     31.366278
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518256149",
+    "name_en": "Poké Lids (Exeggutor & Galarian)",
+    "name_ja": "ポケふた（ナッシー・ガラルポニータ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Galarian"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518256149",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.627747,
+     32.425388
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518256150",
+    "name_en": "Poké Lids (Exeggutor & Oricorio)",
+    "name_ja": "ポケふた（ナッシー・オドリドリ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Oricorio"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518256150",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.388641,
+     32.660641
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518259288",
+    "name_en": "Poké Lids (Exeggutor & Registeel)",
+    "name_ja": "ポケふた（ナッシー・レジスチル）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Registeel"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518259288",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.1203,
+     31.733749
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518259289",
+    "name_en": "Poké Lids (Exeggutor & Woobat)",
+    "name_ja": "ポケふた（ナッシー・コロモリ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Woobat"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518259289",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.45784,
+     31.807501
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518262276",
+    "name_en": "Poké Lids (Exeggutor & Castform)",
+    "name_ja": "ポケふた（ナッシー・ポワルン）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Castform"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518262276",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.305893,
+     32.707748
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518262342",
+    "name_en": "Poké Lids (Exeggutor & Regigigas)",
+    "name_ja": "ポケふた（ナッシー・レジギガス）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Regigigas"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518262342",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.528976,
+     32.191502
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518262540",
+    "name_en": "Poké Lids (Exeggutor & Marshtomp)",
+    "name_ja": "ポケふた（ナッシー・ヌマクロー）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Marshtomp"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518262540",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.321915,
+     31.988583
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518263541",
+    "name_en": "Poké Lids (Alolan Exeggutor & Gulpin)",
+    "name_ja": "ポケふた（アローラナッシー・ゴクリン）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Gulpin"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518263541",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.253754,
+     31.998972
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518276632",
+    "name_en": "Poké Lids (Exeggutor & Slakoth)",
+    "name_ja": "ポケふた（ナッシー・ナマケロ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Slakoth"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518276632",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.066193,
+     31.725222
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518279766",
+    "name_en": "Poké Lids (Alolan Exeggutor & Minior)",
+    "name_ja": "ポケふた（アローラナッシー・メテノ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Minior"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518279766",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.557587,
+     32.260918
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518281770",
+    "name_en": "Poké Lids (Alolan Exeggutor & Buizel)",
+    "name_ja": "ポケふた（アローラナッシー・ブイゼル）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Buizel"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518281770",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.805939,
+     32.050304
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518282518",
+    "name_en": "Poké Lids (Exeggutor & Torkoal)",
+    "name_ja": "ポケふた（ナッシー・コータス）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Torkoal"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518282518",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.153839,
+     32.458168
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518282828",
+    "name_en": "Poké Lids (Exeggutor & Sigilyph)",
+    "name_ja": "ポケふた（ナッシー・シンボラー）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Sigilyph"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518282828",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.96019,
+     31.907223
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518282829",
+    "name_en": "Poké Lids (Exeggutor & Smoochum)",
+    "name_ja": "ポケふた（ナッシー・ムチュール）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Smoochum"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518282829",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.46756,
+     32.431973
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518286560",
+    "name_en": "Poké Lids (Exeggutor & Exeggcute)",
+    "name_ja": "ポケふた（ナッシー・タマタマ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Exeggcute"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518286560",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.210052,
+     32.679054
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518287106",
+    "name_en": "Poké Lids (Exeggutor & Regice)",
+    "name_ja": "ポケふた（ナッシー・レジアイス）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Regice"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518287106",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.404495,
+     32.10664
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518287107",
+    "name_en": "Poké Lids (Exeggutor & Sunflora)",
+    "name_ja": "ポケふた（ナッシー・キマワリ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Sunflora"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518287107",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.801117,
+     32.684723
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518287138",
+    "name_en": "Poké Lids (Exeggutor & Alolan Bergmite)",
+    "name_ja": "ポケふた（ナッシー・アローラナッシー）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Exeggutor",
+     "Alolan Bergmite"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518287138",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.532837,
+     32.115944
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518288300",
+    "name_en": "Poké Lids (Alolan Exeggutor & Alolan Raichu)",
+    "name_ja": "ポケふた（アローラナッシー・アローラライチュウ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Alolan Raichu"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518288300",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.676727,
+     32.487026
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518288702",
+    "name_en": "Poké Lids (Alolan Exeggutor & Crabrawler)",
+    "name_ja": "ポケふた（アローラナッシー・マケンカニ）",
+    "prefecture_en": "Miyazaki",
+    "prefecture_ja": "宮崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Exeggutor",
+     "Crabrawler"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518288702",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     129.867432,
+     32.753759
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-13047818992",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた(デンリュウ)",
+    "prefecture_en": "Nagasaki",
+    "prefecture_ja": "長崎県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/13047818992",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.739166,
+     34.601891
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451777",
+    "name_en": "Poké Lids (Bronzong & Simisear)",
+    "name_ja": "ポケふた（ドータクン・バオッキー）",
+    "prefecture_en": "Nara",
+    "prefecture_ja": "奈良県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Bronzong",
+     "Simisear"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451777",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.737701,
+     34.608276
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464787",
+    "name_en": "Poké Lids (Magby & Chimecho)",
+    "name_ja": "ポケふた（ブビィ・チリーン）",
+    "prefecture_en": "Nara",
+    "prefecture_ja": "奈良県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Magby",
+     "Chimecho"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464787",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.73761,
+     34.604752
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464788",
+    "name_en": "Poké Lids (Bellsprout & Growlithe)",
+    "name_ja": "ポケふた（マダツボミ・ガーディ）",
+    "prefecture_en": "Nara",
+    "prefecture_ja": "奈良県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Bellsprout",
+     "Growlithe"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464788",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.735275,
+     34.609833
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518471102",
+    "name_en": "Poké Lids (Entei)",
+    "name_ja": "ポケふた（エンテイ）",
+    "prefecture_en": "Nara",
+    "prefecture_ja": "奈良県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Entei"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518471102",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.737549,
+     34.60825
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518471103",
+    "name_en": "Poké Lids (Fletchinder & Fletchinder)",
+    "name_ja": "ポケふた（ヒノヤコマ・シキジカ）",
+    "prefecture_en": "Nara",
+    "prefecture_ja": "奈良県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Fletchinder",
+     "Fletchinder"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518471103",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.79567,
+     37.311028
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518449082",
+    "name_en": "Poké Lids (Magikarp & Feebas)",
+    "name_ja": "ポケふた（コイキング・ヒンバス）",
+    "prefecture_en": "Niigata",
+    "prefecture_ja": "新潟県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Magikarp",
+     "Feebas"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518449082",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.812942,
+     37.309891
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464915",
+    "name_en": "Poké Lids (Magikarp)",
+    "name_ja": "ポケふた（コイキング）",
+    "prefecture_en": "Niigata",
+    "prefecture_ja": "新潟県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Magikarp"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464915",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.783493,
+     37.314304
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473252",
+    "name_en": "Poké Lids (Magikarp & Pidgeotto)",
+    "name_ja": "ポケふた（コイキング・ピジョン）",
+    "prefecture_en": "Niigata",
+    "prefecture_ja": "新潟県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Magikarp",
+     "Pidgeotto"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473252",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.7948,
+     37.31422
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474427",
+    "name_en": "Poké Lids (Magikarp)",
+    "name_ja": "ポケふた（コイキング）",
+    "prefecture_en": "Niigata",
+    "prefecture_ja": "新潟県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Magikarp"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474427",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.81385,
+     34.434271
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518386387",
+    "name_en": "Poké Lids (Lucario)",
+    "name_ja": "ポケふた（ルカリオ）",
+    "prefecture_en": "Okayama",
+    "prefecture_ja": "岡山県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Lucario"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518386387",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.770477,
+     34.592751
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456816",
+    "name_en": "Poké Lids (Grookey & Eldegoss)",
+    "name_ja": "ポケふた（サルノリ・ワタシラガ）",
+    "prefecture_en": "Okayama",
+    "prefecture_ja": "岡山県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Grookey",
+     "Eldegoss"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456816",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.76889,
+     34.595554
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518460574",
+    "name_en": "Poké Lids (Poochyena & Beautifly)",
+    "name_ja": "ポケふた（ポチエナ・ アゲハント）",
+    "prefecture_en": "Okayama",
+    "prefecture_ja": "岡山県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Poochyena",
+     "Beautifly"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518460574",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.975494,
+     34.455833
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464784",
+    "name_en": "Poké Lids (Slowpoke & Magikarp)",
+    "name_ja": "ポケふた（ヤドン・コイキング）",
+    "prefecture_en": "Okayama",
+    "prefecture_ja": "岡山県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Slowpoke",
+     "Magikarp"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464784",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.770257,
+     34.598255
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466166",
+    "name_en": "Poké Lids (Unfezant)",
+    "name_ja": "ポケふた（ケンホロウ）",
+    "prefecture_en": "Okayama",
+    "prefecture_ja": "岡山県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Unfezant"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466166",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     125.263084,
+     24.734972
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518425681",
+    "name_en": "Poké Lids (Kyogre)",
+    "name_ja": "ポケふた（カイオーガ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Kyogre"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518425681",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     124.157003,
+     24.33749
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518426027",
+    "name_en": "Poké Lids (Mantine & Remoraid)",
+    "name_ja": "マンタイン・テッポウオ",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Mantine",
+     "Remoraid"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518426027",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.656113,
+     26.157555
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518441872",
+    "name_en": "Poké Lids (Axew & Jangmo-o)",
+    "name_ja": "ポケふた（キバゴ・ジャラコ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Axew",
+     "Jangmo-o"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518441872",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.687958,
+     26.245512
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451944",
+    "name_en": "Poké Lids (Solrock & Skiploom)",
+    "name_ja": "ポケふた（ソルロック・ポポッコ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Solrock",
+     "Skiploom"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451944",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.826111,
+     26.436195
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456375",
+    "name_en": "Poké Lids (Tauros)",
+    "name_ja": "ポケふた（ケンタロス）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Tauros"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456375",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.803001,
+     26.327667
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456376",
+    "name_en": "Poké Lids (Thwackey & Lurantis)",
+    "name_ja": "ポケふた（バチンキー・ラランテス）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Thwackey",
+     "Lurantis"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456376",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.877976,
+     26.691694
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518459943",
+    "name_en": "Poké Lids (Wailord)",
+    "name_ja": "ポケふた（ホエルオー）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Wailord"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518459943",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.661331,
+     26.138277
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518464631",
+    "name_en": "Poké Lids (Wartortle & Sandygast)",
+    "name_ja": "ポケふた（カメール ・スナバァ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Wartortle",
+     "Sandygast"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518464631",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.732189,
+     26.281436
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518467965",
+    "name_en": "Poké Lids (Corsola & Luvdisc)",
+    "name_ja": "ポケふた（サニーゴ・ラブカス）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Corsola",
+     "Luvdisc"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518467965",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.689415,
+     26.216417
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470556",
+    "name_en": "Poké Lids (Arcanine)",
+    "name_ja": "ポケふた（ウインディ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Arcanine"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470556",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.827084,
+     26.169098
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518472141",
+    "name_en": "Poké Lids (Seviper & Zangoose)",
+    "name_ja": "ポケふた（ハブネーク・ザングース）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Seviper",
+     "Zangoose"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518472141",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.985748,
+     26.58736
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473836",
+    "name_en": "Poké Lids (Emolga & Pikipek)",
+    "name_ja": "ポケふた（エモンガ・ツツケラ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Emolga",
+     "Pikipek"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473836",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     127.688362,
+     26.246166
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971381956",
+    "name_en": "Poké Lids (Solrock & Skiploom)",
+    "name_ja": "ポケふた（ソルロック・ポポッコ）",
+    "prefecture_en": "Okinawa",
+    "prefecture_ja": "沖縄県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Solrock",
+     "Skiploom"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971381956",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.63058,
+     34.669466
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518468024",
+    "name_en": "Poké Lids (Yamper & Togedemaru)",
+    "name_ja": "ポケふた（ワンパチ・トゲデマル）",
+    "prefecture_en": "Osaka",
+    "prefecture_ja": "大阪府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Yamper",
+     "Togedemaru"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518468024",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.60123,
+     34.679789
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518469043",
+    "name_en": "Poké Lids (Magnemite & Magneton)",
+    "name_ja": null,
+    "prefecture_en": "Osaka",
+    "prefecture_ja": "大阪府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Magnemite",
+     "Magneton"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518469043",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.65078,
+     34.680672
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473251",
+    "name_en": "Poké Lids (Elekid & Mawile)",
+    "name_ja": "ポケふた（エレキッド・クチート）",
+    "prefecture_en": "Osaka",
+    "prefecture_ja": "大阪府",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Elekid",
+     "Mawile"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473251",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.505524,
+     35.797474
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518449084",
+    "name_en": "Poké Lids (Dratini & Corviknight)",
+    "name_ja": "ポケふた（ミニリュウ・アーマーガア）",
+    "prefecture_en": "Saitama",
+    "prefecture_ja": "埼玉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Dratini",
+     "Corviknight"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518449084",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.472,
+     35.798721
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466170",
+    "name_en": "Poké Lids (Dragonite)",
+    "name_ja": "ポケふた（カイリュー）",
+    "prefecture_en": "Saitama",
+    "prefecture_ja": "埼玉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Dragonite"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466170",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.472885,
+     35.786888
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518478818",
+    "name_en": "Poké Lids (Dragonair & Skarmory)",
+    "name_ja": "ポケふた（ハクリュー・エアームド）",
+    "prefecture_en": "Saitama",
+    "prefecture_ja": "埼玉県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Dragonair",
+     "Skarmory"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518478818",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.869888,
+     35.010193
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470564",
+    "name_en": "Poké Lids (Gyarados)",
+    "name_ja": "ポケふた（ギャラドス）",
+    "prefecture_en": "Shiga",
+    "prefecture_ja": "滋賀県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Gyarados"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470564",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.894608,
+     34.998112
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518479519",
+    "name_en": "Poké Lids (Gyarados)",
+    "name_ja": "ポケふた（ギャラドス）",
+    "prefecture_en": "Shiga",
+    "prefecture_ja": "滋賀県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Gyarados"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518479519",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.165161,
+     34.960529
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971403457",
+    "name_en": "Poké Lids (Greninja)",
+    "name_ja": "ポケふた（ゲッコウガ）",
+    "prefecture_en": "Shiga",
+    "prefecture_ja": "滋賀県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Greninja"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971403457",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.229385,
+     34.900444
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971412340",
+    "name_en": "Poké Lids (Greninja & Frogadier)",
+    "name_ja": "ポケふた（ゲッコウガ・ゲコガシラ）",
+    "prefecture_en": "Shiga",
+    "prefecture_ja": "滋賀県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Greninja",
+     "Frogadier"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971412340",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.170197,
+     34.919582
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971418219",
+    "name_en": "Poké Lids (Greninja)",
+    "name_ja": "ポケふた（ゲッコウガ）",
+    "prefecture_en": "Shiga",
+    "prefecture_ja": "滋賀県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Greninja"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971418219",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.887222,
+     36.572277
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518449083",
+    "name_en": "Poké Lids (Thundurus)",
+    "name_ja": "ポケふた（ボルトロス）",
+    "prefecture_en": "Tochigi",
+    "prefecture_ja": "栃木県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Thundurus"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518449083",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.909448,
+     36.560656
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518477852",
+    "name_en": "Poké Lids (Electabuzz & Skwovet)",
+    "name_ja": "ポケふた（エレブー・ホシガリス）",
+    "prefecture_en": "Tochigi",
+    "prefecture_ja": "栃木県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Electabuzz",
+     "Skwovet"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518477852",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.831024,
+     36.634224
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518478284",
+    "name_en": "Poké Lids (Electrike & Crustle)",
+    "name_ja": "ポケふた（ラクライ・イワパレス）",
+    "prefecture_en": "Tochigi",
+    "prefecture_ja": "栃木県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Electrike",
+     "Crustle"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518478284",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.19278,
+     27.09461
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518450310",
+    "name_en": "Poké Lids (Blastoise)",
+    "name_ja": "ポケふた（カメックス）",
+    "prefecture_en": "Tokyo",
+    "prefecture_ja": "東京都",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Blastoise"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518450310",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.776382,
+     35.716805
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518471100",
+    "name_en": "Poké Lids (Tyrunt & Wynaut)",
+    "name_ja": "ポケふた（チゴラス・ソーナノ）",
+    "prefecture_en": "Tokyo",
+    "prefecture_ja": "東京都",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Tyrunt",
+     "Wynaut"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518471100",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.775391,
+     35.717724
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474042",
+    "name_en": "Poké Lids (Baltoy & Bronzor)",
+    "name_ja": "ポケふた（ヤジロン・ドーミラー）",
+    "prefecture_en": "Tokyo",
+    "prefecture_ja": "東京都",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Baltoy",
+     "Bronzor"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474042",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.194031,
+     27.094862
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474290",
+    "name_en": "Poké Lids (Venusaur)",
+    "name_ja": "ポケふた（フシギバナ）",
+    "prefecture_en": "Tokyo",
+    "prefecture_ja": "東京都",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Venusaur"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474290",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     142.193283,
+     27.094723
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474844",
+    "name_en": "Poké Lids (Charizard)",
+    "name_ja": "ポケふた（リザードン）",
+    "prefecture_en": "Tokyo",
+    "prefecture_ja": "東京都",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Charizard"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474844",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.40033,
+     35.343944
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518414196",
+    "name_en": "Poké Lids (Alolan Sandshrew & Snover)",
+    "name_ja": "ポケふた（アローラサンド・ユキカブリ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Sandshrew",
+     "Snover"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518414196",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.661606,
+     35.506943
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518425682",
+    "name_en": "Poké Lids (Sandshrew & Alolan Sandshrew)",
+    "name_ja": "ポケふた（アローラサンド・ヒトモシ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518425682",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.474091,
+     35.295834
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518426028",
+    "name_en": "Poké Lids (Sandshrew & Alolan Sandshrew)",
+    "name_ja": "ポケふた（サンド・アローラサンド）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518426028",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.502091,
+     35.504582
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518426029",
+    "name_en": "Poké Lids (Alolan Sandshrew & Litwick)",
+    "name_ja": "ポケふた（アローラサンド・ヒトモシ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Sandshrew",
+     "Litwick"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518426029",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.361526,
+     35.456249
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518429789",
+    "name_en": "Poké Lids (Sandshrew, Farfetch'd, Swanna)",
+    "name_ja": null,
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Farfetch'd",
+     "Swanna"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518429789",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.894394,
+     35.409332
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451772",
+    "name_en": "Poké Lids (Sandshrew, Alolan Sandshrew, Froakie)",
+    "name_ja": "ポケふた（サンド・アローラサンド・ケロマツ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew",
+     "Froakie"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451772",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.850113,
+     35.454277
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518451945",
+    "name_en": "Poké Lids (Sandshrew & Alolan Sandshrew)",
+    "name_ja": "ポケふた（サンド・アローラサンド）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518451945",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.884003,
+     35.478169
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518456377",
+    "name_en": "Poké Lids (Sandshrew & Shellder)",
+    "name_ja": "ポケふた（サンド・シェルダー）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Shellder"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518456377",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.441055,
+     35.241917
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518460573",
+    "name_en": "Poké Lids (Sandshrew, Alolan Sandshrew, Swablu)",
+    "name_ja": "ポケふた（サンド・アローラサンド・チルット）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew",
+     "Swablu"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518460573",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.226105,
+     35.265415
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518466165",
+    "name_en": "Poké Lids (Sandshrew, Sandslash, Sudowoodo)",
+    "name_ja": "ポケふた（サンド・サンドパン・ウソッキー）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Sandslash",
+     "Sudowoodo"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518466165",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.339416,
+     35.366444
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470557",
+    "name_en": "Poké Lids (Alolan Sandshrew & Alolan Sandslash)",
+    "name_ja": "ポケふた（アローラサンド・アローラサンドパン）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Alolan Sandshrew",
+     "Alolan Sandslash"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470557",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.321549,
+     35.590946
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518470558",
+    "name_en": "Poké Lids (Sandshrew & Xatu)",
+    "name_ja": "ポケふた（サンド・ネイティオ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Xatu"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518470558",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.820023,
+     35.497917
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518471097",
+    "name_en": "Poké Lids (Sandshrew & Alolan Sandshrew)",
+    "name_ja": "ポケふた（サンド アローラサンド）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518471097",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.310944,
+     35.170528
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518471098",
+    "name_en": "Poké Lids (Sandshrew, Volbeat, Illumise)",
+    "name_ja": "ポケふた（サンド・バルビート・イルミーゼ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Volbeat",
+     "Illumise"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518471098",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.423386,
+     35.347473
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518472142",
+    "name_en": "Poké Lids (Sandshrew, Alolan Sandshrew, Trapinch)",
+    "name_ja": "ポケふた（サンド・アローラサンド・ナックラー）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew",
+     "Trapinch"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518472142",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.379603,
+     35.44124
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518473837",
+    "name_en": "Poké Lids (Sandshrew & Ditto)",
+    "name_ja": null,
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Ditto"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518473837",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     134.237274,
+     35.539665
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9518474423",
+    "name_en": "Sandshrew, Alolan Sandshrew, Buneary",
+    "name_ja": "サンド・アローラサンド・ミミロル",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9518474423",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.258362,
+     35.521473
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971407122",
+    "name_en": "Poké Lids (Sandshrew, Alolan Sandshrew, Krabby)",
+    "name_ja": null,
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew",
+     "Krabby"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971407122",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.458496,
+     35.383389
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-9971417061",
+    "name_en": "Poké Lids (Sandshrew, Alolan Sandshrew, Glalie)",
+    "name_ja": "ポケふた（サンド・アローラサンド・オニゴーリ）",
+    "prefecture_en": "Tottori",
+    "prefecture_ja": "鳥取県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [
+     "Sandshrew",
+     "Alolan Sandshrew",
+     "Glalie"
+    ],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/9971417061",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.210166,
+     36.692324
+    ]
+   },
+   "properties": {
+    "id": "pokefuta-osm-13271718279",
+    "name_en": "Poke Lids",
+    "name_ja": "ポケふた(キュワワー　レディバ)",
+    "prefecture_en": "Toyama",
+    "prefecture_ja": "富山県",
+    "municipality": null,
+    "category": "pokefuta",
+    "themes": [],
+    "photo": null,
+    "photo_thumb": null,
+    "photo_credit": null,
+    "photo_license": null,
+    "installed": null,
+    "source": "OpenStreetMap",
+    "source_url": "https://www.openstreetmap.org/node/13271718279",
+    "visited": false
+   }
+  }
+ ]
+}

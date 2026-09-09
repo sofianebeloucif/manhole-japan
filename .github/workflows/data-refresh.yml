@@ -1,0 +1,39 @@
+name: Refresh data
+
+on:
+  schedule:
+    - cron: "0 5 1 * *"   # 05:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Fetch sources and rebuild
+        run: |
+          python scripts/fetch_pokefuta.py
+          python scripts/build_covers.py
+          python scripts/validate.py
+
+      - name: Open a PR if anything changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/refresh
+          commit-message: "data: monthly refresh from OpenStreetMap"
+          title: "data: monthly refresh"
+          body: |
+            Automated refresh of `data/sources/` and `data/covers.geojson`
+            from OpenStreetMap via Overpass. Review the feature diff before merging.
+          add-paths: |
+            data/covers.geojson
+            data/sources/**
