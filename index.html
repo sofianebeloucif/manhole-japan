@@ -49,6 +49,7 @@
         Basemap <a href="https://openfreemap.org">OpenFreeMap</a>.
         A fan project — not affiliated with The Pokémon Company, Nintendo or GKP.
         <a href="https://github.com/sofianebeloucif/manhole-japan">Source</a>.
+        <a href="?tool=identify" id="identify-link">Identify a cover</a>.
       </p>
     </footer>
   </aside>
@@ -88,6 +89,17 @@
       <pre id="c-steps"></pre>
     </div>
   </section>
+
+  <div id="identify" hidden aria-label="Identify a cover">
+    <button type="button" id="identify-close" aria-label="Close">×</button>
+    <div class="id-grid">
+      <div class="id-left">
+        <input type="file" id="id-file" accept="image/jpeg,image/png">
+        <img id="id-preview" alt="" hidden>
+      </div>
+      <div class="id-right" id="id-result"></div>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.min.js"></script>
   <script type="module" src="src/main.js"></script>

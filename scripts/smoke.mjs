@@ -115,5 +115,11 @@ check("contribute panel opens", d.getElementById("contribute").hidden === false)
 d.getElementById("contribute-close").dispatchEvent(new window.Event("click"));
 check("contribute panel closes", d.getElementById("contribute").hidden === true);
 
+// identify overlay open / close
+d.getElementById("identify-link").dispatchEvent(new window.Event("click"));
+check("identify overlay opens", d.getElementById("identify").hidden === false);
+d.getElementById("identify-close").dispatchEvent(new window.Event("click"));
+check("identify overlay closes", d.getElementById("identify").hidden === true);
+
 check("no jsdom errors", errors.length === 0);
 if (errors.length) console.log(errors.join("\n"));
