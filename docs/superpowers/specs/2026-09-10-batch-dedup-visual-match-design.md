@@ -53,7 +53,7 @@ scraping the GKP manhole-card database (a separate `data-refresh`-style concern)
 ```
 src/recognize/
   index.js        + `visual` signal in analyze(); fuse() consumes it
-  embed.js        NEW  embed(bitmap, deps) -> L2-normalised Float32Array   (lazy onnxruntime-web + models/embed.onnx)
+  embed.js        NEW  embed(bitmap, deps) -> L2-normalised Float32Array   (lazy onnxruntime-web + DINOv2-small ONNX from HF CDN)
   visualmatch.js  NEW  loadEmbeddings(); matchVisual(vec, data, {topK})
   dedup.js        NEW  gpsDuplicate / visualDuplicate / duplicateVerdict / clusterEntries
 src/contribute/
@@ -66,18 +66,17 @@ data/
   embeddings.bin        NEW  generated: N*D little-endian float32, row order = index
   embeddings-index.json  NEW  { dim: D, ids: ["cover-id", ...] }
 models/
-  embed.onnx           NEW  int8 image encoder (~25 MB) — committed once
-  embed-model.json     NEW  { source, license, sha256, dim, input_size }
+  embed-model.json     NEW  { source, upstream, license, revision, dim, input_size, norm, output } — the model itself loads from HF CDN, nothing large committed
 scripts/
-  fetch_embed_model.py  NEW  one-off: download + export + quantise -> models/embed.onnx
-  build_embeddings.py   NEW  assets/photos/*.webp -> data/embeddings.bin + index
+  fetch_embed_model.py  NEW  download the pinned ONNX into a git-ignored cache for build_embeddings.py (no commit)
+  build_embeddings.py   NEW  data/personal/*.json (photo + id) -> data/embeddings.bin + index
   validate.py           + embeddings integrity checks
   smoke.mjs             + ?tool=batch mounts; visual/dedup degradation guards
 .github/workflows/
-  embed.yml             NEW (or a 2nd job in train-model.yml): on assets/photos/** -> rebuild embeddings -> PR
+  embed.yml             NEW  standalone: on data/personal/** or assets/photos/** -> rebuild embeddings -> PR
 ```
 
-First-paint weight is unchanged: `embed.js` / `visualmatch.js`, `models/embed.onnx`,
+First-paint weight is unchanged: `embed.js` / `visualmatch.js`, the DINOv2 ONNX,
 `data/embeddings.bin` and the zip lib load only when the batch tool is opened or a
 "visual match" button is pressed — never referenced from `index.html` or an eager
 import.
@@ -105,9 +104,10 @@ import.
     `data/personal/mine.json`; every element validates against `scripts/schema.json`.
   - one combined `PHOTO_CREDITS.md` block.
   - a `prSteps`-style checklist, batch variant.
-  - **Download all photos (.zip)** — `fflate` (MIT, ~8 KB, lazy from cdnjs)
-    packing every `<slug>.webp` / `<slug>.thumb.webp`. Per-row download buttons
-    remain as a fallback.
+  - **Download all photos (.zip)** — `fflate` (MIT, ~8 KB, lazy from
+    `https://cdn.jsdelivr.net/npm/fflate@0.8.3/esm/browser.js`) packing every
+    `<slug>.webp` / `<slug>.thumb.webp`. Per-row download buttons remain as a
+    fallback.
 
 **`src/contribute/output.js`**: add `buildFeatureArray(entries)` (maps each to
 `buildFeature`, returns `JSON.stringify(arr, null, 2)`); a small
@@ -151,18 +151,32 @@ import.
 
 ### Model
 
-Default: **CLIP ViT-B/32 image encoder** (`openai/clip-vit-base-patch32`, MIT),
-int8 ONNX (~25 MB), 512-dim. Better-quality near-duplicate retrieval model
-(DINOv2-small, 384-dim) may substitute **only if its license is Apache/MIT/BSD
-at implementation time** — verify before choosing. Whatever is chosen,
-`models/embed-model.json` records `{ source, license, sha256, dim, input_size }`,
-and only permissive licenses are acceptable.
+**DINOv2-small, quantised ONNX, loaded from the Hugging Face CDN at runtime —
+NOT committed to the repo.** Self-supervised, purpose-built for retrieval /
+near-duplicate matching; 384-dim; `~23 MB` quantised. Upstream
+`facebook/dinov2-small` is **Apache-2.0**; the Xenova ONNX re-export
+(`Xenova/dinov2-small/onnx/model_quantized.onnx`) is the same weights, pinned by
+commit revision `c2bb04a51fab207c420665f1946016107bffc701`.
 
-- `scripts/fetch_embed_model.py` — one-off: download the encoder, export to
-  ONNX (opset 17), dynamic-int8 quantise, write `models/embed.onnx` +
-  `models/embed-model.json`. Run once by a maintainer; the `.onnx` is committed.
-- `models/embed.onnx` is ~25 MB in git — a notable but one-time add; it is
-  lazy-fetched, never on first paint. Documented in README.
+- `CDN.embedModel` in `src/config.js` = the pinned HF `resolve/<sha>/…` URL.
+  `onnxruntime-web` `InferenceSession.create(url)` loads it lazily — same
+  pattern as the tesseract wasm/lang loaded from jsdelivr. The repo gains **no**
+  large binary.
+- `models/embed-model.json` (committed, tiny) records
+  `{ source, upstream, license: "apache-2.0", revision, dim: 384, input_size: 224,
+  norm: "imagenet", output: "last_hidden_state[:,0]" }`.
+- `scripts/fetch_embed_model.py` — a small helper that downloads that same ONNX
+  into a local cache dir (git-ignored) for `build_embeddings.py` to use offline;
+  it does NOT commit anything.
+- Implementer verifies at build time that the pinned revision still resolves and
+  the upstream license is unchanged; a different permissive small encoder
+  (e.g. `Xenova/clip-vit-base-patch32` vision tower, MIT via `openai/clip-vit-base-patch32`)
+  is an acceptable substitute if DINOv2 becomes unavailable — update
+  `embed-model.json` + `dim` accordingly.
+
+Image embedding = the CLS token of `last_hidden_state` (row 0), L2-normalised.
+Preprocess: resize 224², ImageNet mean `[0.485,0.456,0.406]` / std
+`[0.229,0.224,0.225]`, NCHW float32.
 
 ### `src/recognize/embed.js`
 
@@ -206,7 +220,7 @@ and only permissive licenses are acceptable.
 
 ### Data build
 
-- `scripts/build_embeddings.py` — `onnxruntime` + `models/embed.onnx` + Pillow.
+- `scripts/build_embeddings.py` — `onnxruntime` + the cached ONNX (via `fetch_embed_model.py`) + Pillow.
   Input is `data/personal/*.json`: for each Feature that has a non-null `photo`,
   resolve `ROOT/<photo>` (the full-size `.webp`, not `.thumb`), embed it,
   L2-normalise. `id` for that row = the Feature's `properties.id`. Sort rows by
@@ -226,7 +240,7 @@ and only permissive licenses are acceptable.
 
 ### Config
 
-`EMBED_MODEL_URL = "models/embed.onnx"`, `EMBEDDINGS_URL = "data/embeddings.bin"`,
+`EMBED_MODEL_URL` = the pinned HF `resolve/<sha>/onnx/model_quantized.onnx` URL, `EMBEDDINGS_URL = "data/embeddings.bin"`,
 `EMBEDDINGS_INDEX_URL = "data/embeddings-index.json"`.
 
 ### UI
@@ -285,14 +299,15 @@ embedding similarity even when 40 m apart.
 
 ## Cross-cutting requirements
 
-- **No backend.** Everything client-side. `models/embed.onnx`,
+- **No backend.** Everything client-side. The DINOv2 ONNX (HF CDN),
   `data/embeddings.bin`, `fflate`, `onnxruntime-web` all lazy; none referenced
   from `index.html` or an eager import in the graph reachable from `src/main.js`.
 - **`analyze()` contract:** always resolves; every signal (`gps`, `ocr`,
   `classifier`, `visual`) independently try/caught so one failure can't sink the
   call. `combined` never contains `undefined`.
-- **Repo growth:** `models/embed.onnx` ~25 MB (one-time). `data/embeddings.bin`
-  = `N * dim * 4` bytes (259 × 512 ≈ 530 KB; 2500 ≈ 5 MB). Both lazy. README notes it.
+- **Repo growth:** none for the model (loaded from HF CDN, pinned revision).
+  `data/embeddings.bin` = `N * 384 * 4` bytes (259 covers ≈ 400 KB; 2500 ≈ 3.8 MB),
+  lazy-fetched. README notes it.
 - **Licenses:** only MIT/Apache/BSD models; recorded in `models/embed-model.json`.
   Contributor photos stay own-work / CC per `PHOTO_CREDITS.md`.
 - **Feature JSON** stays schema-valid, batch array elements included.
@@ -311,11 +326,11 @@ embedding similarity even when 40 m apart.
   `batch-output` tests. Deploy.
 - **P2 — GPS dedup.** `dedup.js` (`gpsDuplicate`, `clusterByLocation`);
   wire into `form.js` + `batch.js`; `build_covers.py` warning. `dedup` tests.
-- **P3 — Visual-match signal.** `fetch_embed_model.py` → `models/embed.onnx`
-  (+ `embed-model.json`); `embed.js`, `visualmatch.js`; `visual` signal in
-  `analyze()` + `fuse()`; `build_embeddings.py`; `data/embeddings*` (empty on
-  day one); `embed.yml`; `validate.py` checks; "Find visual matches" button.
-  Dormant (`no_library`) until photos exist.
+- **P3 — Visual-match signal.** `models/embed-model.json` + `fetch_embed_model.py`
+  (download-to-cache helper, no commit); `embed.js`, `visualmatch.js`; `visual`
+  signal in `analyze()` + `fuse()`; `build_embeddings.py`; `data/embeddings*`
+  (empty on day one); `embed.yml`; `validate.py` checks; "Find visual matches"
+  button. Dormant (`no_library`) until photos exist.
 - **P4 — Visual dedup.** `visualDuplicate`, `duplicateVerdict`, `clusterEntries`;
   swap `form.js` / `batch.js` / `identify` to the combined verdict.
 
@@ -338,7 +353,7 @@ embedding similarity even when 40 m apart.
 5. **P4**: a re-photo of an existing cover from a slightly different angle,
    GPS within 10 m → `duplicateVerdict.level === "confirmed"`; the identify tool
    shows "already on the map".
-6. First paint (DevTools Network) unchanged: no request for `embed.onnx`,
+6. First paint (DevTools Network) unchanged: no request for the DINOv2 ONNX,
    `embeddings.bin`, `fflate`, `onnxruntime`, or `tesseract` until the batch tool
    or a visual-match / OCR button is used.
 7. `embed.yml` (`workflow_dispatch`) on a branch with one new photo → opens a PR
