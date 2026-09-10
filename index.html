@@ -38,6 +38,7 @@
       </fieldset>
       <button type="button" id="reset" class="reset" hidden>Clear filters</button>
       <button type="button" id="add-cover" class="reset">＋ Add a cover</button>
+      <button type="button" id="batch-open" class="reset">Batch</button>
     </section>
 
     <section id="prefbars" class="prefbars" aria-label="Covers per prefecture"></section>
@@ -89,6 +90,25 @@
       </div>
       <pre id="c-credits"></pre>
       <pre id="c-steps"></pre>
+    </div>
+  </section>
+
+  <section id="batch" hidden aria-label="Batch add covers">
+    <button type="button" id="batch-close" aria-label="Close">×</button>
+    <h2>Batch add covers</h2>
+    <p class="hint">Drop several photos. Each is analysed; edit inline, then get one
+       JSON array + a zip of all the WebP files. Nothing is uploaded.</p>
+    <input type="file" id="b-files" accept="image/jpeg,image/png" multiple>
+    <p id="b-progress" hidden></p>
+    <div id="b-rows"></div>
+    <button type="button" id="b-build" class="reset" hidden>Build all</button>
+    <div id="b-output" hidden>
+      <pre id="b-json"></pre>
+      <div class="c-actions">
+        <button type="button" id="b-dl-zip" class="reset">Download all photos (.zip)</button>
+      </div>
+      <pre id="b-credits"></pre>
+      <pre id="b-steps"></pre>
     </div>
   </section>
 

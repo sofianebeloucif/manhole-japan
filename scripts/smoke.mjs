@@ -121,5 +121,11 @@ check("identify overlay opens", d.getElementById("identify").hidden === false);
 d.getElementById("identify-close").dispatchEvent(new window.Event("click"));
 check("identify overlay closes", d.getElementById("identify").hidden === true);
 
+// batch panel open / close
+d.getElementById("batch-open").dispatchEvent(new window.Event("click"));
+check("batch panel opens", d.getElementById("batch").hidden === false);
+d.getElementById("batch-close").dispatchEvent(new window.Event("click"));
+check("batch panel closes", d.getElementById("batch").hidden === true);
+
 check("no jsdom errors", errors.length === 0);
 if (errors.length) console.log(errors.join("\n"));

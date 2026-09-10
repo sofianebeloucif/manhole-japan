@@ -5,6 +5,7 @@ import * as stats from "./stats.js";
 import * as panel from "./panel.js";
 import * as url from "./urlState.js";
 import { openContribute } from "./contribute/form.js";
+import { openBatch } from "./contribute/batch.js";
 import { openIdentify, bindMap as bindIdentifyMap } from "./identify/view.js";
 
 const fc = (features) => ({ type: "FeatureCollection", features });
@@ -44,6 +45,10 @@ document.getElementById("sidebar-toggle").addEventListener("click", () => {
 
 // ---- contribute panel ---------------------------------------------------
 document.getElementById("add-cover").addEventListener("click", openContribute);
+
+// ---- batch add covers -------------------------------------------------
+document.getElementById("batch-open").addEventListener("click", openBatch);
+if (new URLSearchParams(location.search).get("tool") === "batch") openBatch();
 
 // ---- identify a cover -------------------------------------------------
 bindIdentifyMap(view);

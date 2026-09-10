@@ -57,6 +57,9 @@ export function download(blob, filename) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
+export const esc = (s) =>
+  String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
 export function buildFeatureArray(entries) {
   return JSON.stringify(entries.map(buildFeature), null, 2);
 }

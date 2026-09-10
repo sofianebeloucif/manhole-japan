@@ -183,6 +183,38 @@ a { color: inherit; }
 .analysis .verdict { font-weight: 600; }
 .analysis .sig { color: var(--text-dim); margin-top: 4px; }
 
+/* ---------- batch add covers ---------- */
+#batch {
+  position: absolute; top: 14px; right: 14px; width: 380px;
+  max-height: calc(100dvh - 28px); overflow-y: auto; z-index: 8;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px;
+}
+#batch h2 { margin: 0 0 4px; font-size: 15px; }
+#batch .hint { font-size: 11.5px; color: var(--text-dim); margin: 0 0 10px; }
+#batch-close {
+  position: absolute; top: 8px; right: 8px; width: 28px; height: 28px;
+  border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2);
+  color: var(--text); font-size: 16px; cursor: pointer;
+}
+#b-progress { font-size: 12px; color: var(--text-dim); }
+.b-row {
+  display: grid; grid-template-columns: 56px 1fr; gap: 8px;
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px; margin-bottom: 8px;
+}
+.b-row img { width: 56px; height: 56px; object-fit: cover; border-radius: 6px; background: var(--surface-2); }
+.b-row .b-fields { display: flex; flex-direction: column; gap: 4px; font-size: 12px; }
+.b-row input, .b-row select { font: inherit; font-size: 12px; padding: 4px 6px;
+  border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); }
+.b-row .b-verdict { font-size: 11px; color: var(--text-dim); }
+.b-row .b-dup { font-size: 11px; color: #b45309; }
+#batch pre { white-space: pre-wrap; word-break: break-word; font-size: 11px;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: 8px; margin: 8px 0; }
+@media (max-width: 640px) {
+  #batch { top: auto; bottom: 0; right: 0; left: 0; width: 100%;
+    max-height: 82dvh; border-radius: var(--radius) var(--radius) 0 0; }
+}
+
 /* ---------- identify a cover ---------- */
 #identify { position: absolute; inset: 0; z-index: 20; background: var(--bg);
   padding: 20px; overflow-y: auto; }
