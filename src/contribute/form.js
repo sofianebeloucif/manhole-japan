@@ -5,6 +5,7 @@ import { toWebp, slugify, randHex } from "./image.js";
 import { buildFeature, photoCreditsRow, prSteps, download } from "./output.js";
 
 const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let closeHandlers = [];
 let current = { file: null, analysis: null, webpFull: null, webpThumb: null };
 
@@ -28,11 +29,11 @@ function renderAnalysis(a) {
   box.hidden = false;
   const c = a.combined;
   box.innerHTML =
-    `<div class="verdict">${c.prefecture_en || "Origin unknown"} · ${c.confidence} confidence</div>` +
-    `<div class="sig">GPS: ${a.gps ? `${a.gps.prefecture_en} (${a.gps.lat.toFixed(4)}, ${a.gps.lon.toFixed(4)})` : "none"}</div>` +
-    `<div class="sig">OCR: ${a.ocr ? a.ocr.status : "not run"}</div>` +
-    `<div class="sig">Classifier: ${a.classifier ? a.classifier.status : "not run"}</div>` +
-    `<div class="sig">Basis: ${c.basis.join(", ") || "—"}</div>`;
+    `<div class="verdict">${esc(c.prefecture_en || "Origin unknown")} · ${esc(c.confidence)} confidence</div>` +
+    `<div class="sig">GPS: ${a.gps ? `${esc(a.gps.prefecture_en)} (${a.gps.lat.toFixed(4)}, ${a.gps.lon.toFixed(4)})` : "none"}</div>` +
+    `<div class="sig">OCR: ${a.ocr ? esc(a.ocr.status) : "not run"}</div>` +
+    `<div class="sig">Classifier: ${a.classifier ? esc(a.classifier.status) : "not run"}</div>` +
+    `<div class="sig">Basis: ${esc(c.basis.join(", ") || "—")}</div>`;
 
   if (current.file && !(a.ocr && a.ocr.status === "ok")) {
     const btn = document.createElement("button");
@@ -61,6 +62,13 @@ function prefill(a) {
   fillPrefSelect();
   $("c-pref").value = a.combined.prefecture_en || "";
   $("c-muni").value = a.combined.municipality || "";
+  if (a.gps) {
+    $("c-lon").value = a.gps.lon;
+    $("c-lat").value = a.gps.lat;
+  } else {
+    $("c-lon").value = "";
+    $("c-lat").value = "";
+  }
   try { $("c-credit").value = localStorage.getItem("mj-credit") || ""; } catch { /* ignore */ }
   $("c-fields").hidden = false;
 }
@@ -86,16 +94,22 @@ async function onFile(file) {
 }
 
 async function build() {
-  const a = current.analysis || { gps: null };
   const name_en = $("c-name-en").value.trim();
   if (!name_en) { $("c-name-en").focus(); return; }
-  if (!a.gps && !$("c-pref").value) { $("c-pref").focus(); return; }
+  if (!$("c-pref").value) { $("c-pref").focus(); return; }
+
+  const lon = parseFloat($("c-lon").value);
+  const lat = parseFloat($("c-lat").value);
+  if (Number.isNaN(lon) || Number.isNaN(lat)) {
+    $("c-analysis").hidden = false;
+    $("c-analysis").textContent = "Enter a longitude and latitude for this cover (from the photo's GPS, or read them off a map).";
+    $("c-lon").focus();
+    return;
+  }
 
   try {
     const pref = $("c-pref").value;
     const slug = `personal-${slugify(pref) || "jp"}-${slugify(name_en)}-${randHex(4)}`;
-    const lon = a.gps ? a.gps.lon : 138.0;
-    const lat = a.gps ? a.gps.lat : 38.0;
 
     current.webpFull = await toWebp(current.file, 1200, 0.82);
     current.webpThumb = await toWebp(current.file, 320, 0.78);

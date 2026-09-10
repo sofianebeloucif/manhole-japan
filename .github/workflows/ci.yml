@@ -19,15 +19,16 @@ jobs:
         run: npx eslint src/
       - name: Smoke test (headless)
         run: node scripts/smoke.mjs
-      - name: Unit tests
-        run: npm test
-      - name: geo parity (JS vs Python)
-        run: node scripts/test_geo_parity.mjs
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: npm test
+      - name: geo parity (JS vs Python)
+        run: node scripts/test_geo_parity.mjs
       - name: Validate data
         run: python scripts/validate.py
       - name: Python unit tests

@@ -4,8 +4,10 @@ import { analyze } from "../recognize/index.js";
 import { openContributeWith } from "../contribute/form.js";
 
 const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let mapView = null;
 let last = { file: null, analysis: null };
+let lastPreviewUrl = null;
 
 export function bindMap(view) { mapView = view; }
 
@@ -13,19 +15,19 @@ function render(a) {
   const c = a.combined;
   const box = $("id-result");
   box.innerHTML =
-    `<div class="verdict">${c.prefecture_en || "Origin unknown"} · ${c.confidence} confidence</div>` +
+    `<div class="verdict">${esc(c.prefecture_en || "Origin unknown")} · ${esc(c.confidence)} confidence</div>` +
     `<div class="sig"><b>GPS</b><br>${a.gps
-      ? `${a.gps.prefecture_en} — nearest known cover ${a.gps.nearestCover ? `${a.gps.nearestCover.name_en} (${a.gps.nearestCover.dist_m} m)` : "none"}`
+      ? `${esc(a.gps.prefecture_en)} — nearest known cover ${a.gps.nearestCover ? `${esc(a.gps.nearestCover.name_en)} (${esc(a.gps.nearestCover.dist_m)} m)` : "none"}`
       : "no GPS in this photo"}</div>` +
     `<div class="sig"><b>OCR</b><br>${a.ocr && a.ocr.status === "ok"
-      ? `read: “${a.ocr.rawText.replace(/\n/g, " ").slice(0, 80)}” → ${a.ocr.municipalityGuesses.map((g) => `${g.name_ja} (${g.prefecture_en})`).join(", ") || "no match"}`
-      : a.ocr ? a.ocr.status : "not run"}</div>` +
+      ? `read: “${esc(a.ocr.rawText.replace(/\n/g, " ").slice(0, 80))}” → ${a.ocr.municipalityGuesses.map((g) => `${esc(g.name_ja)} (${esc(g.prefecture_en)})`).join(", ") || "no match"}`
+      : a.ocr ? esc(a.ocr.status) : "not run"}</div>` +
     `<div class="sig"><b>Classifier</b><br>${a.classifier && a.classifier.status === "ok"
-      ? a.classifier.predictions.map((p) => `${p.prefecture_en} ${(p.prob * 100).toFixed(0)}%`).join(", ")
+      ? a.classifier.predictions.map((p) => `${esc(p.prefecture_en)} ${(p.prob * 100).toFixed(0)}%`).join(", ")
       : a.classifier && a.classifier.status === "insufficient_data"
-      ? `not enough data yet (${a.classifier.have}/${a.classifier.need}) — contribute photos to train it`
+      ? `not enough data yet (${esc(a.classifier.have)}/${esc(a.classifier.need)}) — contribute photos to train it`
       : "unavailable"}</div>` +
-    `<div class="sig">Basis: ${c.basis.join(", ") || "—"}</div>` +
+    `<div class="sig">Basis: ${esc(c.basis.join(", ") || "—")}</div>` +
     `<button type="button" id="id-accept" class="reset">Looks right → add this as a cover</button>`;
   $("id-accept").onclick = () => { closeIdentify(); openContributeWith(last.file, last.analysis); };
 
@@ -38,6 +40,8 @@ function render(a) {
 async function onFile(file) {
   if (!/^image\/(jpeg|png)$/.test(file.type)) { $("id-result").textContent = "JPEG or PNG only."; return; }
   const url = URL.createObjectURL(file);
+  if (lastPreviewUrl) URL.revokeObjectURL(lastPreviewUrl);
+  lastPreviewUrl = url;
   $("id-preview").src = url; $("id-preview").hidden = false;
   $("id-result").textContent = "Analysing…";
   last.file = file;
@@ -63,5 +67,10 @@ export function closeIdentify() {
 }
 
 $("identify-close").addEventListener("click", closeIdentify);
-$("id-file").addEventListener("change", (e) => e.target.files[0] && onFile(e.target.files[0]));
+$("id-file").addEventListener("change", (e) => {
+  if (!e.target.files[0]) return;
+  onFile(e.target.files[0]).catch(() => {
+    $("id-result").textContent = "Could not analyse that image. Try another photo.";
+  });
+});
 $("identify-link").addEventListener("click", (e) => { e.preventDefault(); openIdentify(); });

@@ -40,3 +40,29 @@ test("fuse: nothing usable → null / low", () => {
   assert.equal(c.prefecture_en, null);
   assert.equal(c.confidence, "low");
 });
+
+test("fuse: nearby cover with a municipality → combined.municipality is that municipality", () => {
+  const c = fuse({
+    gps: {
+      prefecture_en: "Hokkaido",
+      nearestCover: { id: "x", name_en: "Rowlet Lid", municipality: "Sapporo", dist_m: 20 },
+      confidence: 0.95,
+    },
+    ocr: null,
+    classifier: null,
+  });
+  assert.equal(c.municipality, "Sapporo");
+});
+
+test("fuse: nearby cover with municipality:null → combined.municipality is null (no design-name fallback)", () => {
+  const c = fuse({
+    gps: {
+      prefecture_en: "Hokkaido",
+      nearestCover: { id: "x", name_en: "Rowlet Lid", municipality: null, dist_m: 20 },
+      confidence: 0.95,
+    },
+    ocr: null,
+    classifier: null,
+  });
+  assert.equal(c.municipality, null);
+});

@@ -7,8 +7,14 @@ import { classify as defaultClassify } from "./classifier.js";
 let _prefFC = null;
 let _coversFC = null;
 async function geo(deps) {
-  const prefFC = deps.prefFC || _prefFC || (_prefFC = await fetch(PREFECTURES_URL).then((r) => r.json()));
-  const coversFC = deps.coversFC || _coversFC || (_coversFC = await fetch(DATA_URL).then((r) => r.json()));
+  const prefFC = deps.prefFC || _prefFC || (_prefFC = await fetch(PREFECTURES_URL).then((r) => {
+    if (!r.ok) throw new Error(`prefectures fetch failed: ${r.status}`);
+    return r.json();
+  }));
+  const coversFC = deps.coversFC || _coversFC || (_coversFC = await fetch(DATA_URL).then((r) => {
+    if (!r.ok) throw new Error(`covers fetch failed: ${r.status}`);
+    return r.json();
+  }));
   return { prefFC, coversFC };
 }
 
@@ -22,7 +28,12 @@ async function gpsSignal(file, deps) {
     lat: g.lat, lon: g.lon,
     prefecture_en: pref.prefecture_en, prefecture_ja: pref.prefecture_ja,
     nearestCover: nc
-      ? { id: nc.feature.properties.id, name_en: nc.feature.properties.name_en, dist_m: nc.dist_m }
+      ? {
+        id: nc.feature.properties.id,
+        name_en: nc.feature.properties.name_en,
+        municipality: nc.feature.properties.municipality ?? null,
+        dist_m: nc.dist_m,
+      }
       : null,
     confidence: 0.95,
   };
@@ -65,7 +76,7 @@ export function fuse({ gps, ocr, classifier }) {
 
   let municipality = null;
   if (gps && gps.nearestCover && gps.nearestCover.dist_m < 60) {
-    municipality = gps.nearestCover.name_en ?? null;
+    municipality = gps.nearestCover.municipality ?? null;
   } else if (ocrTop && ocrTop.score >= 0.6) {
     municipality = ocrTop.name_en;
   }
@@ -84,7 +95,12 @@ export async function analyze(file, opts = {}, deps = {}) {
       : null;
   } catch { /* node / unsupported */ }
 
-  const gps = await gpsSignal(file, deps);
+  let gps = null;
+  try {
+    gps = await gpsSignal(file, deps);
+  } catch {
+    gps = null;
+  }
 
   let ocr = null;
   if (runOcr) {
