@@ -5,7 +5,7 @@
   "type": "module",
   "description": "An interactive map of Japan's decorative manhole covers.",
   "scripts": {
-    "test": "node --test 'test/*.mjs'",
+    "test": "node --test",
     "lint": "eslint src/",
     "smoke": "node scripts/smoke.mjs",
     "serve": "python3 -m http.server 8777",
