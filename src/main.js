@@ -4,6 +4,7 @@ import * as filters from "./filters.js";
 import * as stats from "./stats.js";
 import * as panel from "./panel.js";
 import * as url from "./urlState.js";
+import { openContribute } from "./contribute/form.js";
 
 const fc = (features) => ({ type: "FeatureCollection", features });
 
@@ -39,6 +40,9 @@ const sidebar = document.getElementById("sidebar");
 document.getElementById("sidebar-toggle").addEventListener("click", () => {
   sidebar.classList.remove("collapsed");
 });
+
+// ---- contribute panel ---------------------------------------------------
+document.getElementById("add-cover").addEventListener("click", openContribute);
 
 // ---- render loop --------------------------------------------------------
 function refresh({ fit = false } = {}) {

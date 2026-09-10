@@ -99,5 +99,11 @@ check("search narrows results", Number(d.querySelector("#stats .stat b").textCon
 d.getElementById("theme-toggle").dispatchEvent(new window.Event("click"));
 check("theme flips to dark", d.documentElement.dataset.theme === "dark");
 
+// contribute panel open / close
+d.getElementById("add-cover").dispatchEvent(new window.Event("click"));
+check("contribute panel opens", d.getElementById("contribute").hidden === false);
+d.getElementById("contribute-close").dispatchEvent(new window.Event("click"));
+check("contribute panel closes", d.getElementById("contribute").hidden === true);
+
 check("no jsdom errors", errors.length === 0);
 if (errors.length) console.log(errors.join("\n"));

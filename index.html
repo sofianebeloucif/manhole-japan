@@ -37,6 +37,7 @@
         <legend>Type</legend>
       </fieldset>
       <button type="button" id="reset" class="reset" hidden>Clear filters</button>
+      <button type="button" id="add-cover" class="reset">＋ Add a cover</button>
     </section>
 
     <section id="prefbars" class="prefbars" aria-label="Covers per prefecture"></section>
@@ -58,6 +59,35 @@
     <button type="button" id="detail-close" aria-label="Close">×</button>
     <div id="detail-body"></div>
   </article>
+
+  <section id="contribute" hidden aria-label="Add a cover">
+    <button type="button" id="contribute-close" aria-label="Close">×</button>
+    <h2>Add a cover</h2>
+    <p class="hint">Everything stays in your browser. You get a JSON block + two
+       WebP files + steps to open a pull request.</p>
+    <input type="file" id="c-file" accept="image/jpeg,image/png">
+    <div id="c-analysis" class="analysis" hidden></div>
+    <div id="c-fields" hidden>
+      <label class="field"><span>Name (English) *</span><input id="c-name-en"></label>
+      <label class="field"><span>Name (Japanese)</span><input id="c-name-ja"></label>
+      <label class="field"><span>Prefecture</span><select id="c-pref"></select></label>
+      <label class="field"><span>Municipality</span><input id="c-muni"></label>
+      <label class="field"><span>Themes (comma separated)</span><input id="c-themes"></label>
+      <label class="field"><span>Installed (year)</span><input id="c-installed"></label>
+      <label class="field"><span>Photo credit</span><input id="c-credit"></label>
+      <label class="field"><span>Photo licence</span><input id="c-license" value="own-work"></label>
+      <button type="button" id="c-build" class="reset">Build files + JSON</button>
+    </div>
+    <div id="c-output" hidden>
+      <pre id="c-json"></pre>
+      <div class="c-actions">
+        <button type="button" id="c-dl-full" class="reset">Download photo.webp</button>
+        <button type="button" id="c-dl-thumb" class="reset">Download thumb.webp</button>
+      </div>
+      <pre id="c-credits"></pre>
+      <pre id="c-steps"></pre>
+    </div>
+  </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.min.js"></script>
   <script type="module" src="src/main.js"></script>
