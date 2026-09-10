@@ -2,8 +2,7 @@
 import { PREFECTURES_URL, DATA_URL } from "../config.js";
 import { resolvePrefecture, nearestCover } from "../geo.js";
 import { readGps } from "./exif.js";
-
-const stubClassify = async () => ({ status: "unavailable", predictions: [] });
+import { classify as defaultClassify } from "./classifier.js";
 
 let _prefFC = null;
 let _coversFC = null;
@@ -76,7 +75,7 @@ export function fuse({ gps, ocr, classifier }) {
 
 export async function analyze(file, opts = {}, deps = {}) {
   const { runOcr = false, runClassifier = true } = opts;
-  const classify = deps.classify || stubClassify;
+  const classify = deps.classify || defaultClassify;
 
   let bitmap = null;
   try {

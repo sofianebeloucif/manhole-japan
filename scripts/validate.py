@@ -72,6 +72,14 @@ def main() -> int:
                 return 1
         print(f"OK - {len(rows)} municipalities in gazetteer")
 
+    meta_p = ROOT / "models" / "meta.json"
+    if meta_p.exists():
+        m = json.loads(meta_p.read_text(encoding="utf-8"))
+        need = {"n_samples", "trained_at", "classes", "val_accuracy", "input_size", "min_samples"}
+        if set(m) != need:
+            print(f"models/meta.json: bad keys {sorted(m)}", file=sys.stderr)
+            return 1
+
     print(f"OK - {len(fc['features'])} features, {fc['metadata']['prefectures']} prefectures")
     return 0
 

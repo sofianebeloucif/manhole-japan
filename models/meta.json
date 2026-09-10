@@ -1,0 +1,8 @@
+{
+  "n_samples": 0,
+  "trained_at": null,
+  "classes": [],
+  "val_accuracy": null,
+  "input_size": 224,
+  "min_samples": 50
+}
