@@ -90,14 +90,14 @@ export async function analyze(file, opts = {}, deps = {}) {
   if (runOcr) {
     try {
       const ocrFn = deps.ocr || (await import("./ocr.js")).runOcr;
-      const gaz = deps.gazetteer || (await import("./gazetteer.js")).loadGazetteer;
+      const { loadGazetteer, matchMunicipality } = await import("./gazetteer.js");
+      const gaz = deps.gazetteer || loadGazetteer;
       const raw = await ocrFn(file, deps);
       // ocrFn may already return a full signal (tests) or just {rawText,tokens}.
       if (raw.status) {
         ocr = raw;
       } else {
         const rows = typeof gaz === "function" ? await gaz() : gaz;
-        const { matchMunicipality } = await import("./gazetteer.js");
         const guesses = matchMunicipality(raw.tokens, rows);
         ocr = {
           status: "ok",

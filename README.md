@@ -59,6 +59,33 @@ npm run smoke      # headless functional test
    Leave `prefecture_en` null — it's filled in from the coordinates.
 3. `npm run data` then `npm run lint` — open a PR.
 
+## Add a cover from the site
+
+Open **＋ Add a cover** (top of the panel) or the **Identify a cover** link in the
+footer. Pick a JPEG/PNG of a cover: the page reads its EXIF GPS, can OCR the text
+cast into it, and (once enough photos exist) runs a prefecture classifier, then
+gives you a ready-to-paste JSON block, two optimised WebP files, and the steps to
+open a pull request. Everything runs in your browser — the photo is never
+uploaded, and its GPS metadata is stripped from the files you download.
+
+### Origin recognition
+
+`src/recognize/analyze()` combines three independent signals:
+
+| Signal | How | Notes |
+| --- | --- | --- |
+| GPS | EXIF coordinates → prefecture (point-in-polygon) + nearest known cover | strongest; needs a geotagged photo |
+| OCR | Tesseract.js (Japanese) reads the cast text → matched against `data/municipalities.json` | best-effort on stylised metal |
+| Classifier | `mobilenet_v3_small` fine-tuned on contributed photos, run via ONNX in the browser | shows "not enough data yet" until ~50 labelled photos exist, then trains automatically (`train-model.yml`) |
+
+`data/municipalities.json` is built by `scripts/build_gazetteer.py` from
+[geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses)
+(licence noted there).
+
+Appending `?tool=identify` to the URL opens the same engine as a standalone tool —
+drop a photo, read the three signal cards and the verdict, then hand off to the
+pre-filled contribution form.
+
 ## Data & attribution
 
 | Data | Source | Licence |

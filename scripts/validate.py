@@ -58,8 +58,8 @@ def main() -> int:
     gaz = ROOT / "data" / "municipalities.json"
     if gaz.exists():
         rows = json.loads(gaz.read_text(encoding="utf-8"))
-        if not isinstance(rows, list) or len(rows) < 1000:
-            print("municipalities.json: expected a list of >= 1000 rows", file=sys.stderr)
+        if not isinstance(rows, list) or len(rows) < 1500:
+            print("municipalities.json: expected a list of >= 1500 rows", file=sys.stderr)
             return 1
         need = {"code", "name_ja", "name_kana", "name_en",
                 "prefecture_en", "prefecture_ja", "lon", "lat"}

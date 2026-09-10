@@ -30,6 +30,9 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Validate data
         run: python scripts/validate.py
+      - name: Python unit tests
+        run: |
+          cd scripts && python -m unittest discover -p 'test_*.py' -v
       - name: Data is up to date with sources
         run: |
           python scripts/build_covers.py
