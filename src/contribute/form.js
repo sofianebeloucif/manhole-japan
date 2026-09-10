@@ -33,6 +33,28 @@ function renderAnalysis(a) {
     `<div class="sig">OCR: ${a.ocr ? a.ocr.status : "not run"}</div>` +
     `<div class="sig">Classifier: ${a.classifier ? a.classifier.status : "not run"}</div>` +
     `<div class="sig">Basis: ${c.basis.join(", ") || "—"}</div>`;
+
+  if (current.file && !(a.ocr && a.ocr.status === "ok")) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "reset";
+    btn.id = "c-ocr";
+    btn.textContent = "Read the cover text (OCR)";
+    btn.title = "downloads ~15 MB once";
+    btn.onclick = async () => {
+      btn.disabled = true;
+      btn.textContent = "Reading… (downloads ~15 MB once)";
+      try {
+        current.analysis = await analyze(current.file, { runOcr: true, runClassifier: true });
+        renderAnalysis(current.analysis);
+        prefill(current.analysis);
+      } catch {
+        btn.disabled = false;
+        btn.textContent = "OCR failed — try again";
+      }
+    };
+    box.appendChild(btn);
+  }
 }
 
 function prefill(a) {
@@ -45,47 +67,62 @@ function prefill(a) {
 
 async function onFile(file) {
   if (!/^image\/(jpeg|png)$/.test(file.type)) {
+    current = { file: null, analysis: null, webpFull: null, webpThumb: null };
+    $("c-fields").hidden = true;
+    $("c-output").hidden = true;
     $("c-analysis").hidden = false;
     $("c-analysis").textContent = "Please choose a JPEG or PNG. HEIC is not supported.";
     return;
   }
-  current = { file, analysis: null, webpFull: null, webpThumb: null };
-  current.analysis = await analyze(file, { runClassifier: true });
-  renderAnalysis(current.analysis);
-  prefill(current.analysis);
+  try {
+    current = { file, analysis: null, webpFull: null, webpThumb: null };
+    current.analysis = await analyze(file, { runClassifier: true });
+    renderAnalysis(current.analysis);
+    prefill(current.analysis);
+  } catch {
+    $("c-analysis").hidden = false;
+    $("c-analysis").textContent = "Could not analyze that image. Please try another photo.";
+  }
 }
 
 async function build() {
   const a = current.analysis || { gps: null };
   const name_en = $("c-name-en").value.trim();
   if (!name_en) { $("c-name-en").focus(); return; }
-  const pref = $("c-pref").value;
-  const slug = `personal-${slugify(pref) || "jp"}-${slugify(name_en)}-${randHex(4)}`;
-  const lon = a.gps ? a.gps.lon : 138.0;
-  const lat = a.gps ? a.gps.lat : 38.0;
+  if (!a.gps && !$("c-pref").value) { $("c-pref").focus(); return; }
 
-  current.webpFull = await toWebp(current.file, 1200, 0.82);
-  current.webpThumb = await toWebp(current.file, 320, 0.78);
+  try {
+    const pref = $("c-pref").value;
+    const slug = `personal-${slugify(pref) || "jp"}-${slugify(name_en)}-${randHex(4)}`;
+    const lon = a.gps ? a.gps.lon : 138.0;
+    const lat = a.gps ? a.gps.lat : 38.0;
 
-  const input = {
-    name_en,
-    name_ja: $("c-name-ja").value.trim(),
-    prefecture_en: pref,
-    municipality: $("c-muni").value.trim(),
-    themes: $("c-themes").value.split(",").map((s) => s.trim()).filter(Boolean),
-    installed: $("c-installed").value.trim(),
-    photo_credit: $("c-credit").value.trim(),
-    photo_license: $("c-license").value.trim(),
-    lon, lat, slug,
-  };
-  try { localStorage.setItem("mj-credit", input.photo_credit); } catch { /* ignore */ }
+    current.webpFull = await toWebp(current.file, 1200, 0.82);
+    current.webpThumb = await toWebp(current.file, 320, 0.78);
 
-  $("c-json").textContent = JSON.stringify(buildFeature(input), null, 2);
-  $("c-credits").textContent = photoCreditsRow(input);
-  $("c-steps").textContent = prSteps(slug);
-  $("c-output").hidden = false;
-  $("c-dl-full").onclick = () => download(current.webpFull, `${slug}.webp`);
-  $("c-dl-thumb").onclick = () => download(current.webpThumb, `${slug}.thumb.webp`);
+    const input = {
+      name_en,
+      name_ja: $("c-name-ja").value.trim(),
+      prefecture_en: pref,
+      municipality: $("c-muni").value.trim(),
+      themes: $("c-themes").value.split(",").map((s) => s.trim()).filter(Boolean),
+      installed: $("c-installed").value.trim(),
+      photo_credit: $("c-credit").value.trim(),
+      photo_license: $("c-license").value.trim(),
+      lon, lat, slug,
+    };
+    try { localStorage.setItem("mj-credit", input.photo_credit); } catch { /* ignore */ }
+
+    $("c-json").textContent = JSON.stringify(buildFeature(input), null, 2);
+    $("c-credits").textContent = photoCreditsRow(input);
+    $("c-steps").textContent = prSteps(slug);
+    $("c-output").hidden = false;
+    $("c-dl-full").onclick = () => download(current.webpFull, `${slug}.webp`);
+    $("c-dl-thumb").onclick = () => download(current.webpThumb, `${slug}.thumb.webp`);
+  } catch {
+    $("c-analysis").hidden = false;
+    $("c-analysis").textContent = "Could not build the entry. Please check the fields and try again.";
+  }
 }
 
 export function onClose(fn) { closeHandlers.push(fn); }

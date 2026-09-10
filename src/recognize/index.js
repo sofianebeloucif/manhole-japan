@@ -40,7 +40,7 @@ export function fuse({ gps, ocr, classifier }) {
     level = "high";
   }
 
-  const ocrTop = ocr && ocr.status === "ok" && ocr.municipalityGuesses[0];
+  const ocrTop = ocr && ocr.status === "ok" && (ocr.municipalityGuesses || [])[0];
   if (ocrTop && ocrTop.score >= 0.4) {
     if (!prefecture_en) {
       prefecture_en = ocrTop.prefecture_en;
@@ -66,7 +66,7 @@ export function fuse({ gps, ocr, classifier }) {
 
   let municipality = null;
   if (gps && gps.nearestCover && gps.nearestCover.dist_m < 60) {
-    municipality = gps.nearestCover.name_en;
+    municipality = gps.nearestCover.name_en ?? null;
   } else if (ocrTop && ocrTop.score >= 0.6) {
     municipality = ocrTop.name_en;
   }
@@ -88,9 +88,29 @@ export async function analyze(file, opts = {}, deps = {}) {
   const gps = await gpsSignal(file, deps);
 
   let ocr = null;
-  if (runOcr && deps.ocr) {
-    try { ocr = await deps.ocr(file, deps); }
-    catch { ocr = { status: "error", rawText: "", tokens: [], municipalityGuesses: [], confidence: 0 }; }
+  if (runOcr) {
+    try {
+      const ocrFn = deps.ocr || (await import("./ocr.js")).runOcr;
+      const gaz = deps.gazetteer || (await import("./gazetteer.js")).loadGazetteer;
+      const raw = await ocrFn(file, deps);
+      // ocrFn may already return a full signal (tests) or just {rawText,tokens}.
+      if (raw.status) {
+        ocr = raw;
+      } else {
+        const rows = typeof gaz === "function" ? await gaz() : gaz;
+        const { matchMunicipality } = await import("./gazetteer.js");
+        const guesses = matchMunicipality(raw.tokens, rows);
+        ocr = {
+          status: "ok",
+          rawText: raw.rawText,
+          tokens: raw.tokens,
+          municipalityGuesses: guesses,
+          confidence: guesses.length ? Math.min(0.7, guesses[0].score) : 0.2,
+        };
+      }
+    } catch {
+      ocr = { status: "error", rawText: "", tokens: [], municipalityGuesses: [], confidence: 0 };
+    }
   }
 
   let classifier = null;

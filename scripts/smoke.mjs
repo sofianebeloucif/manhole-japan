@@ -99,6 +99,16 @@ check("search narrows results", Number(d.querySelector("#stats .stat b").textCon
 d.getElementById("theme-toggle").dispatchEvent(new window.Event("click"));
 check("theme flips to dark", d.documentElement.dataset.theme === "dark");
 
+// OCR signal degrades gracefully when tesseract can't load (jsdom / node)
+const { analyze: _analyze } = await import(path.join(ROOT, "src/recognize/index.js"));
+let ocrThrew = false;
+let ocrRes = null;
+try {
+  ocrRes = await _analyze(new Uint8Array(), { runOcr: true, runClassifier: false }, {});
+} catch { ocrThrew = true; }
+check("analyze(runOcr) does not throw with no deps", !ocrThrew);
+check("analyze(runOcr) degrades to ocr.status 'error'", !!ocrRes && !!ocrRes.ocr && ocrRes.ocr.status === "error");
+
 // contribute panel open / close
 d.getElementById("add-cover").dispatchEvent(new window.Event("click"));
 check("contribute panel opens", d.getElementById("contribute").hidden === false);
