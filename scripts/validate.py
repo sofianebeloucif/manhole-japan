@@ -54,6 +54,24 @@ def main() -> int:
     if problems:
         print(f"\n{problems} problem(s) found", file=sys.stderr)
         return 1
+
+    gaz = ROOT / "data" / "municipalities.json"
+    if gaz.exists():
+        rows = json.loads(gaz.read_text(encoding="utf-8"))
+        if not isinstance(rows, list) or len(rows) < 1000:
+            print("municipalities.json: expected a list of >= 1000 rows", file=sys.stderr)
+            return 1
+        need = {"code", "name_ja", "name_kana", "name_en",
+                "prefecture_en", "prefecture_ja", "lon", "lat"}
+        for r in rows[:50]:
+            if set(r) != need:
+                print(f"municipalities.json: bad row keys {sorted(r)}", file=sys.stderr)
+                return 1
+            if not (122 <= r["lon"] <= 154 and 20 <= r["lat"] <= 46):
+                print(f"municipalities.json: coord out of range {r['code']}", file=sys.stderr)
+                return 1
+        print(f"OK - {len(rows)} municipalities in gazetteer")
+
     print(f"OK - {len(fc['features'])} features, {fc['metadata']['prefectures']} prefectures")
     return 0
 
