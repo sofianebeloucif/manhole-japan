@@ -259,7 +259,11 @@ Expected: PASS (7 tests).
 
 - [ ] **Step 5: Add the `test` script and commit**
 
-Edit `package.json` `scripts`: add `"test": "node --test test/"`.
+Edit `package.json` `scripts`: add `"test": "node --test"`. (Node's no-arg
+default test discovery finds `**/*.test.mjs` and `**/test/**/*.{js,mjs,cjs}`,
+excludes `node_modules`. Do **not** use `node --test test/` — passing the
+directory is broken on Node 24.x and runs the directory itself as a failing
+"test".)
 
 ```bash
 git add src/geo.js test/geo.test.mjs package.json
