@@ -27,6 +27,7 @@ export const CDN = {
   tesseractLang: "https://cdn.jsdelivr.net/npm/@tesseract.js-data/jpn@1.0.0/4.0.0",
   ort: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.min.mjs",
   ortWasm: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/",
+  fflate: "https://cdn.jsdelivr.net/npm/fflate@0.8.3/esm/browser.js",
 };
 export const MUNICIPALITIES_URL = "data/municipalities.json";
 export const MODEL_META_URL = "models/meta.json";
