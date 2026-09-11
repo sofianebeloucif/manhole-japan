@@ -1,4 +1,4 @@
-/* global document, Option, URL */
+/* global document, Option, URL, localStorage */
 import { analyze } from "../recognize/index.js";
 import { toWebp, slugify, randHex } from "./image.js";
 import {
@@ -10,6 +10,10 @@ import { clusterEntries } from "../recognize/dedup.js";
 const $ = (id) => document.getElementById(id);
 let rows = [];
 let cancelled = false;
+
+function safeGetCredit() {
+  try { return localStorage.getItem("mj-credit") || ""; } catch { return ""; }
+}
 
 function prefOptions(sel, value) {
   sel.append(new Option("(unknown)", ""));
@@ -41,7 +45,9 @@ function rowEl(row, i) {
   return el;
 }
 
+let runToken = 0;
 async function processFiles(files) {
+  const myToken = ++runToken;
   cancelled = false;
   rows = [];
   $("b-rows").innerHTML = "";
@@ -49,7 +55,7 @@ async function processFiles(files) {
   $("b-build").hidden = false;
   $("b-progress").hidden = false;
   for (let i = 0; i < files.length; i++) {
-    if (cancelled) break;
+    if (cancelled || myToken !== runToken) return;
     const f = files[i];
     if (!/^image\/(jpeg|png)$/.test(f.type)) continue;
     $("b-progress").textContent = `Analysing ${i + 1} / ${files.length}…`;
@@ -60,6 +66,7 @@ async function processFiles(files) {
     rows.push(row);
     $("b-rows").append(rowEl(row, rows.length - 1));
   }
+  if (myToken !== runToken) return;
 
   clusterEntries(rows.map((r) => {
     const g = r.analysis && r.analysis.gps;
@@ -99,7 +106,7 @@ async function buildAll() {
       input: {
         name_en: name, prefecture_en: pref,
         themes: row.el.querySelector(".b-themes").value.split(",").map((s) => s.trim()).filter(Boolean),
-        photo_credit: "", photo_license: "own-work", lon, lat, slug,
+        photo_credit: safeGetCredit(), photo_license: "own-work", lon, lat, slug,
       },
     });
   }
