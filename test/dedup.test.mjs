@@ -72,3 +72,25 @@ test("clusterEntries: merges two far-apart rows by embedding similarity", () => 
   const out = clusterEntries([a, b]);
   assert.equal(out[0].clusterId, out[1].clusterId);
 });
+
+test("clusterEntries: two entries in same GPS cluster AND visually similar, no self-loop crash", () => {
+  const v1 = new Float32Array([1, 0, 0]);
+  const v2 = new Float32Array([0.98, 0.02, 0]); // cosine ~0.98 > 0.93
+  const a = { lon: 139.7000, lat: 35.6800, vector: v1 };
+  const b = { lon: 139.70011, lat: 35.6800, vector: v2 }; // ~10 m east, already same GPS cluster
+  const out = clusterEntries([a, b]);
+  assert.equal(out[0].clusterId, out[1].clusterId);
+});
+
+test("clusterEntries: three-entry chain (A~B, B~C, A and C not directly similar) → transitive closure", () => {
+  const vA = new Float32Array([1, 0, 0]);
+  const vB = new Float32Array([0.98, 0.02, 0]); // ~0.98 cosine with vA, > 0.93
+  const vC = new Float32Array([0.85, 0.15, 0]); // ~0.85 cosine with vA (not > 0.93), but ~0.98 with vB
+  const a = { lon: 139.7000, lat: 35.6800, vector: vA };
+  const b = { lon: 135.5, lat: 34.7, vector: vB };       // far from A
+  const c = { lon: 135.5001, lat: 34.7, vector: vC };    // close to B (same GPS cluster as B)
+  const out = clusterEntries([a, b, c]);
+  assert.equal(out[0].clusterId, out[1].clusterId);
+  assert.equal(out[1].clusterId, out[2].clusterId);
+  assert.equal(out[0].clusterId, out[2].clusterId);
+});

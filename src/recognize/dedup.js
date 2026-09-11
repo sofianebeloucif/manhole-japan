@@ -57,20 +57,19 @@ function cos(a, b) {
 
 export function clusterEntries(entries, { radiusM = CLUSTER_M, simThreshold = SIM_DUP } = {}) {
   clusterByLocation(entries, { radiusM });
-  // second pass: merge clusters by embedding similarity
   const rep = {};
+  const resolve = (c) => (rep[c] === undefined ? c : (rep[c] = resolve(rep[c])));
   for (let i = 0; i < entries.length; i++) {
     for (let j = i + 1; j < entries.length; j++) {
       const vi = entries[i].vector;
       const vj = entries[j].vector;
       if (vi && vj && vi.length === vj.length && cos(vi, vj) > simThreshold) {
-        const to = entries[i].clusterId;
-        const from = entries[j].clusterId;
-        rep[from] = to;
+        const ra = resolve(entries[i].clusterId);
+        const rb = resolve(entries[j].clusterId);
+        if (ra !== rb) rep[rb] = ra;
       }
     }
   }
-  const resolve = (c) => (rep[c] === undefined ? c : (rep[c] = resolve(rep[c])));
   entries.forEach((e) => { e.clusterId = resolve(e.clusterId); });
   return entries;
 }
