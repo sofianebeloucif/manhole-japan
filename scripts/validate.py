@@ -80,6 +80,29 @@ def main() -> int:
             print(f"models/meta.json: bad keys {sorted(m)}", file=sys.stderr)
             return 1
 
+    idx_p = ROOT / "data" / "embeddings-index.json"
+    if idx_p.exists():
+        idx = json.loads(idx_p.read_text(encoding="utf-8"))
+        cover_ids = {f["properties"]["id"] for f in fc["features"]}
+        # personal ids may not be in covers.geojson until build_covers runs; allow either
+        personal_ids = set()
+        for jf in (ROOT / "data" / "personal").glob("*.json"):
+            if jf.name.startswith("_"):
+                continue
+            entries = json.loads(jf.read_text(encoding="utf-8"))
+            for e in entries if isinstance(entries, list) else [entries]:
+                personal_ids.add(e["properties"]["id"])
+        unknown = [i for i in idx["ids"] if i not in cover_ids and i not in personal_ids]
+        if unknown:
+            print(f"embeddings-index: unknown ids {unknown[:5]}", file=sys.stderr)
+            return 1
+        want = len(idx["ids"]) * idx["dim"] * 4
+        got = (ROOT / "data" / "embeddings.bin").stat().st_size
+        if got != want:
+            print(f"embeddings.bin: {got} bytes, expected {want}", file=sys.stderr)
+            return 1
+        print(f"OK - {len(idx['ids'])} embeddings")
+
     print(f"OK - {len(fc['features'])} features, {fc['metadata']['prefectures']} prefectures")
     return 0
 
