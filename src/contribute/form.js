@@ -3,6 +3,7 @@
 import { analyze } from "../recognize/index.js";
 import { toWebp, slugify, randHex } from "./image.js";
 import { buildFeature, photoCreditsRow, prSteps, download, esc } from "./output.js";
+import { gpsDuplicate } from "../recognize/dedup.js";
 
 const $ = (id) => document.getElementById(id);
 let closeHandlers = [];
@@ -33,6 +34,15 @@ function renderAnalysis(a) {
     `<div class="sig">OCR: ${a.ocr ? esc(a.ocr.status) : "not run"}</div>` +
     `<div class="sig">Classifier: ${a.classifier ? esc(a.classifier.status) : "not run"}</div>` +
     `<div class="sig">Basis: ${esc(c.basis.join(", ") || "—")}</div>`;
+
+  const dup = gpsDuplicate(a);
+  if (dup.duplicate) {
+    box.innerHTML +=
+      `<div class="sig" style="color:#b45309">` +
+      `⚠️ ${esc(dup.of.dist_m)} m from an existing cover: ` +
+      `<a href="?id=${esc(dup.of.id)}">${esc(dup.of.name_en)}</a>. ` +
+      `You can still add it if it's a different design.</div>`;
+  }
 
   if (current.file && !(a.ocr && a.ocr.status === "ok")) {
     const btn = document.createElement("button");

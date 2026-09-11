@@ -9,6 +9,7 @@
 from __future__ import annotations
 
 import json
+import math
 import pathlib
 import re
 import sys
@@ -85,7 +86,17 @@ def from_osm_pokefuta(payload: dict, prefs: Prefectures) -> list[dict]:
     return out
 
 
-def load_personal(prefs: Prefectures) -> list[dict]:
+def _haversine_m(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
+    """Equirectangular-approximation distance in metres. Good enough for <1 km gaps."""
+    r = 6371000.0
+    lat_rad = math.radians((lat1 + lat2) / 2)
+    dx = math.radians(lon2 - lon1) * math.cos(lat_rad)
+    dy = math.radians(lat2 - lat1)
+    return r * math.hypot(dx, dy)
+
+
+def load_personal(prefs: Prefectures, existing: list[dict] | None = None) -> list[dict]:
+    existing = existing or []
     out = []
     for path in sorted((DATA / "personal").glob("*.json")):
         if path.name.startswith("_"):
@@ -104,6 +115,11 @@ def load_personal(prefs: Prefectures) -> list[dict]:
                 p.setdefault(k, None)
             if not p.get("prefecture_en"):
                 p["prefecture_en"], p["prefecture_ja"], _ = prefs.resolve(lon, lat)
+            for prev in existing + out:
+                plon, plat = prev["geometry"]["coordinates"]
+                if _haversine_m(lon, lat, plon, plat) < 15:
+                    print(f"  ~ {p['id']} is <15 m from an existing cover — possible duplicate", file=sys.stderr)
+                    break
             out.append(e)
     return out
 
@@ -130,7 +146,7 @@ def main() -> None:
     else:
         print("  (no data/sources/pokefuta_osm.json - run fetch_pokefuta.py first)", file=sys.stderr)
 
-    features += load_personal(prefs)
+    features += load_personal(prefs, features)
     features = dedupe(features)
     features.sort(key=lambda f: (f["properties"]["prefecture_en"], f["properties"]["id"]))
 
