@@ -94,7 +94,20 @@ async function buildAll() {
   $("b-credits").textContent = kept.map((k) => photoCreditsRow(k.input)).join("\n");
   $("b-steps").textContent = prSteps(kept.map((k) => k.slug).join(", "));
   $("b-output").hidden = false;
-  $("b-dl-zip").onclick = async () => download(await zipWebps(files), "manhole-covers.zip");
+  const zipBtn = $("b-dl-zip");
+  const zipLabel = zipBtn.textContent;
+  zipBtn.onclick = async () => {
+    zipBtn.disabled = true;
+    zipBtn.textContent = "Zipping…";
+    try {
+      download(await zipWebps(files), "manhole-covers.zip");
+      zipBtn.disabled = false;
+      zipBtn.textContent = zipLabel;
+    } catch {
+      zipBtn.disabled = false;
+      zipBtn.textContent = "Zip failed — try again";
+    }
+  };
 }
 
 export function openBatch() {

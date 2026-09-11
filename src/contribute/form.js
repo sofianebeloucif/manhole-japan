@@ -2,10 +2,9 @@
 // src/contribute/form.js — the "＋ Add a cover" panel controller.
 import { analyze } from "../recognize/index.js";
 import { toWebp, slugify, randHex } from "./image.js";
-import { buildFeature, photoCreditsRow, prSteps, download } from "./output.js";
+import { buildFeature, photoCreditsRow, prSteps, download, esc } from "./output.js";
 
 const $ = (id) => document.getElementById(id);
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let closeHandlers = [];
 let current = { file: null, analysis: null, webpFull: null, webpThumb: null };
 
