@@ -27,9 +27,31 @@ function render(a) {
       : a.classifier && a.classifier.status === "insufficient_data"
       ? `not enough data yet (${esc(a.classifier.have)}/${esc(a.classifier.need)}) — contribute photos to train it`
       : "unavailable"}</div>` +
+    `<div class="sig"><b>Visual match</b><br>${a.visual && a.visual.status === "ok"
+      ? a.visual.matches.slice(0, 3).map((m) => `${esc(m.name_en || m.id)} (${esc(m.prefecture_en || "?")}) ${(m.similarity * 100).toFixed(0)}%`).join(", ")
+      : a.visual && a.visual.status === "no_library"
+      ? "no reference library yet — add contributed photos to build it"
+      : a.visual && a.visual.status === "unavailable"
+      ? "unavailable"
+      : "not run"}</div>` +
     `<div class="sig">Basis: ${esc(c.basis.join(", ") || "—")}</div>` +
+    (a.visual && a.visual.status === "ok" ? "" : `<button type="button" id="id-visual" class="reset">Find visual matches (~23 MB once)</button>`) +
     `<button type="button" id="id-accept" class="reset">Looks right → add this as a cover</button>`;
   $("id-accept").onclick = () => { closeIdentify(); openContributeWith(last.file, last.analysis); };
+  const vbtn = $("id-visual");
+  if (vbtn) {
+    vbtn.onclick = async () => {
+      vbtn.disabled = true;
+      vbtn.textContent = "Matching…";
+      try {
+        last.analysis = await analyze(last.file, { runOcr: true, runClassifier: true, runVisual: true });
+        render(last.analysis);
+      } catch {
+        vbtn.disabled = false;
+        vbtn.textContent = "Visual match failed — try again";
+      }
+    };
+  }
 
   if (mapView && a.gps) {
     mapView.flyToFeature({ geometry: { coordinates: [a.gps.lon, a.gps.lat] } });

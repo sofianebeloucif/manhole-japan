@@ -44,6 +44,18 @@ function renderAnalysis(a) {
       `You can still add it if it's a different design.</div>`;
   }
 
+  if (a.visual && a.visual.status === "ok") {
+    box.innerHTML +=
+      `<div class="sig"><b>Visual match</b><br>` +
+      a.visual.matches.slice(0, 3).map((m) =>
+        `${esc(m.name_en || m.id)} (${esc(m.prefecture_en || "?")}) — ${(m.similarity * 100).toFixed(0)}%`,
+      ).join("<br>") + `</div>`;
+  } else if (a.visual && a.visual.status === "no_library") {
+    box.innerHTML += `<div class="sig">Visual match: no reference library yet — add contributed photos to build it.</div>`;
+  } else if (a.visual && a.visual.status === "unavailable") {
+    box.innerHTML += `<div class="sig">Visual match: unavailable.</div>`;
+  }
+
   if (current.file && !(a.ocr && a.ocr.status === "ok")) {
     const btn = document.createElement("button");
     btn.type = "button";
@@ -64,6 +76,27 @@ function renderAnalysis(a) {
       }
     };
     box.appendChild(btn);
+  }
+
+  if (current.file && !(a.visual && a.visual.status === "ok")) {
+    const vbtn = document.createElement("button");
+    vbtn.type = "button";
+    vbtn.className = "reset";
+    vbtn.id = "c-visual";
+    vbtn.textContent = "Find visual matches (~23 MB once)";
+    vbtn.onclick = async () => {
+      vbtn.disabled = true;
+      vbtn.textContent = "Matching…";
+      try {
+        current.analysis = await analyze(current.file, { runOcr: false, runVisual: true, runClassifier: true });
+        renderAnalysis(current.analysis);
+        prefill(current.analysis);
+      } catch {
+        vbtn.disabled = false;
+        vbtn.textContent = "Visual match failed — try again";
+      }
+    };
+    box.appendChild(vbtn);
   }
 }
 
