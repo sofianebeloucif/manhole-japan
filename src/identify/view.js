@@ -2,6 +2,7 @@
 // src/identify/view.js — the standalone "Identify a cover" full-screen tool.
 import { analyze } from "../recognize/index.js";
 import { openContributeWith } from "../contribute/form.js";
+import { duplicateVerdict } from "../recognize/dedup.js";
 
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -14,7 +15,13 @@ export function bindMap(view) { mapView = view; }
 function render(a) {
   const c = a.combined;
   const box = $("id-result");
+  const dv = duplicateVerdict(a);
+  const dupLine = dv.level === "new" ? "" :
+    `<div class="verdict" style="color:#b45309">Already on the map` +
+    (dv.of ? `: <a href="?id=${esc(dv.of.id)}">${esc(dv.of.name_en || dv.of.id)}</a>` : "") +
+    ` (${esc(dv.level)})</div>`;
   box.innerHTML =
+    dupLine +
     `<div class="verdict">${esc(c.prefecture_en || "Origin unknown")} · ${esc(c.confidence)} confidence</div>` +
     `<div class="sig"><b>GPS</b><br>${a.gps
       ? `${esc(a.gps.prefecture_en)} — nearest known cover ${a.gps.nearestCover ? `${esc(a.gps.nearestCover.name_en)} (${esc(a.gps.nearestCover.dist_m)} m)` : "none"}`

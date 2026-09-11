@@ -133,3 +133,10 @@ check("batch panel closes", d.getElementById("batch").hidden === true);
 
 check("no jsdom errors", errors.length === 0);
 if (errors.length) console.log(errors.join("\n"));
+
+const { duplicateVerdict } = await import(path.join(ROOT, "src/recognize/dedup.js"));
+check("duplicateVerdict: confirmed on both signals",
+  duplicateVerdict({
+    gps: { nearestCover: { id: "x", name_en: "x", dist_m: 4 } },
+    visual: { status: "ok", matches: [{ id: "x", similarity: 0.98 }] },
+  }).level === "confirmed");

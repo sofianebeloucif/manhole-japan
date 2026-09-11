@@ -5,7 +5,7 @@ import {
   buildFeatureArray, photoCreditsRow, prSteps, download, zipWebps, esc,
 } from "./output.js";
 import { PREFS } from "./form.js";
-import { clusterByLocation } from "../recognize/dedup.js";
+import { clusterEntries } from "../recognize/dedup.js";
 
 const $ = (id) => document.getElementById(id);
 let rows = [];
@@ -55,12 +55,13 @@ async function processFiles(files) {
     $("b-progress").textContent = `Analysing ${i + 1} / ${files.length}…`;
     const row = { file: f, objectUrl: URL.createObjectURL(f), keep: true, dup: null };
     // sequential on purpose: analyse one photo at a time to bound memory / CPU
-    row.analysis = await analyze(f, { runOcr: false, runClassifier: true });
+    row.analysis = await analyze(f, { runOcr: false, runClassifier: true, runVisual: true, keepVector: true });
+    row.vector = row.analysis.visual?.vector || null;
     rows.push(row);
     $("b-rows").append(rowEl(row, rows.length - 1));
   }
 
-  clusterByLocation(rows.map((r) => {
+  clusterEntries(rows.map((r) => {
     const g = r.analysis && r.analysis.gps;
     return Object.assign(r, { lon: g ? g.lon : NaN, lat: g ? g.lat : NaN });
   }));
@@ -68,7 +69,7 @@ async function processFiles(files) {
   rows.forEach((r) => {
     if (seen.has(r.clusterId)) {
       r.keep = false;
-      r.dup = `same location as an earlier photo (row ${rows.findIndex((x) => x.clusterId === r.clusterId) + 1})`;
+      r.dup = `same cover as row ${rows.findIndex((x) => x.clusterId === r.clusterId) + 1} (location and/or look)`;
       const box = r.el.querySelector(".b-dup");
       box.hidden = false; box.textContent = r.dup;
       r.el.querySelector(".b-keep").checked = false;

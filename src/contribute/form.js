@@ -3,7 +3,7 @@
 import { analyze } from "../recognize/index.js";
 import { toWebp, slugify, randHex } from "./image.js";
 import { buildFeature, photoCreditsRow, prSteps, download, esc } from "./output.js";
-import { gpsDuplicate } from "../recognize/dedup.js";
+import { duplicateVerdict } from "../recognize/dedup.js";
 
 const $ = (id) => document.getElementById(id);
 let closeHandlers = [];
@@ -35,13 +35,12 @@ function renderAnalysis(a) {
     `<div class="sig">Classifier: ${a.classifier ? esc(a.classifier.status) : "not run"}</div>` +
     `<div class="sig">Basis: ${esc(c.basis.join(", ") || "—")}</div>`;
 
-  const dup = gpsDuplicate(a);
-  if (dup.duplicate) {
+  const v = duplicateVerdict(a);
+  if (v.level !== "new") {
     box.innerHTML +=
-      `<div class="sig" style="color:#b45309">` +
-      `⚠️ ${esc(dup.of.dist_m)} m from an existing cover: ` +
-      `<a href="?id=${esc(dup.of.id)}">${esc(dup.of.name_en)}</a>. ` +
-      `You can still add it if it's a different design.</div>`;
+      `<div class="sig" style="color:#b45309">⚠️ ${esc(v.level)} duplicate` +
+      (v.of ? ` of <a href="?id=${esc(v.of.id)}">${esc(v.of.name_en || v.of.id)}</a>` : "") +
+      ` — ${esc(v.reasons.join("; "))}. Add it only if it is a different design.</div>`;
   }
 
   if (a.visual && a.visual.status === "ok") {
