@@ -86,6 +86,22 @@ Appending `?tool=identify` to the URL opens the same engine as a standalone tool
 drop a photo, read the three signal cards and the verdict, then hand off to the
 pre-filled contribution form.
 
+### Batch add + deduplication
+
+`?tool=batch` (or the **Batch** button) takes several photos at once: each is
+analysed, rows are editable inline, and you get one JSON array for
+`data/personal/mine.json` plus a `.zip` of every WebP. Photos at (nearly) the
+same spot, or that look near-identical, are flagged as duplicates and skipped
+by default.
+
+Deduplication combines GPS proximity (< 15 m) and **visual similarity**: a
+DINOv2-small image encoder (Apache-2.0, ~23 MB, loaded lazily from the Hugging
+Face CDN — nothing large is committed) embeds the photo and compares it against
+`data/embeddings.bin`. Like the classifier, the visual library is empty until
+contributed photos exist; `scripts/build_embeddings.py` + `.github/workflows/embed.yml`
+regenerate it via PR. `models/embed-model.json` records the model, revision and
+licence.
+
 ## Data & attribution
 
 | Data | Source | Licence |
