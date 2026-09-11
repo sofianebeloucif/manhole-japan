@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 venv/
 
+# cached embedding model (downloaded by scripts/fetch_embed_model.py)
+.cache/

@@ -1,0 +1,10 @@
+{
+  "source": "https://huggingface.co/Xenova/dinov2-small/resolve/c2bb04a51fab207c420665f1946016107bffc701/onnx/model_quantized.onnx",
+  "upstream": "facebook/dinov2-small",
+  "license": "apache-2.0",
+  "revision": "c2bb04a51fab207c420665f1946016107bffc701",
+  "dim": 384,
+  "input_size": 224,
+  "norm": "imagenet",
+  "output": "last_hidden_state[:,0]"
+}
