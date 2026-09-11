@@ -109,6 +109,10 @@ try {
 check("analyze(runOcr) does not throw with no deps", !ocrThrew);
 check("analyze(runOcr) degrades to ocr.status 'error'", !!ocrRes && !!ocrRes.ocr && ocrRes.ocr.status === "error");
 
+const visRes = await _analyze(new Uint8Array(), { runVisual: true, runClassifier: false, runOcr: false }, {});
+check("analyze(runVisual) degrades, no throw",
+  visRes.visual && ["no_library", "unavailable"].includes(visRes.visual.status));
+
 // contribute panel open / close
 d.getElementById("add-cover").dispatchEvent(new window.Event("click"));
 check("contribute panel opens", d.getElementById("contribute").hidden === false);

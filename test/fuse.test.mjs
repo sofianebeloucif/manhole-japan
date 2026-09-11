@@ -66,3 +66,23 @@ test("fuse: nearby cover with municipality:null → combined.municipality is nul
   });
   assert.equal(c.municipality, null);
 });
+
+test("fuse: visual agrees with GPS prefecture → bumps confidence + basis", () => {
+  const c = fuse({
+    gps: { prefecture_en: "Nara", nearestCover: null, confidence: 0.95 },
+    ocr: null,
+    classifier: null,
+    visual: { status: "ok", matches: [{ prefecture_en: "Nara", similarity: 0.9 }], confidence: 0.9 },
+  });
+  assert.equal(c.prefecture_en, "Nara");
+  assert.ok(c.basis.includes("visual match agrees"));
+});
+
+test("fuse: visual alone, strong → medium", () => {
+  const c = fuse({
+    gps: null, ocr: null, classifier: null,
+    visual: { status: "ok", matches: [{ prefecture_en: "Gifu", similarity: 0.9 }], confidence: 0.9 },
+  });
+  assert.equal(c.prefecture_en, "Gifu");
+  assert.equal(c.confidence, "medium");
+});

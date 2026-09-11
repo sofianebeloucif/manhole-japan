@@ -39,7 +39,7 @@ async function gpsSignal(file, deps) {
   };
 }
 
-export function fuse({ gps, ocr, classifier }) {
+export function fuse({ gps, ocr, classifier, visual }) {
   const basis = [];
   let prefecture_en = null;
   let level = "low";
@@ -74,6 +74,18 @@ export function fuse({ gps, ocr, classifier }) {
     }
   }
 
+  const visTop = visual && visual.status === "ok" && visual.matches[0];
+  if (visTop && visTop.prefecture_en) {
+    if (!prefecture_en) {
+      prefecture_en = visTop.prefecture_en;
+      level = visTop.similarity >= 0.85 ? "medium" : "low";
+      basis.push("visual match");
+    } else if (visTop.prefecture_en === prefecture_en) {
+      basis.push("visual match agrees");
+      if (level !== "high") level = "high";
+    }
+  }
+
   let municipality = null;
   if (gps && gps.nearestCover && gps.nearestCover.dist_m < 60) {
     municipality = gps.nearestCover.municipality ?? null;
@@ -85,7 +97,7 @@ export function fuse({ gps, ocr, classifier }) {
 }
 
 export async function analyze(file, opts = {}, deps = {}) {
-  const { runOcr = false, runClassifier = true } = opts;
+  const { runOcr = false, runClassifier = true, runVisual = false, keepVector = false } = opts;
   const classify = deps.classify || defaultClassify;
 
   let bitmap = null;
@@ -94,6 +106,14 @@ export async function analyze(file, opts = {}, deps = {}) {
       ? await globalThis.createImageBitmap(new globalThis.Blob([file]))
       : null;
   } catch { /* node / unsupported */ }
+
+  // Hoisted so it's in scope for the visual signal even when gps is null
+  // (gpsSignal only calls geo() when EXIF GPS is present); geo() caches,
+  // so this doesn't cause an extra fetch when gpsSignal calls it again below.
+  let coversFC = null;
+  try {
+    ({ coversFC } = await geo(deps));
+  } catch { /* prefectures/covers unavailable; gps/visual signals degrade below */ }
 
   let gps = null;
   try {
@@ -134,9 +154,42 @@ export async function analyze(file, opts = {}, deps = {}) {
     catch { classifier = { status: "unavailable", predictions: [] }; }
   }
 
+  let visual = null;
+  if (runVisual) {
+    try {
+      if (deps.visual) {
+        visual = deps.visual;
+      } else {
+        const { loadEmbeddings, matchVisual } = await import("./visualmatch.js");
+        const emb = deps.embeddings || (await loadEmbeddings(deps));
+        if (!emb) {
+          visual = { status: "no_library", matches: [], vector: null, confidence: 0 };
+        } else {
+          const embedFn = deps.embed || (await import("./embed.js")).embed;
+          const vec = await embedFn(bitmap, deps);
+          const raw = matchVisual(vec, emb, { topK: 5 });
+          const byId = new Map((coversFC?.features || []).map((f) => [f.properties.id, f.properties]));
+          visual = {
+            status: "ok",
+            matches: raw.map((m) => ({
+              id: m.id,
+              name_en: byId.get(m.id)?.name_en ?? null,
+              prefecture_en: byId.get(m.id)?.prefecture_en ?? null,
+              similarity: m.similarity,
+            })),
+            vector: keepVector ? vec : null,
+            confidence: Math.min(0.9, raw.length ? raw[0].similarity : 0),
+          };
+        }
+      }
+    } catch {
+      visual = { status: "unavailable", matches: [], vector: null, confidence: 0 };
+    }
+  }
+
   return {
     image: bitmap ? { width: bitmap.width, height: bitmap.height } : { width: 0, height: 0 },
-    gps, ocr, classifier,
-    combined: fuse({ gps, ocr, classifier }),
+    gps, ocr, classifier, visual,
+    combined: fuse({ gps, ocr, classifier, visual }),
   };
 }

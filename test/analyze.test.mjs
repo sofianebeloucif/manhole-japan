@@ -44,3 +44,21 @@ test("analyze: injected OCR that yields a municipality feeds fuse", async () => 
   const r = await analyze(new Uint8Array(), { runOcr: true, runClassifier: false }, { prefFC, coversFC, ocr });
   assert.equal(r.combined.prefecture_en, "Kyoto");
 });
+
+test("analyze: injected visual signal feeds fuse()", async () => {
+  const visual = {
+    status: "ok",
+    matches: [{ id: "c1", name_en: "C1", prefecture_en: "Kyoto", similarity: 0.97 }],
+    vector: null, confidence: 0.9,
+  };
+  const r = await analyze(new Uint8Array(), { runOcr: false, runClassifier: false, runVisual: true },
+    { prefFC, coversFC, visual });
+  assert.equal(r.visual.status, "ok");
+  assert.equal(r.combined.prefecture_en, "Kyoto");        // no GPS/OCR → visual wins
+});
+
+test("analyze: runVisual with no deps → visual.status 'unavailable' or 'no_library', no throw", async () => {
+  const r = await analyze(new Uint8Array(), { runOcr: false, runClassifier: false, runVisual: true },
+    { prefFC, coversFC });
+  assert.ok(["unavailable", "no_library"].includes(r.visual.status));
+});
