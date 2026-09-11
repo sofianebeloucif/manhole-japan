@@ -12,6 +12,10 @@ let _ocr;
 async function getOcr(deps) {
   if (deps.paddleocr) return deps.paddleocr;
   if (!_ocr) {
+    // CDN.paddleocrJs is pinned to an exact npm version, but the SDK itself
+    // then fetches OpenCV.js + the det/cls/rec ONNX models from URLs baked
+    // into its own bundle — those nested assets aren't something this repo
+    // controls or audits directly.
     const { PaddleOCR } = await import(/* @vite-ignore */ CDN.paddleocrJs);
     _ocr = await PaddleOCR.create({ lang: "ch", ocrVersion: "PP-OCRv5" });
   }

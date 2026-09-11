@@ -35,8 +35,28 @@ test("runOcr: empty items -> empty rawText and tokens", async () => {
   assert.deepEqual(tokens, []);
 });
 
-test("runOcr: accepts a raw byte array as well as a Blob", async () => {
-  const paddleocr = fakePaddleOcr([{ text: "清水区", score: 0.98 }]);
+test("runOcr: converts a raw byte array to a Blob before calling predict()", async () => {
+  let received;
+  const paddleocr = {
+    async predict(src) {
+      received = src;
+      return [{ items: [{ text: "清水区", score: 0.98 }], metrics: {} }];
+    },
+  };
   const { tokens } = await runOcr(new Uint8Array([1, 2, 3]), { paddleocr });
+  assert.ok(received instanceof globalThis.Blob, "predict() should receive a Blob, not the raw array");
   assert.deepEqual(tokens, ["清水区"]);
+});
+
+test("runOcr: passes an existing Blob through unchanged", async () => {
+  let received;
+  const paddleocr = {
+    async predict(src) {
+      received = src;
+      return [{ items: [{ text: "清水区", score: 0.98 }], metrics: {} }];
+    },
+  };
+  const blob = new globalThis.Blob([new Uint8Array([1, 2, 3])]);
+  await runOcr(blob, { paddleocr });
+  assert.equal(received, blob, "an existing Blob should be passed through, not re-wrapped");
 });

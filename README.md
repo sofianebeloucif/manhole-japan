@@ -83,6 +83,12 @@ uploaded, and its GPS metadata is stripped from the files you download.
 [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses)
 (licence noted there).
 
+OCR trade-offs worth knowing: `@paddleocr/paddleocr-js` is the official SDK
+from the PaddlePaddle/PaddleOCR monorepo (Apache-2.0), but it's still pre-1.0
+and thinly maintained — pinned to an exact version for that reason. Vertical
+Japanese text (common on stamped/circular cover art) hasn't been verified in
+a real browser yet, only horizontal stylised text.
+
 Appending `?tool=identify` to the URL opens the same engine as a standalone tool —
 drop a photo, read the three signal cards and the verdict, then hand off to the
 pre-filled contribution form.
