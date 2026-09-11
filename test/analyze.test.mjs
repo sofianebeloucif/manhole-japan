@@ -97,3 +97,41 @@ test("analyze: runVisual with no deps → visual.status 'unavailable' or 'no_lib
     { prefFC, coversFC });
   assert.ok(["unavailable", "no_library"].includes(r.visual.status));
 });
+
+test("analyze: runVisual + keepVector with no reference library still computes a vector", async () => {
+  // No deps.embeddings/index/bin → loadEmbeddings() resolves null. Previously
+  // (before the fix) this meant `keepVector` was silently ignored and
+  // vector stayed null even though a fake deps.embed was available.
+  const embed = async () => new Float32Array([0.1, 0.2, 0.3]);
+  const r = await analyze(
+    new Uint8Array(),
+    { runOcr: false, runClassifier: false, runVisual: true, keepVector: true },
+    { prefFC, coversFC, embed },
+  );
+  assert.equal(r.visual.status, "no_library");
+  assert.equal(r.visual.matches.length, 0);
+  assert.ok(r.visual.vector instanceof Float32Array);
+  assert.notEqual(r.visual.vector, null);
+});
+
+test("analyze: runVisual without keepVector and no library → vector stays null", async () => {
+  const embed = async () => new Float32Array([0.1, 0.2, 0.3]);
+  const r = await analyze(
+    new Uint8Array(),
+    { runOcr: false, runClassifier: false, runVisual: true },
+    { prefFC, coversFC, embed },
+  );
+  assert.equal(r.visual.status, "no_library");
+  assert.equal(r.visual.vector, null);
+});
+
+test("analyze: malformed deps.visual (no matches array) doesn't make analyze() throw", async () => {
+  const visual = { status: "ok" }; // missing `matches` → fuse()'s visual.matches[0] would throw
+  const r = await analyze(
+    new Uint8Array(),
+    { runOcr: false, runClassifier: false, runVisual: true },
+    { prefFC, coversFC, visual },
+  );
+  assert.ok(r.combined);
+  assert.equal(typeof r.combined.confidence, "string");
+});

@@ -163,7 +163,12 @@ export async function analyze(file, opts = {}, deps = {}) {
         const { loadEmbeddings, matchVisual } = await import("./visualmatch.js");
         const emb = deps.embeddings || (await loadEmbeddings(deps));
         if (!emb) {
-          visual = { status: "no_library", matches: [], vector: null, confidence: 0 };
+          let vec = null;
+          if (keepVector) {
+            const embedFn = deps.embed || (await import("./embed.js")).embed;
+            vec = await embedFn(bitmap, deps);
+          }
+          visual = { status: "no_library", matches: [], vector: vec, confidence: 0 };
         } else {
           const embedFn = deps.embed || (await import("./embed.js")).embed;
           const vec = await embedFn(bitmap, deps);
@@ -187,9 +192,13 @@ export async function analyze(file, opts = {}, deps = {}) {
     }
   }
 
+  let combined;
+  try { combined = fuse({ gps, ocr, classifier, visual }); }
+  catch { combined = { prefecture_en: null, municipality: null, basis: [], confidence: "low" }; }
+
   return {
     image: bitmap ? { width: bitmap.width, height: bitmap.height } : { width: 0, height: 0 },
     gps, ocr, classifier, visual,
-    combined: fuse({ gps, ocr, classifier, visual }),
+    combined,
   };
 }
