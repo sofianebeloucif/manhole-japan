@@ -28,3 +28,49 @@ export function clusterByLocation(entries, { radiusM = CLUSTER_M } = {}) {
   entries.forEach((e, i) => { e.clusterId = find(i); });
   return entries;
 }
+
+export function visualDuplicate(analysis) {
+  const m = analysis && analysis.visual && analysis.visual.status === "ok" && analysis.visual.matches[0];
+  if (m && m.similarity > SIM_DUP) {
+    return { duplicate: true, of: { id: m.id, name_en: m.name_en, similarity: m.similarity } };
+  }
+  return { duplicate: false, of: null };
+}
+
+export function duplicateVerdict(analysis) {
+  const g = gpsDuplicate(analysis);
+  const v = visualDuplicate(analysis);
+  const reasons = [];
+  if (g.duplicate) reasons.push(`${g.of.dist_m} m from ${g.of.name_en || g.of.id}`);
+  if (v.duplicate) reasons.push(`${(v.of.similarity * 100).toFixed(0)}% visual match to ${v.of.name_en || v.of.id}`);
+  let level = "new";
+  if (g.duplicate && v.duplicate) level = "confirmed";
+  else if (g.duplicate || v.duplicate) level = "likely";
+  return { level, reasons, of: g.of || v.of };
+}
+
+function cos(a, b) {
+  let d = 0;
+  for (let i = 0; i < a.length; i++) d += a[i] * b[i];
+  return d;
+}
+
+export function clusterEntries(entries, { radiusM = CLUSTER_M, simThreshold = SIM_DUP } = {}) {
+  clusterByLocation(entries, { radiusM });
+  // second pass: merge clusters by embedding similarity
+  const rep = {};
+  for (let i = 0; i < entries.length; i++) {
+    for (let j = i + 1; j < entries.length; j++) {
+      const vi = entries[i].vector;
+      const vj = entries[j].vector;
+      if (vi && vj && vi.length === vj.length && cos(vi, vj) > simThreshold) {
+        const to = entries[i].clusterId;
+        const from = entries[j].clusterId;
+        rep[from] = to;
+      }
+    }
+  }
+  const resolve = (c) => (rep[c] === undefined ? c : (rep[c] = resolve(rep[c])));
+  entries.forEach((e) => { e.clusterId = resolve(e.clusterId); });
+  return entries;
+}

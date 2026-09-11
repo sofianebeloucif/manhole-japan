@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { gpsDuplicate, clusterByLocation, DUP_M } from "../src/recognize/dedup.js";
+import { gpsDuplicate, clusterByLocation, DUP_M, visualDuplicate, duplicateVerdict, clusterEntries, SIM_DUP } from "../src/recognize/dedup.js";
 
 test("DUP_M is 15", () => assert.equal(DUP_M, 15));
 
@@ -33,4 +33,42 @@ test("clusterByLocation: two points ~10 m apart share a cluster, a third is sepa
 test("clusterByLocation: entries without coords get singleton clusters", () => {
   const out = clusterByLocation([{}, {}]);
   assert.notEqual(out[0].clusterId, out[1].clusterId);
+});
+
+test("SIM_DUP is 0.93", () => assert.equal(SIM_DUP, 0.93));
+
+test("visualDuplicate: strong similarity", () => {
+  const r = visualDuplicate({ visual: { status: "ok", matches: [{ id: "c1", name_en: "C1", similarity: 0.96 }] } });
+  assert.equal(r.duplicate, true);
+  assert.equal(r.of.id, "c1");
+});
+test("visualDuplicate: weak similarity", () => {
+  assert.equal(visualDuplicate({ visual: { status: "ok", matches: [{ similarity: 0.6 }] } }).duplicate, false);
+});
+
+test("duplicateVerdict: both signals → confirmed", () => {
+  const v = duplicateVerdict({
+    gps: { nearestCover: { id: "c1", name_en: "C1", dist_m: 6 } },
+    visual: { status: "ok", matches: [{ id: "c1", name_en: "C1", similarity: 0.97 }] },
+  });
+  assert.equal(v.level, "confirmed");
+  assert.equal(v.of.id, "c1");
+  assert.equal(v.reasons.length, 2);
+});
+test("duplicateVerdict: gps only → likely", () => {
+  assert.equal(duplicateVerdict({
+    gps: { nearestCover: { id: "c1", name_en: "C1", dist_m: 6 } }, visual: null,
+  }).level, "likely");
+});
+test("duplicateVerdict: neither → new", () => {
+  assert.equal(duplicateVerdict({ gps: null, visual: null }).level, "new");
+});
+
+test("clusterEntries: merges two far-apart rows by embedding similarity", () => {
+  const v = new Float32Array([1, 0, 0]);
+  const near = new Float32Array([0.98, 0.02, 0]);
+  const a = { lon: 139.7, lat: 35.68, vector: v };
+  const b = { lon: 135.5, lat: 34.7, vector: near }; // 400 km away
+  const out = clusterEntries([a, b]);
+  assert.equal(out[0].clusterId, out[1].clusterId);
 });
