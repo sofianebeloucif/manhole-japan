@@ -96,8 +96,12 @@ def main() -> int:
         if unknown:
             print(f"embeddings-index: unknown ids {unknown[:5]}", file=sys.stderr)
             return 1
+        bin_p = ROOT / "data" / "embeddings.bin"
+        if not bin_p.exists():
+            print("embeddings.bin: missing but embeddings-index.json exists", file=sys.stderr)
+            return 1
         want = len(idx["ids"]) * idx["dim"] * 4
-        got = (ROOT / "data" / "embeddings.bin").stat().st_size
+        got = bin_p.stat().st_size
         if got != want:
             print(f"embeddings.bin: {got} bytes, expected {want}", file=sys.stderr)
             return 1

@@ -3,9 +3,9 @@
 import { analyze } from "../recognize/index.js";
 import { openContributeWith } from "../contribute/form.js";
 import { duplicateVerdict } from "../recognize/dedup.js";
+import { esc } from "../contribute/output.js";
 
 const $ = (id) => document.getElementById(id);
-const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 let mapView = null;
 let last = { file: null, analysis: null };
 let lastPreviewUrl = null;
@@ -17,7 +17,7 @@ function render(a) {
   const box = $("id-result");
   const dv = duplicateVerdict(a);
   const dupLine = dv.level === "new" ? "" :
-    `<div class="verdict" style="color:#b45309">Already on the map` +
+    `<div class="verdict" style="color:#b45309">${dv.level === "confirmed" ? "Already on the map" : "Possibly already on the map"}` +
     (dv.of ? `: <a href="?id=${esc(dv.of.id)}">${esc(dv.of.name_en || dv.of.id)}</a>` : "") +
     ` (${esc(dv.level)})</div>`;
   box.innerHTML =

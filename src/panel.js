@@ -1,4 +1,5 @@
 import { CATEGORIES } from "./config.js";
+import { esc } from "./contribute/output.js";
 
 const el = document.getElementById("detail");
 const body = document.getElementById("detail-body");
@@ -17,8 +18,6 @@ export function close() {
 }
 
 const catLabel = (id) => CATEGORIES.find((c) => c.id === id)?.label || id;
-const esc = (s) =>
-  String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
 export function show(feature, { onTheme } = {}) {
   const p = feature.properties;

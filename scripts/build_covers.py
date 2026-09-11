@@ -118,7 +118,7 @@ def load_personal(prefs: Prefectures, existing: list[dict] | None = None) -> lis
             for prev in existing + out:
                 plon, plat = prev["geometry"]["coordinates"]
                 if _haversine_m(lon, lat, plon, plat) < 15:
-                    print(f"  ~ {p['id']} is <15 m from an existing cover — possible duplicate", file=sys.stderr)
+                    print(f"  ~ {p.get('id', '?')} is <15 m from an existing cover — possible duplicate", file=sys.stderr)
                     break
             out.append(e)
     return out
