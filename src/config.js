@@ -28,7 +28,10 @@ export const CDN = {
   ort: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.min.mjs",
   ortWasm: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/",
   fflate: "https://cdn.jsdelivr.net/npm/fflate@0.8.3/esm/browser.js",
+  embedModel: "https://huggingface.co/Xenova/dinov2-small/resolve/c2bb04a51fab207c420665f1946016107bffc701/onnx/model_quantized.onnx",
 };
 export const MUNICIPALITIES_URL = "data/municipalities.json";
 export const MODEL_META_URL = "models/meta.json";
 export const MODEL_ONNX_URL = "models/prefecture-clf.onnx";
+export const EMBEDDINGS_URL = "data/embeddings.bin";
+export const EMBEDDINGS_INDEX_URL = "data/embeddings-index.json";
