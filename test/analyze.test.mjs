@@ -57,6 +57,41 @@ test("analyze: injected visual signal feeds fuse()", async () => {
   assert.equal(r.combined.prefecture_en, "Kyoto");        // no GPS/OCR → visual wins
 });
 
+test("analyze: runVisual with real embeddings+embed deps exercises the 'ok' enrichment path", async () => {
+  // Real fixture id/name/prefecture taken from data/covers.geojson (first feature).
+  const knownId = "pokefuta-osm-13998406913";
+  const knownFeature = coversFC.features.find((f) => f.properties.id === knownId);
+  assert.ok(knownFeature, "fixture id must exist in data/covers.geojson");
+
+  // Small resolved-shape {dim, ids, vectors} embeddings index: two unit vectors,
+  // orthogonal so cosine similarity (plain dot product here) is unambiguous.
+  const embeddings = {
+    dim: 3,
+    ids: [knownId, "fixture-other-id"],
+    vectors: new Float32Array([
+      1, 0, 0, // knownId
+      0, 1, 0, // fixture-other-id
+    ]),
+  };
+  // Fake embed() returns a vector that matches knownId's embedding exactly.
+  const embed = async () => new Float32Array([1, 0, 0]);
+
+  const r = await analyze(
+    new Uint8Array(),
+    { runOcr: false, runClassifier: false, runVisual: true, keepVector: true },
+    { prefFC, coversFC, embeddings, embed },
+  );
+
+  assert.equal(r.visual.status, "ok");
+  assert.equal(r.visual.matches[0].id, knownId);
+  assert.equal(r.visual.matches[0].name_en, knownFeature.properties.name_en);
+  assert.equal(r.visual.matches[0].prefecture_en, knownFeature.properties.prefecture_en);
+  assert.equal(typeof r.visual.confidence, "number");
+  assert.ok(r.visual.confidence <= 0.9);
+  assert.ok(r.visual.vector instanceof Float32Array);
+  assert.notEqual(r.visual.vector, null);
+});
+
 test("analyze: runVisual with no deps → visual.status 'unavailable' or 'no_library', no throw", async () => {
   const r = await analyze(new Uint8Array(), { runOcr: false, runClassifier: false, runVisual: true },
     { prefFC, coversFC });
