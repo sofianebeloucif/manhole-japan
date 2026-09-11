@@ -1,0 +1,37 @@
+name: Rebuild embeddings
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/personal/**"
+      - "assets/photos/**"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  embed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt numpy onnxruntime
+      - name: Rebuild embeddings
+        run: |
+          python scripts/build_embeddings.py
+          python scripts/validate.py
+      - name: Open a PR if embeddings changed
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/embeddings-refresh
+          commit-message: "data: rebuild visual-match embeddings"
+          title: "data: rebuild visual-match embeddings"
+          body: Automated rebuild from contributed photos.
+          add-paths: |
+            data/embeddings.bin
+            data/embeddings-index.json
