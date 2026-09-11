@@ -44,7 +44,7 @@ export function duplicateVerdict(analysis) {
   if (g.duplicate) reasons.push(`${g.of.dist_m} m from ${g.of.name_en || g.of.id}`);
   if (v.duplicate) reasons.push(`${(v.of.similarity * 100).toFixed(0)}% visual match to ${v.of.name_en || v.of.id}`);
   let level = "new";
-  if (g.duplicate && v.duplicate) level = "confirmed";
+  if (g.duplicate && v.duplicate) level = g.of.id === v.of.id ? "confirmed" : "likely";
   else if (g.duplicate || v.duplicate) level = "likely";
   return { level, reasons, of: g.of || v.of };
 }

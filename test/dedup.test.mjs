@@ -60,6 +60,13 @@ test("duplicateVerdict: both signals → confirmed", () => {
   assert.equal(v.of.id, "c1");
   assert.equal(v.reasons.length, 2);
 });
+test("duplicateVerdict: both signals fire but against different covers → likely, not confirmed", () => {
+  const v = duplicateVerdict({
+    gps: { nearestCover: { id: "c1", name_en: "C1", dist_m: 8 } },
+    visual: { status: "ok", matches: [{ id: "c2", name_en: "C2", similarity: 0.97 }] },
+  });
+  assert.equal(v.level, "likely");
+});
 test("duplicateVerdict: gps only → likely", () => {
   assert.equal(duplicateVerdict({
     gps: { nearestCover: { id: "c1", name_en: "C1", dist_m: 6 } }, visual: null,
