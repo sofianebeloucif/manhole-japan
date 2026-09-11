@@ -70,13 +70,14 @@ uploaded, and its GPS metadata is stripped from the files you download.
 
 ### Origin recognition
 
-`src/recognize/analyze()` combines three independent signals:
+`src/recognize/analyze()` combines four independent signals:
 
 | Signal | How | Notes |
 | --- | --- | --- |
 | GPS | EXIF coordinates → prefecture (point-in-polygon) + nearest known cover | strongest; needs a geotagged photo |
-| OCR | Tesseract.js (Japanese) reads the cast text → matched against `data/municipalities.json` | best-effort on stylised metal |
+| OCR | PaddleOCR (ONNX, PP-OCRv5 "ch" model) reads the cast/painted text → matched against `data/municipalities.json` | reads kanji reliably even in stylised cover art; no hiragana/katakana support, but most municipality names are kanji-only |
 | Classifier | `mobilenet_v3_small` fine-tuned on contributed photos, run via ONNX in the browser | shows "not enough data yet" until ~50 labelled photos exist, then trains automatically (`train-model.yml`) |
+| Visual match | DINOv2-small image embedding compared against `data/embeddings.bin` | dormant until contributed photos exist (see below) |
 
 `data/municipalities.json` is built by `scripts/build_gazetteer.py` from
 [geolonia/japanese-addresses](https://github.com/geolonia/japanese-addresses)

@@ -99,7 +99,7 @@ check("search narrows results", Number(d.querySelector("#stats .stat b").textCon
 d.getElementById("theme-toggle").dispatchEvent(new window.Event("click"));
 check("theme flips to dark", d.documentElement.dataset.theme === "dark");
 
-// OCR signal degrades gracefully when tesseract can't load (jsdom / node)
+// OCR signal degrades gracefully when PaddleOCR can't load (jsdom / node)
 const { analyze: _analyze } = await import(path.join(ROOT, "src/recognize/index.js"));
 let ocrThrew = false;
 let ocrRes = null;

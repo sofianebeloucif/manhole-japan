@@ -22,9 +22,7 @@ export const CATEGORY_COLOR = Object.fromEntries(
 export const CDN = {
   // resolve the newest working versions at implementation time; pin exact.
   exifr: "https://cdn.jsdelivr.net/npm/exifr@7.1.3/dist/full.esm.mjs",
-  tesseract: "https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.esm.min.js",
-  tesseractCore: "https://cdn.jsdelivr.net/npm/tesseract.js-core@5.1.1",
-  tesseractLang: "https://cdn.jsdelivr.net/npm/@tesseract.js-data/jpn@1.0.0/4.0.0",
+  paddleocrJs: "https://cdn.jsdelivr.net/npm/@paddleocr/paddleocr-js@0.4.2/dist/index.mjs",
   ort: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.min.mjs",
   ortWasm: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/",
   fflate: "https://cdn.jsdelivr.net/npm/fflate@0.8.3/esm/browser.js",
