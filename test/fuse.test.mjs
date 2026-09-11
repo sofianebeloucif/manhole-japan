@@ -78,6 +78,29 @@ test("fuse: visual agrees with GPS prefecture → bumps confidence + basis", () 
   assert.ok(c.basis.includes("visual match agrees"));
 });
 
+test("fuse: visual agreement below the 0.85 floor does not add basis or change level", () => {
+  const c = fuse({
+    gps: null,
+    ocr: { status: "ok", municipalityGuesses: [{ name_en: "Nara", prefecture_en: "Nara", score: 0.9 }], confidence: 0.5 },
+    classifier: null,
+    visual: { status: "ok", matches: [{ prefecture_en: "Nara", similarity: 0.5 }], confidence: 0.5 },
+  });
+  // OCR alone (score 0.9 >= 0.4, confidence 0.5 < 0.6) sets level "low".
+  assert.equal(c.confidence, "low");
+  assert.ok(!c.basis.includes("visual match agrees"));
+});
+
+test("fuse: visual agrees strongly when level was low → bumps one level to medium, not straight to high", () => {
+  const c = fuse({
+    gps: null,
+    ocr: { status: "ok", municipalityGuesses: [{ name_en: "Nara", prefecture_en: "Nara", score: 0.9 }], confidence: 0.5 },
+    classifier: null,
+    visual: { status: "ok", matches: [{ prefecture_en: "Nara", similarity: 0.9 }], confidence: 0.9 },
+  });
+  assert.equal(c.confidence, "medium");
+  assert.ok(c.basis.includes("visual match agrees"));
+});
+
 test("fuse: visual alone, strong → medium", () => {
   const c = fuse({
     gps: null, ocr: null, classifier: null,

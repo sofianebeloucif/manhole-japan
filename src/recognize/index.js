@@ -80,9 +80,9 @@ export function fuse({ gps, ocr, classifier, visual }) {
       prefecture_en = visTop.prefecture_en;
       level = visTop.similarity >= 0.85 ? "medium" : "low";
       basis.push("visual match");
-    } else if (visTop.prefecture_en === prefecture_en) {
+    } else if (visTop.prefecture_en === prefecture_en && visTop.similarity >= 0.85) {
       basis.push("visual match agrees");
-      if (level !== "high") level = "high";
+      if (level !== "high") level = level === "low" ? "medium" : "high";
     }
   }
 
