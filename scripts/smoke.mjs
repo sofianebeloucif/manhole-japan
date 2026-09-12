@@ -137,6 +137,15 @@ d.getElementById("unclassify-open").dispatchEvent(new window.Event("click"));
 check("unclassify panel opens", d.getElementById("unclassify").hidden === false);
 await new Promise((r) => setTimeout(r, 100));
 check("unclassify list loads real entries", d.querySelectorAll("#u-list .u-card").length > 0);
+
+// clicking a thumbnail opens the lightbox with the full-size photo
+d.querySelector("#u-list .u-thumb").dispatchEvent(new window.Event("click"));
+check("lightbox opens on thumbnail click", d.getElementById("lightbox").hidden === false);
+check("lightbox shows the full-size (non-thumb) photo",
+  /\.webp$/.test(d.getElementById("lightbox-img").src) && !d.getElementById("lightbox-img").src.includes(".thumb."));
+d.getElementById("lightbox").dispatchEvent(new window.Event("click"));
+check("lightbox closes", d.getElementById("lightbox").hidden === true);
+
 d.getElementById("unclassify-close").dispatchEvent(new window.Event("click"));
 check("unclassify panel closes", d.getElementById("unclassify").hidden === true);
 

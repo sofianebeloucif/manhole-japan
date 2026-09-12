@@ -21,7 +21,7 @@ function cardEl(entry) {
   const el = document.createElement("div");
   el.className = "u-card";
   el.innerHTML =
-    `<img src="assets/photos/_unclassified/${esc(entry.slug)}.thumb.webp" alt="">` +
+    `<img src="assets/photos/_unclassified/${esc(entry.slug)}.thumb.webp" alt="" class="u-thumb">` +
     `<div class="u-fields">` +
     `<div class="u-desc">${esc(entry.description)}</div>` +
     `<div class="u-note">Visible text: ${esc(entry.visible_text)}</div>` +
@@ -42,6 +42,10 @@ function cardEl(entry) {
     `<pre class="u-steps" hidden></pre>` +
     `</div></div>`;
   prefOptions(el.querySelector(".u-pref"));
+
+  el.querySelector(".u-thumb").addEventListener("click", () => {
+    openLightbox(`assets/photos/_unclassified/${entry.slug}.webp`);
+  });
 
   el.querySelector(".u-toggle").addEventListener("click", () => {
     const form = el.querySelector(".u-form");
@@ -112,4 +116,16 @@ export function closeUnclassify() {
   $("unclassify").hidden = true;
 }
 
+function openLightbox(src) {
+  $("lightbox-img").src = src;
+  $("lightbox").hidden = false;
+}
+
+function closeLightbox() {
+  $("lightbox").hidden = true;
+  $("lightbox-img").src = "";
+}
+
 $("unclassify-close").addEventListener("click", closeUnclassify);
+$("lightbox").addEventListener("click", closeLightbox);
+$("lightbox-close").addEventListener("click", (e) => { e.stopPropagation(); closeLightbox(); });
