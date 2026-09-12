@@ -12,9 +12,11 @@ const fc = (features) => ({ type: "FeatureCollection", features });
 
 let ALL = [];
 let byId = new Map();
-const view = createMap();
 
 // ---- theme -------------------------------------------------------------
+// Resolved BEFORE createMap() so the map is born with the right basemap —
+// see the comment in map.js#createMap for why swapping styles after boot
+// is unsafe.
 const themeToggle = document.getElementById("theme-toggle");
 function initialTheme() {
   try {
@@ -23,6 +25,11 @@ function initialTheme() {
   } catch {}
   return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
+let theme = initialTheme();
+document.documentElement.dataset.theme = theme;
+
+const view = createMap(theme);
+
 function applyTheme(t) {
   document.documentElement.dataset.theme = t;
   try {
@@ -30,8 +37,6 @@ function applyTheme(t) {
   } catch {}
   view.ready.then(() => view.setBasemap(t));
 }
-let theme = initialTheme();
-document.documentElement.dataset.theme = theme;
 themeToggle.addEventListener("click", () => {
   theme = theme === "dark" ? "light" : "dark";
   applyTheme(theme);
@@ -139,7 +144,8 @@ Promise.all([
   byId = new Map(ALL.map((f) => [f.properties.id, f]));
   view.setPrefectures(prefs);
   filters.populatePrefectures(ALL);
-  if (theme === "dark") view.setBasemap("dark");
+  // No view.setBasemap() here: createMap(theme) already started the map
+  // with the right style, so there's nothing to swap on initial boot.
   applyFromUrl(url.read(), { fit: true });
   syncUrl({ replace: true });
 });

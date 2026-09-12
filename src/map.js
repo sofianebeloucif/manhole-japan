@@ -4,10 +4,18 @@ const EMPTY = { type: "FeatureCollection", features: [] };
 const catMatch = CATEGORIES.flatMap((c) => [c.id, c.color]);
 const PAD = { top: 40, right: 40, bottom: 40, left: 360 };
 
-export function createMap() {
+export function createMap(theme = "light") {
   const map = new maplibregl.Map({
     container: "map",
-    style: BASEMAPS.light,
+    // Start on the right style from the very first paint. Creating with
+    // "light" and swapping to "dark" right after boot (as this used to do)
+    // races map.setStyle()'s async source teardown against the initial
+    // setCovers()/setPrefectures() calls — on a system already in dark
+    // mode, the covers/prefectures sources could still be mid-teardown
+    // when setData() ran, silently dropping the data (setSource()?.setData
+    // no-ops on a missing source, no error). Avoid the swap entirely for
+    // the common case; setBasemap() below still handles a later manual toggle.
+    style: BASEMAPS[theme] || BASEMAPS.light,
     bounds: JAPAN_BOUNDS,
     fitBoundsOptions: { padding: PAD },
     attributionControl: { compact: true },
@@ -152,7 +160,12 @@ export function createMap() {
     },
     setBasemap(theme) {
       map.setStyle(BASEMAPS[theme] || BASEMAPS.light);
-      map.once("styledata", () => {
+      // "styledata" fires repeatedly while a style loads (once per source/
+      // tile event, not just once for the whole style) and can fire before
+      // the new style is actually ready to accept addSource()/addLayer() —
+      // "style.load" is maplibre's dedicated single-fire event for "the new
+      // style is fully loaded", the reliable one to re-add sources on.
+      map.once("style.load", () => {
         if (!map.getSource("covers")) addSourcesAndLayers();
       });
     },
