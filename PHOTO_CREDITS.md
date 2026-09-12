@@ -14,7 +14,7 @@ accepted. Add a row when you add a photo.
 | personal-gifu-gujohachiman-gj8man.webp | GJ8man design, Gujō Hachiman | Cams | own-work | own photo |
 | personal-gifu-shirakawago.webp | Shirakawa-go gassho-zukuri design | Cams | own-work | own photo |
 | personal-toyama-yuruyuri.webp | Yuru Yuri collaboration design, Toyama | Cams | own-work | own photo |
-| personal-fukui-ono-castle.webp | Ōno Castle design | Riri | own-work | own photo |
+| personal-fukuoka-onojo-mountain.webp | Onojo City — Mt. Ōno fortress ruins design | Riri | own-work | own photo |
 | personal-fukuoka-kasuga-flower.webp | Kasuga flower design | Riri | own-work | own photo |
 | personal-fukuoka-chikushino-camellia.webp | Chikushino camellia design + mascot | Riri | own-work | own photo |
 | personal-fukuoka-kurume-castle.webp | Kurume castle/bridge design | Riri | own-work | own photo |
@@ -33,6 +33,18 @@ accepted. Add a row when you add a photo.
 | personal-fukuoka-hawks-harry.webp | Fukuoka SoftBank Hawks — Harry Hawk | Riri | own-work | own photo |
 | personal-fukuoka-hawks-honey.webp | Fukuoka SoftBank Hawks — Honey | Riri | own-work | own photo |
 | personal-fukuoka-kitakyushu-lotus.webp | Kitakyushu geometric lotus design | Riri | own-work | own photo |
+| personal-fukuoka-onojo-flower-mon.webp | Onojo City flower crest design | Riri | own-work | own photo |
+| personal-chiba-isumi-fish.webp | Isumi City fish design | Riri | own-work | own photo |
+| personal-saga-romancingsaga-albert.webp | Romancing SaGa x Saga City — Albert | Riri | own-work | own photo |
+| personal-fukuoka-chikushino-camellia-plain.webp | Chikushino camellia design, no mascot | Riri | own-work | own photo |
+| personal-nagasaki-bridge-flowers.webp | Nagasaki scenic bridge + flowers design | Riri | own-work | own photo |
+| personal-nagasaki-nakadori-hydrangea.webp | Hydrangea drain grate, Nakadōri arcade | Riri | own-work | own photo |
+| personal-nagasaki-nakadori-camellia.webp | Camellia drain grate, Nakadōri arcade | Riri | own-work | own photo |
+| personal-saga-tile-mask-dancer.webp | Men-buriki mask dance tile, Saga City | Riri | own-work | own photo |
+| personal-saga-tile-crab.webp | Crab photo tile, Saga City | Riri | own-work | own photo |
+| personal-saga-tile-craft-loom.webp | Weaving loom craft tile, Saga City | Riri | own-work | own photo |
+| personal-saga-tile-fish-shell.webp | Fish and shell pattern tile, Saga City | Riri | own-work | own photo |
+| personal-saga-tile-mudskipper.webp | Jumping mudskipper photo tile, Saga City | Riri | own-work | own photo |
 
 For OpenStreetMap-sourced covers the map shows no photo; it links to the OSM
 node instead.

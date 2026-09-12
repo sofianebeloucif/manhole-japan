@@ -260,24 +260,25 @@
     "geometry": {
       "type": "Point",
       "coordinates": [
-        136.4886,
-        35.9814
+        130.4767,
+        33.5333
       ]
     },
     "properties": {
-      "id": "personal-fukui-ono-castle",
-      "name_en": "Ōno Castle design (approx. location)",
-      "name_ja": "おおのじょう",
-      "prefecture_en": "Fukui",
-      "prefecture_ja": "福井県",
-      "municipality": "Ōno (near Echizen-Ōno Station — exact spot unknown)",
+      "id": "personal-fukuoka-onojo-mountain",
+      "name_en": "Onojo City — Mt. Ōno fortress ruins + wildflowers design (approx. location)",
+      "name_ja": "大野城市",
+      "prefecture_en": "Fukuoka",
+      "prefecture_ja": "福岡県",
+      "municipality": "Onojo (near Onojo Station — exact spot unknown; corrects an earlier misreading as Ōno, Fukui)",
       "category": "personal",
       "themes": [
-        "castle",
-        "mountains"
+        "mountain",
+        "flowers",
+        "history"
       ],
-      "photo": "assets/photos/personal-fukui-ono-castle.webp",
-      "photo_thumb": "assets/photos/personal-fukui-ono-castle.thumb.webp",
+      "photo": "assets/photos/personal-fukuoka-onojo-mountain.webp",
+      "photo_thumb": "assets/photos/personal-fukuoka-onojo-mountain.thumb.webp",
       "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
@@ -853,6 +854,387 @@
       ],
       "photo": "assets/photos/personal-fukuoka-kitakyushu-lotus.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-kitakyushu-lotus.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.4767,
+        33.5333
+      ]
+    },
+    "properties": {
+      "id": "personal-fukuoka-onojo-flower-mon",
+      "name_en": "Onojo City flower crest design (approx. location)",
+      "name_ja": "大野城市",
+      "prefecture_en": "Fukuoka",
+      "prefecture_ja": "福岡県",
+      "municipality": "Onojo (near Onojo Station — exact spot unknown)",
+      "category": "personal",
+      "themes": [
+        "flowers",
+        "crest"
+      ],
+      "photo": "assets/photos/personal-fukuoka-onojo-flower-mon.webp",
+      "photo_thumb": "assets/photos/personal-fukuoka-onojo-flower-mon.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        140.3814,
+        35.2394
+      ]
+    },
+    "properties": {
+      "id": "personal-chiba-isumi-fish",
+      "name_en": "Isumi City fish design (approx. location)",
+      "name_ja": "いすみ市",
+      "prefecture_en": "Chiba",
+      "prefecture_ja": "千葉県",
+      "municipality": "Isumi (near Isumi Station — exact spot unknown)",
+      "category": "personal",
+      "themes": [
+        "fish",
+        "river"
+      ],
+      "photo": "assets/photos/personal-chiba-isumi-fish.webp",
+      "photo_thumb": "assets/photos/personal-chiba-isumi-fish.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
+    "properties": {
+      "id": "personal-saga-romancingsaga-albert",
+      "name_en": "Romancing SaGa x Saga City design — Albert (approx. location)",
+      "name_ja": "アルベルト",
+      "prefecture_en": "Saga",
+      "prefecture_ja": "佐賀県",
+      "municipality": "Saga City (near Saga Station — exact spot unknown; part of a citywide Square Enix collaboration series)",
+      "category": "personal",
+      "themes": [
+        "romancing-saga",
+        "video-game",
+        "mascot"
+      ],
+      "photo": "assets/photos/personal-saga-romancingsaga-albert.webp",
+      "photo_thumb": "assets/photos/personal-saga-romancingsaga-albert.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.5153,
+        33.5133
+      ]
+    },
+    "properties": {
+      "id": "personal-fukuoka-chikushino-camellia-plain",
+      "name_en": "Chikushino camellia design, no mascot (approx. location)",
+      "name_ja": "ちくしの",
+      "prefecture_en": "Fukuoka",
+      "prefecture_ja": "福岡県",
+      "municipality": "Chikushino (near Chikushino Station — exact spot unknown; plain variant of the Chikushi-chan cover)",
+      "category": "personal",
+      "themes": [
+        "camellia",
+        "flowers"
+      ],
+      "photo": "assets/photos/personal-fukuoka-chikushino-camellia-plain.webp",
+      "photo_thumb": "assets/photos/personal-fukuoka-chikushino-camellia-plain.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        129.8644,
+        32.7503
+      ]
+    },
+    "properties": {
+      "id": "personal-nagasaki-bridge-flowers",
+      "name_en": "Nagasaki scenic bridge + flowers design (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Nagasaki",
+      "prefecture_ja": "長崎県",
+      "municipality": "Nagasaki, Nakadōri area (exact spot unknown; photographed on the same walk as the ALLCORE and Siebold Mall covers)",
+      "category": "personal",
+      "themes": [
+        "bridge",
+        "flowers",
+        "bird"
+      ],
+      "photo": "assets/photos/personal-nagasaki-bridge-flowers.webp",
+      "photo_thumb": "assets/photos/personal-nagasaki-bridge-flowers.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        129.8644,
+        32.7503
+      ]
+    },
+    "properties": {
+      "id": "personal-nagasaki-nakadori-hydrangea",
+      "name_en": "Hydrangea drain grate, Nakadōri arcade (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Nagasaki",
+      "prefecture_ja": "長崎県",
+      "municipality": "Nagasaki, Nakadōri shopping arcade (exact spot unknown)",
+      "category": "personal",
+      "themes": [
+        "hydrangea",
+        "flowers",
+        "arcade"
+      ],
+      "photo": "assets/photos/personal-nagasaki-nakadori-hydrangea.webp",
+      "photo_thumb": "assets/photos/personal-nagasaki-nakadori-hydrangea.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        129.8644,
+        32.7503
+      ]
+    },
+    "properties": {
+      "id": "personal-nagasaki-nakadori-camellia",
+      "name_en": "Camellia drain grate, Nakadōri arcade (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Nagasaki",
+      "prefecture_ja": "長崎県",
+      "municipality": "Nagasaki, Nakadōri shopping arcade (exact spot unknown)",
+      "category": "personal",
+      "themes": [
+        "camellia",
+        "flowers",
+        "arcade"
+      ],
+      "photo": "assets/photos/personal-nagasaki-nakadori-camellia.webp",
+      "photo_thumb": "assets/photos/personal-nagasaki-nakadori-camellia.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
+    "properties": {
+      "id": "personal-saga-tile-mask-dancer",
+      "name_en": "Men-buriki mask dance tile, Saga City (approx. location)",
+      "name_ja": "面浮立",
+      "prefecture_en": "Saga",
+      "prefecture_ja": "佐賀県",
+      "municipality": "Saga City (exact spot unknown; decorative pavement tile near the Romancing SaGa manhole trail)",
+      "category": "personal",
+      "themes": [
+        "folklore",
+        "mask-dance",
+        "tile"
+      ],
+      "photo": "assets/photos/personal-saga-tile-mask-dancer.webp",
+      "photo_thumb": "assets/photos/personal-saga-tile-mask-dancer.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
+    "properties": {
+      "id": "personal-saga-tile-crab",
+      "name_en": "Crab photo tile, Saga City (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Saga",
+      "prefecture_ja": "佐賀県",
+      "municipality": "Saga City (exact spot unknown; decorative pavement tile near the Romancing SaGa manhole trail)",
+      "category": "personal",
+      "themes": [
+        "wildlife",
+        "crab",
+        "tile"
+      ],
+      "photo": "assets/photos/personal-saga-tile-crab.webp",
+      "photo_thumb": "assets/photos/personal-saga-tile-crab.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
+    "properties": {
+      "id": "personal-saga-tile-craft-loom",
+      "name_en": "Weaving loom craft tile, Saga City (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Saga",
+      "prefecture_ja": "佐賀県",
+      "municipality": "Saga City (exact spot unknown; decorative pavement tile near the Romancing SaGa manhole trail)",
+      "category": "personal",
+      "themes": [
+        "craft",
+        "loom",
+        "tile"
+      ],
+      "photo": "assets/photos/personal-saga-tile-craft-loom.webp",
+      "photo_thumb": "assets/photos/personal-saga-tile-craft-loom.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
+    "properties": {
+      "id": "personal-saga-tile-fish-shell",
+      "name_en": "Fish and shell pattern tile, Saga City (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Saga",
+      "prefecture_ja": "佐賀県",
+      "municipality": "Saga City (exact spot unknown; decorative pavement tile near the Romancing SaGa manhole trail)",
+      "category": "personal",
+      "themes": [
+        "fish",
+        "shell",
+        "tile"
+      ],
+      "photo": "assets/photos/personal-saga-tile-fish-shell.webp",
+      "photo_thumb": "assets/photos/personal-saga-tile-fish-shell.thumb.webp",
+      "photo_credit": "Riri",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
+    "properties": {
+      "id": "personal-saga-tile-mudskipper",
+      "name_en": "Jumping mudskipper photo tile, Saga City (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Saga",
+      "prefecture_ja": "佐賀県",
+      "municipality": "Saga City (exact spot unknown; decorative pavement tile near the Romancing SaGa manhole trail, likely referencing the nearby Ariake Sea mudflats)",
+      "category": "personal",
+      "themes": [
+        "wildlife",
+        "mudskipper",
+        "tile"
+      ],
+      "photo": "assets/photos/personal-saga-tile-mudskipper.webp",
+      "photo_thumb": "assets/photos/personal-saga-tile-mudskipper.thumb.webp",
       "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,

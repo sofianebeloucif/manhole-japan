@@ -3,7 +3,12 @@
 
 - assigns prefecture from coordinates (point-in-polygon against data/prefectures.geojson)
 - parses Pokemon names out of "Poke Lids (A & B)" into `themes`
-- de-duplicates by rounded coordinates (personal entries win)
+- de-duplicates: two non-personal (OSM) points at ~the same spot collapse to
+  one; a personal entry replaces a non-personal one at the same spot (the
+  same physical cover, imported and also photographed) but never collapses
+  against another personal entry, since many intentionally share an
+  approximate city-center coordinate — one per distinct design — when the
+  exact spot is unknown
 - validates every feature against scripts/schema.json
 """
 from __future__ import annotations
@@ -125,12 +130,28 @@ def load_personal(prefs: Prefectures, existing: list[dict] | None = None) -> lis
 
 
 def dedupe(features: list[dict]) -> list[dict]:
-    """Later features win. Personal entries are appended last on purpose."""
-    by_key: dict[tuple, dict] = {}
+    """Collapse coordinate collisions between two non-personal (OSM) points,
+    and let a personal entry replace a non-personal one at the same spot.
+    Two personal entries never dedupe against each other purely by
+    coordinate: personal entries are appended last on purpose, so this still
+    prefers a personal photo over a plain OSM import of the same cover."""
+    by_coord: dict[tuple, dict] = {}
+    out: list[dict] = []
     for f in features:
         lon, lat = f["geometry"]["coordinates"]
-        by_key[(round(lon, 5), round(lat, 5))] = f
-    return list(by_key.values())
+        key = (round(lon, 5), round(lat, 5))
+        if f["properties"].get("category") == "personal":
+            prev = by_coord.get(key)
+            if prev is not None and prev["properties"].get("category") != "personal":
+                out.remove(prev)
+            by_coord[key] = f
+            out.append(f)
+        else:
+            if key in by_coord:
+                continue
+            by_coord[key] = f
+            out.append(f)
+    return out
 
 
 def main() -> None:
