@@ -1,0 +1,178 @@
+[
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [138.4909, 35.0161] },
+    "properties": {
+      "id": "personal-shizuoka-shimizu-shizura",
+      "name_en": "Shizura & Mt. Fuji design, Shimizu-ku (approx. location)",
+      "name_ja": "清水区",
+      "prefecture_en": "Shizuoka",
+      "prefecture_ja": "静岡県",
+      "municipality": "Shimizu-ku, Shizuoka (near Shimizu Station — exact spot unknown)",
+      "category": "personal",
+      "themes": ["shizura", "mascot", "mount-fuji", "tea-fields"],
+      "photo": "assets/photos/personal-shizuoka-shimizu-shizura.webp",
+      "photo_thumb": "assets/photos/personal-shizuoka-shimizu-shizura.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [133.9445, 34.5008] },
+    "properties": {
+      "id": "personal-okayama-tamano-azalea",
+      "name_en": "Tamano azalea design (approx. location)",
+      "name_ja": "たまの",
+      "prefecture_en": "Okayama",
+      "prefecture_ja": "岡山県",
+      "municipality": "Tamano (near Tamano Station — exact spot unknown)",
+      "category": "personal",
+      "themes": ["azalea", "flowers"],
+      "photo": "assets/photos/personal-okayama-tamano-azalea.webp",
+      "photo_thumb": "assets/photos/personal-okayama-tamano-azalea.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [133.7716, 34.5975] },
+    "properties": {
+      "id": "personal-okayama-kurashiki-wisteria",
+      "name_en": "Kurashiki wisteria design (approx. location)",
+      "name_ja": "くらしき",
+      "prefecture_en": "Okayama",
+      "prefecture_ja": "岡山県",
+      "municipality": "Kurashiki, Bikan Historical Quarter (exact spot unknown)",
+      "category": "personal",
+      "themes": ["wisteria", "flowers", "bikan-quarter"],
+      "photo": "assets/photos/personal-okayama-kurashiki-wisteria.webp",
+      "photo_thumb": "assets/photos/personal-okayama-kurashiki-wisteria.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [135.5013, 34.6688] },
+    "properties": {
+      "id": "personal-osaka-namba-nolimit",
+      "name_en": "\"OSAKA NO LIMIT!\" design, Namba/Dotonbori (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Osaka",
+      "prefecture_ja": "大阪府",
+      "municipality": "Osaka, Namba/Dotonbori (exact spot unknown)",
+      "category": "personal",
+      "themes": ["osaka", "tourism", "dotonbori", "mascots"],
+      "photo": "assets/photos/personal-osaka-namba-nolimit.webp",
+      "photo_thumb": "assets/photos/personal-osaka-namba-nolimit.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [135.5262, 34.6873] },
+    "properties": {
+      "id": "personal-osaka-castle",
+      "name_en": "Osaka Castle design (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Osaka",
+      "prefecture_ja": "大阪府",
+      "municipality": "Osaka, near Osaka Castle (exact spot unknown)",
+      "category": "personal",
+      "themes": ["osaka-castle", "cherry-blossoms"],
+      "photo": "assets/photos/personal-osaka-castle.webp",
+      "photo_thumb": "assets/photos/personal-osaka-castle.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [136.9603, 35.728] },
+    "properties": {
+      "id": "personal-gifu-gujohachiman-gj8man",
+      "name_en": "GJ8man design, Gujō Hachiman (approx. location)",
+      "name_ja": "GJ8マン",
+      "prefecture_en": "Gifu",
+      "prefecture_ja": "岐阜県",
+      "municipality": "Gujō, Gujō Hachiman old town (exact spot deliberately unpublished by the town)",
+      "category": "personal",
+      "themes": ["gj8man", "mascot", "gujo-hachiman"],
+      "photo": "assets/photos/personal-gifu-gujohachiman-gj8man.webp",
+      "photo_thumb": "assets/photos/personal-gifu-gujohachiman-gj8man.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [136.9066, 36.2576] },
+    "properties": {
+      "id": "personal-gifu-shirakawago",
+      "name_en": "Shirakawa-go gassho-zukuri design (approx. location)",
+      "name_ja": "白川郷",
+      "prefecture_en": "Gifu",
+      "prefecture_ja": "岐阜県",
+      "municipality": "Shirakawa-mura, Ogimachi (exact spot unknown)",
+      "category": "personal",
+      "themes": ["shirakawa-go", "unesco", "gassho-zukuri"],
+      "photo": "assets/photos/personal-gifu-shirakawago.webp",
+      "photo_thumb": "assets/photos/personal-gifu-shirakawago.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [137.2136, 36.6968] },
+    "properties": {
+      "id": "personal-toyama-yuruyuri",
+      "name_en": "Yuru Yuri collaboration design, Toyama (approx. location)",
+      "name_ja": "とやま ゆるゆり",
+      "prefecture_en": "Toyama",
+      "prefecture_ja": "富山県",
+      "municipality": "Toyama City (near Toyama Station — exact spot unknown; official map covers 10 covers citywide)",
+      "category": "personal",
+      "themes": ["yuru-yuri", "anime", "licensed-character"],
+      "photo": "assets/photos/personal-toyama-yuruyuri.webp",
+      "photo_thumb": "assets/photos/personal-toyama-yuruyuri.thumb.webp",
+      "photo_credit": "Cams",
+      "photo_license": "own-work",
+      "installed": null,
+      "source": "personal",
+      "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+      "visited": true
+    }
+  }
+]
