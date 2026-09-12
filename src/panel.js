@@ -19,7 +19,7 @@ export function close() {
 
 const catLabel = (id) => CATEGORIES.find((c) => c.id === id)?.label || id;
 
-export function show(feature, { onTheme } = {}) {
+function cardHtml(feature) {
   const p = feature.properties;
   const media = p.photo
     ? `<a href="${esc(p.photo)}" target="_blank" rel="noopener">
@@ -38,18 +38,38 @@ export function show(feature, { onTheme } = {}) {
     .map((t) => `<button type="button" data-theme="${esc(t)}">${esc(t)}</button>`)
     .join("");
 
-  body.innerHTML =
+  return (
     media +
     `<h2>${esc(p.name_en)}</h2>` +
     (p.name_ja && p.name_ja !== p.name_en ? `<div class="ja" lang="ja">${esc(p.name_ja)}</div>` : "") +
     (themes ? `<div class="tags">${themes}</div>` : "") +
     `<dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>` +
-    `<a class="src" href="${esc(p.source_url)}" target="_blank" rel="noopener">Source: ${esc(p.source)} ↗</a>`;
+    `<a class="src" href="${esc(p.source_url)}" target="_blank" rel="noopener">Source: ${esc(p.source)} ↗</a>`
+  );
+}
 
+function bindThemeHandlers(onTheme) {
   body.querySelectorAll("[data-theme]").forEach((b) =>
     b.addEventListener("click", () => onTheme && onTheme(b.dataset.theme)),
   );
+}
 
+export function show(feature, { onTheme } = {}) {
+  body.innerHTML = `<div class="detail-card">${cardHtml(feature)}</div>`;
+  bindThemeHandlers(onTheme);
+  el.hidden = false;
+  el.scrollTop = 0;
+}
+
+// Several covers sharing the same (approximate) spot — main.js#siblingsOf
+// decides when this applies. Renders every one as its own card in the same
+// already-scrollable #detail panel, so scrolling the panel steps through
+// them all.
+export function showMultiple(features, { onTheme } = {}) {
+  body.innerHTML =
+    `<p class="stack-hint">${features.length} covers at this spot — scroll to see them all.</p>` +
+    features.map((f) => `<div class="detail-card">${cardHtml(f)}</div>`).join("");
+  bindThemeHandlers(onTheme);
   el.hidden = false;
   el.scrollTop = 0;
 }

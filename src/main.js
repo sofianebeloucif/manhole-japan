@@ -65,9 +65,11 @@ bindIdentifyMap(view);
 if (new URLSearchParams(location.search).get("tool") === "identify") openIdentify();
 
 // ---- render loop --------------------------------------------------------
+let currentShown = [];
 function refresh({ fit = false } = {}) {
   const state = filters.getState();
   const shown = filters.apply(ALL, state);
+  currentShown = shown;
   view.setCovers(fc(shown));
   view.highlightPrefecture(state.pref);
   stats.render(shown, {
@@ -84,21 +86,38 @@ function refresh({ fit = false } = {}) {
 }
 
 // ---- selection -------------------------------------------------------
+// Several personal covers can intentionally sit at the exact same
+// (approximate) coordinate when the exact spot is unknown — clicking that
+// one dot should surface all of them, not just whichever MapLibre happened
+// to report first. Grouped by rounded coordinate (same ~1 m precision as
+// scripts/build_covers.py's dedupe) against the currently filtered set, so
+// a sibling hidden by an active filter never shows up in the stack.
+const roundCoord = (n) => Math.round(n * 1e5) / 1e5;
+function siblingsOf(feature) {
+  const [lon, lat] = feature.geometry.coordinates;
+  const key = `${roundCoord(lon)},${roundCoord(lat)}`;
+  return currentShown.filter((f) => {
+    const [flon, flat] = f.geometry.coordinates;
+    return `${roundCoord(flon)},${roundCoord(flat)}` === key;
+  });
+}
+
 let selected = "";
 function select(id, { fly = false } = {}) {
   selected = id || "";
   view.setSelected(selected);
   const f = byId.get(selected);
   if (f) {
-    panel.show(f, {
-      onTheme: (t) => {
-        filters.setState({ ...filters.getState(), q: t, pref: "" });
-        selected = "";
-        panel.close();
-        refresh({ fit: true });
-        syncUrl();
-      },
-    });
+    const onTheme = (t) => {
+      filters.setState({ ...filters.getState(), q: t, pref: "" });
+      selected = "";
+      panel.close();
+      refresh({ fit: true });
+      syncUrl();
+    };
+    const group = siblingsOf(f);
+    if (group.length > 1) panel.showMultiple(group, { onTheme });
+    else panel.show(f, { onTheme });
     if (fly) view.flyToFeature(f);
   } else {
     panel.close();

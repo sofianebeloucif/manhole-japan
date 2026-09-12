@@ -36,8 +36,15 @@ class FakeMap {
   getZoom() { return 5; }
   getCanvas() { return { style: {} }; }
 }
+// Captures the one FakeMap instance main.js creates via createMap(), so
+// smoke checks below can fire a real "click" on the "points" layer through
+// its actual maplibregl event path instead of calling internal functions.
+let lastMapInstance = null;
+class CapturedFakeMap extends FakeMap {
+  constructor(...args) { super(...args); lastMapInstance = this; }
+}
 const maplibregl = {
-  Map: FakeMap,
+  Map: CapturedFakeMap,
   NavigationControl: class {},
   GeolocateControl: class {},
   LngLatBounds: class { extend() {} },
@@ -95,6 +102,25 @@ d.getElementById("q").value = miyagi.properties.themes[0] || "Lapras";
 d.getElementById("q").dispatchEvent(new window.Event("input"));
 await new Promise((r) => setTimeout(r, 250));
 check("search narrows results", Number(d.querySelector("#stats .stat b").textContent) <= covers);
+
+// clicking a cover that shares its (approximate) coordinate with others —
+// several personal entries intentionally do, when the exact spot is
+// unknown — must show every one of them stacked, not just the first.
+d.getElementById("prefecture").value = "";
+d.getElementById("prefecture").dispatchEvent(new window.Event("change"));
+d.getElementById("q").value = "";
+d.getElementById("q").dispatchEvent(new window.Event("input"));
+await new Promise((r) => setTimeout(r, 250));
+const stackedSample = gj.features.find((f) => f.properties.id === "personal-saga-romancingsaga-albert");
+check("fixture cover for the stacking check exists", !!stackedSample);
+if (stackedSample) {
+  lastMapInstance.fire("click:points", { features: [{ properties: stackedSample.properties }] });
+  await new Promise((r) => setTimeout(r, 50));
+  const cards = d.querySelectorAll("#detail-body .detail-card");
+  check("clicking a cover with siblings shows every one of them, stacked", cards.length > 1);
+  check("stack hint mentions the count", /covers at this spot/.test(d.getElementById("detail-body").textContent));
+  d.getElementById("detail-close").dispatchEvent(new window.Event("click"));
+}
 
 // theme toggle
 d.getElementById("theme-toggle").dispatchEvent(new window.Event("click"));
