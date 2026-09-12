@@ -2,10 +2,10 @@
  "type": "FeatureCollection",
  "metadata": {
   "sources_fetched_at": "2026-09-09T23:02:09.551219+00:00",
-  "count": 267,
-  "prefectures": 29,
+  "count": 278,
+  "prefectures": 32,
   "by_category": {
-   "personal": 8,
+   "personal": 19,
    "pokefuta": 259
   },
   "attribution": [
@@ -351,6 +351,194 @@
     "source": "OpenStreetMap",
     "source_url": "https://www.openstreetmap.org/node/9518478817",
     "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.4886,
+     35.9814
+    ]
+   },
+   "properties": {
+    "id": "personal-fukui-ono-castle",
+    "name_en": "Ōno Castle design (approx. location)",
+    "name_ja": "おおのじょう",
+    "prefecture_en": "Fukui",
+    "prefecture_ja": "福井県",
+    "municipality": "Ōno (near Echizen-Ōno Station — exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "castle",
+     "mountains"
+    ],
+    "photo": "assets/photos/personal-fukui-ono-castle.webp",
+    "photo_thumb": "assets/photos/personal-fukui-ono-castle.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.5153,
+     33.5133
+    ]
+   },
+   "properties": {
+    "id": "personal-fukuoka-chikushino-camellia",
+    "name_en": "Chikushino camellia design + Chikushi-chan mascot (approx. location)",
+    "name_ja": "ちくしの",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": "Chikushino (near Chikushino Station — exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "camellia",
+     "flowers",
+     "mascot"
+    ],
+    "photo": "assets/photos/personal-fukuoka-chikushino-camellia.webp",
+    "photo_thumb": "assets/photos/personal-fukuoka-chikushino-camellia.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.362,
+     33.5951
+    ]
+   },
+   "properties": {
+    "id": "personal-fukuoka-hawks-honey",
+    "name_en": "Fukuoka SoftBank Hawks design — Honey (approx. location)",
+    "name_ja": null,
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": "Fukuoka City, near Mizuho PayPay Dome (exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "softbank-hawks",
+     "baseball",
+     "mascot",
+     "licensed-character"
+    ],
+    "photo": "assets/photos/personal-fukuoka-hawks-honey.webp",
+    "photo_thumb": "assets/photos/personal-fukuoka-hawks-honey.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.4737,
+     33.5219
+    ]
+   },
+   "properties": {
+    "id": "personal-fukuoka-kasuga-flower",
+    "name_en": "Kasuga flower design (approx. location)",
+    "name_ja": "かすがし",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": "Kasuga (near Kasuga Station — exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "flowers"
+    ],
+    "photo": "assets/photos/personal-fukuoka-kasuga-flower.webp",
+    "photo_thumb": "assets/photos/personal-fukuoka-kasuga-flower.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.8752,
+     33.8834
+    ]
+   },
+   "properties": {
+    "id": "personal-fukuoka-kitakyushu-lotus",
+    "name_en": "Kitakyushu geometric lotus design (approx. location)",
+    "name_ja": "北九州",
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": "Kitakyushu (near Kokura Station — exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "geometric",
+     "lotus"
+    ],
+    "photo": "assets/photos/personal-fukuoka-kitakyushu-lotus.webp",
+    "photo_thumb": "assets/photos/personal-fukuoka-kitakyushu-lotus.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.5083,
+     33.3167
+    ]
+   },
+   "properties": {
+    "id": "personal-fukuoka-kurume-castle",
+    "name_en": "Kurume castle/bridge + cherry blossom design (approx. location, medium-confidence ID)",
+    "name_ja": null,
+    "prefecture_en": "Fukuoka",
+    "prefecture_ja": "福岡県",
+    "municipality": "Kurume (near Kurume Station — exact spot unknown; place name read from worn/rotated text, not fully certain)",
+    "category": "personal",
+    "themes": [
+     "castle",
+     "cherry-blossoms"
+    ],
+    "photo": "assets/photos/personal-fukuoka-kurume-castle.webp",
+    "photo_thumb": "assets/photos/personal-fukuoka-kurume-castle.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
    }
   },
   {
@@ -2242,6 +2430,38 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     135.1956,
+     34.6952
+    ]
+   },
+   "properties": {
+    "id": "personal-hyogo-kobe-panda",
+    "name_en": "\"LOVE KOBE\" panda + fish design (approx. location)",
+    "name_ja": null,
+    "prefecture_en": "Hyogo",
+    "prefecture_ja": "兵庫県",
+    "municipality": "Kobe, near Sannomiya (exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "kobe",
+     "panda",
+     "mascots"
+    ],
+    "photo": "assets/photos/personal-hyogo-kobe-panda.webp",
+    "photo_thumb": "assets/photos/personal-hyogo-kobe-panda.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      134.93808,
      34.550446
     ]
@@ -4067,6 +4287,37 @@
     "source": "OpenStreetMap",
     "source_url": "https://www.openstreetmap.org/node/9518477728",
     "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.8422,
+     34.3372
+    ]
+   },
+   "properties": {
+    "id": "personal-mie-shima-camellia",
+    "name_en": "Shima camellia design (approx. location)",
+    "name_ja": "しま",
+    "prefecture_en": "Mie",
+    "prefecture_ja": "三重県",
+    "municipality": "Shima (exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "camellia",
+     "flowers"
+    ],
+    "photo": "assets/photos/personal-mie-shima-camellia.webp",
+    "photo_thumb": "assets/photos/personal-mie-shima-camellia.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
    }
   },
   {
@@ -6008,6 +6259,37 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     129.8644,
+     32.7503
+    ]
+   },
+   "properties": {
+    "id": "personal-nagasaki-allcore-mascot",
+    "name_en": "\"ALLCORE Nakadōri\" mascot design (approx. location)",
+    "name_ja": "中通り",
+    "prefecture_en": "Nagasaki",
+    "prefecture_ja": "長崎県",
+    "municipality": "Nagasaki, Nakadōri shopping arcade (exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "mascot",
+     "shopping-arcade"
+    ],
+    "photo": "assets/photos/personal-nagasaki-allcore-mascot.webp",
+    "photo_thumb": "assets/photos/personal-nagasaki-allcore-mascot.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      129.867432,
      32.753759
     ]
@@ -6958,6 +7240,38 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     135.3853,
+     34.628
+    ]
+   },
+   "properties": {
+    "id": "personal-osaka-expo2025-myakumyaku",
+    "name_en": "Expo 2025 Osaka-Kansai — Myaku-Myaku design (approx. location)",
+    "name_ja": "おおさか",
+    "prefecture_en": "Osaka",
+    "prefecture_ja": "大阪府",
+    "municipality": "Osaka, Yumeshima Expo site area (exact spot unknown)",
+    "category": "personal",
+    "themes": [
+     "expo-2025",
+     "myaku-myaku",
+     "mascot"
+    ],
+    "photo": "assets/photos/personal-osaka-expo2025-myakumyaku.webp",
+    "photo_thumb": "assets/photos/personal-osaka-expo2025-myakumyaku.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      135.5013,
      34.6688
     ]
@@ -7077,6 +7391,39 @@
     "source": "OpenStreetMap",
     "source_url": "https://www.openstreetmap.org/node/9518473251",
     "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     130.3009,
+     33.2635
+    ]
+   },
+   "properties": {
+    "id": "personal-saga-romancingsaga-aselus",
+    "name_en": "Romancing SaGa x Saga City design — Aselus (approx. location)",
+    "name_ja": "アセルス",
+    "prefecture_en": "Saga",
+    "prefecture_ja": "佐賀県",
+    "municipality": "Saga City (near Saga Station — exact spot unknown; part of a citywide Square Enix collaboration series)",
+    "category": "personal",
+    "themes": [
+     "romancing-saga",
+     "square-enix",
+     "licensed-character",
+     "video-game"
+    ],
+    "photo": "assets/photos/personal-saga-romancingsaga-aselus.webp",
+    "photo_thumb": "assets/photos/personal-saga-romancingsaga-aselus.thumb.webp",
+    "photo_credit": "Cams",
+    "photo_license": "own-work",
+    "installed": null,
+    "source": "personal",
+    "source_url": "https://github.com/sofianebeloucif/manhole-japan",
+    "visited": true
    }
   },
   {

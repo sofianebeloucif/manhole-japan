@@ -22,3 +22,7 @@ and its two image files here.
 | `unclassified-05-river-fish` | School of river fish (ayu-style), pebble background | none | Ayu designs are common in many river towns |
 | `unclassified-06-horse` | Standing horse illustration, maple-leaf border | Partial worn text, roughly "の...里..." — not confidently legible | Best guess only; not reliable enough to use |
 | `unclassified-07-rusty-flowers` | Heavily rusted cover, floral pattern | none (rust obscures any that might exist) | Design details barely legible |
+| `unclassified-08-frog` | Cartoon frog face, round border | Two short labels either side of the face, too worn to read confidently | From the "manhole signal riri" batch (Fukui-area trip, based on neighboring photos) |
+| `unclassified-09-koi-fish` | Two koi fish, circular design | Vertical text reading roughly "いすがき" — doesn't resolve to a real place name I could confirm | Same batch as `unclassified-08-frog` |
+| `unclassified-10-plum-crest` | Plum-blossom (umebachi-style) crest, generic "下水道" (sewerage) label | "下水道" only — a generic utility word, not a place name | Common crest style, used by too many municipalities to guess |
+| `unclassified-11-castle-chrysanthemum-cliffs` | Three-panel design: castle ruins, chrysanthemum, coastal cliffs | Two small circular stamps, illegible at photo resolution | Same shoot as the confirmed `personal-mie-shima-camellia` entry — likely Mie Prefecture, but not confirmed by readable text |
