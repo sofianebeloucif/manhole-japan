@@ -253,9 +253,12 @@ a { color: inherit; }
 #lightbox {
   position: fixed; inset: 0; z-index: 30;
   background: rgba(0, 0, 0, .85);
-  display: flex; align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
   padding: 32px; cursor: zoom-out;
 }
+/* #lightbox[hidden] must win over the ID selector below it, or the [hidden]
+   attribute's display:none never applies and the overlay stays visible. */
+#lightbox:not([hidden]) { display: flex; }
 #lightbox img {
   max-width: 100%; max-height: 100%;
   border-radius: 8px; box-shadow: var(--shadow);
