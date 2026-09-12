@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "unclassified-01-plain-utility",
+    "description": "Plain utility cover, two mirrored plum/flower motifs, concentric circle border",
+    "visible_text": "none",
+    "note": "No location clue at all",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-02-twin-flowers",
+    "description": "Two identical flowers either side of a center medallion",
+    "visible_text": "Small worn text, reads roughly \"なおし\" + a circled \"8\" (likely a foundry/manufacturer mark, not a place name)",
+    "note": "Text present but doesn't resolve to a municipality",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-03-wisteria-slogan",
+    "description": "Photographic-style wisteria/fuji tree, slogan \"きれいな水を未来に\" (\"clean water, for the future\")",
+    "visible_text": "Generic multi-city campaign slogan, no city name",
+    "note": "Possibly the same trip/area as the confirmed Kurashiki wisteria cover (photographed consecutively) — not confirmed",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-04-cranes",
+    "description": "Two cranes (鶴) in a kikkō (tortoiseshell hexagon) pattern",
+    "visible_text": "none",
+    "note": "Crane motifs are common nationwide; no distinguishing text",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-05-river-fish",
+    "description": "School of river fish (ayu-style), pebble background",
+    "visible_text": "none",
+    "note": "Ayu designs are common in many river towns",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-06-horse",
+    "description": "Standing horse illustration, maple-leaf border",
+    "visible_text": "Partial worn text, roughly \"の...里...\" — not confidently legible",
+    "note": "Best guess only; not reliable enough to use",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-07-rusty-flowers",
+    "description": "Heavily rusted cover, floral pattern",
+    "visible_text": "none (rust obscures any that might exist)",
+    "note": "Design details barely legible",
+    "photo_credit": "Cams",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-08-frog",
+    "description": "Cartoon frog face, round border",
+    "visible_text": "Two short labels either side of the face, too worn to read confidently",
+    "note": "From the \"manhole signal riri\" batch (Fukui-area trip, based on neighboring photos)",
+    "photo_credit": "Riri",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-09-koi-fish",
+    "description": "Two koi fish, circular design",
+    "visible_text": "Vertical text reading roughly \"いすがき\" — doesn't resolve to a real place name",
+    "note": "Same batch as unclassified-08-frog",
+    "photo_credit": "Riri",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-10-plum-crest",
+    "description": "Plum-blossom (umebachi-style) crest, generic \"下水道\" (sewerage) label",
+    "visible_text": "\"下水道\" only — a generic utility word, not a place name",
+    "note": "Common crest style, used by too many municipalities to guess",
+    "photo_credit": "Riri",
+    "photo_license": "own-work"
+  },
+  {
+    "slug": "unclassified-11-castle-chrysanthemum-cliffs",
+    "description": "Three-panel design: castle ruins, chrysanthemum, coastal cliffs",
+    "visible_text": "Two small circular stamps, illegible at photo resolution",
+    "note": "Same shoot as the confirmed personal-mie-shima-camellia entry — likely Mie Prefecture, but not confirmed by readable text",
+    "photo_credit": "Riri",
+    "photo_license": "own-work"
+  }
+]

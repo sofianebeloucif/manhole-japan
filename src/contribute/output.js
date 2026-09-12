@@ -45,6 +45,19 @@ export function prSteps(slug) {
   ].join("\n");
 }
 
+export function unclassifySteps(oldSlug, newSlug) {
+  return [
+    "To publish this identification:",
+    `1. Move \`assets/photos/_unclassified/${oldSlug}.webp\` and \`.thumb.webp\` to ` +
+      `\`assets/photos/${newSlug}.webp\` and \`.thumb.webp\` (rename them on the way).`,
+    "2. Append the JSON above to the array in `data/personal/mine.json`.",
+    "3. Add the row above to `PHOTO_CREDITS.md`.",
+    `4. Remove the \`${oldSlug}\` entry from \`data/unclassified.json\`.`,
+    "5. Run `npm run data` then `npm run lint`.",
+    `6. Open a pull request. Upload files at ${REPO}/upload/main/assets/photos`,
+  ].join("\n");
+}
+
 /* globals URL, document, Blob, Uint8Array */
 export function download(blob, filename) {
   const url = URL.createObjectURL(blob);

@@ -1,7 +1,13 @@
 [
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [138.4909, 35.0161] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        138.4909,
+        35.0161
+      ]
+    },
     "properties": {
       "id": "personal-shizuoka-shimizu-shizura",
       "name_en": "Shizura & Mt. Fuji design, Shimizu-ku (approx. location)",
@@ -10,7 +16,12 @@
       "prefecture_ja": "静岡県",
       "municipality": "Shimizu-ku, Shizuoka (near Shimizu Station — exact spot unknown)",
       "category": "personal",
-      "themes": ["shizura", "mascot", "mount-fuji", "tea-fields"],
+      "themes": [
+        "shizura",
+        "mascot",
+        "mount-fuji",
+        "tea-fields"
+      ],
       "photo": "assets/photos/personal-shizuoka-shimizu-shizura.webp",
       "photo_thumb": "assets/photos/personal-shizuoka-shimizu-shizura.thumb.webp",
       "photo_credit": "Cams",
@@ -23,7 +34,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [133.9445, 34.5008] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        133.9445,
+        34.5008
+      ]
+    },
     "properties": {
       "id": "personal-okayama-tamano-azalea",
       "name_en": "Tamano azalea design (approx. location)",
@@ -32,7 +49,10 @@
       "prefecture_ja": "岡山県",
       "municipality": "Tamano (near Tamano Station — exact spot unknown)",
       "category": "personal",
-      "themes": ["azalea", "flowers"],
+      "themes": [
+        "azalea",
+        "flowers"
+      ],
       "photo": "assets/photos/personal-okayama-tamano-azalea.webp",
       "photo_thumb": "assets/photos/personal-okayama-tamano-azalea.thumb.webp",
       "photo_credit": "Cams",
@@ -45,7 +65,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [133.7716, 34.5975] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        133.7716,
+        34.5975
+      ]
+    },
     "properties": {
       "id": "personal-okayama-kurashiki-wisteria",
       "name_en": "Kurashiki wisteria design (approx. location)",
@@ -54,7 +80,11 @@
       "prefecture_ja": "岡山県",
       "municipality": "Kurashiki, Bikan Historical Quarter (exact spot unknown)",
       "category": "personal",
-      "themes": ["wisteria", "flowers", "bikan-quarter"],
+      "themes": [
+        "wisteria",
+        "flowers",
+        "bikan-quarter"
+      ],
       "photo": "assets/photos/personal-okayama-kurashiki-wisteria.webp",
       "photo_thumb": "assets/photos/personal-okayama-kurashiki-wisteria.thumb.webp",
       "photo_credit": "Cams",
@@ -67,7 +97,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [135.5013, 34.6688] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        135.5013,
+        34.6688
+      ]
+    },
     "properties": {
       "id": "personal-osaka-namba-nolimit",
       "name_en": "\"OSAKA NO LIMIT!\" design, Namba/Dotonbori (approx. location)",
@@ -76,7 +112,12 @@
       "prefecture_ja": "大阪府",
       "municipality": "Osaka, Namba/Dotonbori (exact spot unknown)",
       "category": "personal",
-      "themes": ["osaka", "tourism", "dotonbori", "mascots"],
+      "themes": [
+        "osaka",
+        "tourism",
+        "dotonbori",
+        "mascots"
+      ],
       "photo": "assets/photos/personal-osaka-namba-nolimit.webp",
       "photo_thumb": "assets/photos/personal-osaka-namba-nolimit.thumb.webp",
       "photo_credit": "Cams",
@@ -89,7 +130,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [135.5262, 34.6873] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        135.5262,
+        34.6873
+      ]
+    },
     "properties": {
       "id": "personal-osaka-castle",
       "name_en": "Osaka Castle design (approx. location)",
@@ -98,7 +145,10 @@
       "prefecture_ja": "大阪府",
       "municipality": "Osaka, near Osaka Castle (exact spot unknown)",
       "category": "personal",
-      "themes": ["osaka-castle", "cherry-blossoms"],
+      "themes": [
+        "osaka-castle",
+        "cherry-blossoms"
+      ],
       "photo": "assets/photos/personal-osaka-castle.webp",
       "photo_thumb": "assets/photos/personal-osaka-castle.thumb.webp",
       "photo_credit": "Cams",
@@ -111,7 +161,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [136.9603, 35.728] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        136.9603,
+        35.728
+      ]
+    },
     "properties": {
       "id": "personal-gifu-gujohachiman-gj8man",
       "name_en": "GJ8man design, Gujō Hachiman (approx. location)",
@@ -120,7 +176,11 @@
       "prefecture_ja": "岐阜県",
       "municipality": "Gujō, Gujō Hachiman old town (exact spot deliberately unpublished by the town)",
       "category": "personal",
-      "themes": ["gj8man", "mascot", "gujo-hachiman"],
+      "themes": [
+        "gj8man",
+        "mascot",
+        "gujo-hachiman"
+      ],
       "photo": "assets/photos/personal-gifu-gujohachiman-gj8man.webp",
       "photo_thumb": "assets/photos/personal-gifu-gujohachiman-gj8man.thumb.webp",
       "photo_credit": "Cams",
@@ -133,7 +193,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [136.9066, 36.2576] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        136.9066,
+        36.2576
+      ]
+    },
     "properties": {
       "id": "personal-gifu-shirakawago",
       "name_en": "Shirakawa-go gassho-zukuri design (approx. location)",
@@ -142,7 +208,11 @@
       "prefecture_ja": "岐阜県",
       "municipality": "Shirakawa-mura, Ogimachi (exact spot unknown)",
       "category": "personal",
-      "themes": ["shirakawa-go", "unesco", "gassho-zukuri"],
+      "themes": [
+        "shirakawa-go",
+        "unesco",
+        "gassho-zukuri"
+      ],
       "photo": "assets/photos/personal-gifu-shirakawago.webp",
       "photo_thumb": "assets/photos/personal-gifu-shirakawago.thumb.webp",
       "photo_credit": "Cams",
@@ -155,7 +225,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [137.2136, 36.6968] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        137.2136,
+        36.6968
+      ]
+    },
     "properties": {
       "id": "personal-toyama-yuruyuri",
       "name_en": "Yuru Yuri collaboration design, Toyama (approx. location)",
@@ -164,7 +240,11 @@
       "prefecture_ja": "富山県",
       "municipality": "Toyama City (near Toyama Station — exact spot unknown; official map covers 10 covers citywide)",
       "category": "personal",
-      "themes": ["yuru-yuri", "anime", "licensed-character"],
+      "themes": [
+        "yuru-yuri",
+        "anime",
+        "licensed-character"
+      ],
       "photo": "assets/photos/personal-toyama-yuruyuri.webp",
       "photo_thumb": "assets/photos/personal-toyama-yuruyuri.thumb.webp",
       "photo_credit": "Cams",
@@ -177,7 +257,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [136.4886, 35.9814] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        136.4886,
+        35.9814
+      ]
+    },
     "properties": {
       "id": "personal-fukui-ono-castle",
       "name_en": "Ōno Castle design (approx. location)",
@@ -186,10 +272,13 @@
       "prefecture_ja": "福井県",
       "municipality": "Ōno (near Echizen-Ōno Station — exact spot unknown)",
       "category": "personal",
-      "themes": ["castle", "mountains"],
+      "themes": [
+        "castle",
+        "mountains"
+      ],
       "photo": "assets/photos/personal-fukui-ono-castle.webp",
       "photo_thumb": "assets/photos/personal-fukui-ono-castle.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -199,7 +288,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.4737, 33.5219] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.4737,
+        33.5219
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-kasuga-flower",
       "name_en": "Kasuga flower design (approx. location)",
@@ -208,10 +303,12 @@
       "prefecture_ja": "福岡県",
       "municipality": "Kasuga (near Kasuga Station — exact spot unknown)",
       "category": "personal",
-      "themes": ["flowers"],
+      "themes": [
+        "flowers"
+      ],
       "photo": "assets/photos/personal-fukuoka-kasuga-flower.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-kasuga-flower.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -221,7 +318,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.5153, 33.5133] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.5153,
+        33.5133
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-chikushino-camellia",
       "name_en": "Chikushino camellia design + Chikushi-chan mascot (approx. location)",
@@ -230,10 +333,14 @@
       "prefecture_ja": "福岡県",
       "municipality": "Chikushino (near Chikushino Station — exact spot unknown)",
       "category": "personal",
-      "themes": ["camellia", "flowers", "mascot"],
+      "themes": [
+        "camellia",
+        "flowers",
+        "mascot"
+      ],
       "photo": "assets/photos/personal-fukuoka-chikushino-camellia.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-chikushino-camellia.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -243,7 +350,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.5083, 33.3167] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.5083,
+        33.3167
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-kurume-castle",
       "name_en": "Kurume castle/bridge + cherry blossom design (approx. location, medium-confidence ID)",
@@ -252,10 +365,13 @@
       "prefecture_ja": "福岡県",
       "municipality": "Kurume (near Kurume Station — exact spot unknown; place name read from worn/rotated text, not fully certain)",
       "category": "personal",
-      "themes": ["castle", "cherry-blossoms"],
+      "themes": [
+        "castle",
+        "cherry-blossoms"
+      ],
       "photo": "assets/photos/personal-fukuoka-kurume-castle.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-kurume-castle.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -265,7 +381,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [136.8422, 34.3372] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        136.8422,
+        34.3372
+      ]
+    },
     "properties": {
       "id": "personal-mie-shima-camellia",
       "name_en": "Shima camellia design (approx. location)",
@@ -274,10 +396,13 @@
       "prefecture_ja": "三重県",
       "municipality": "Shima (exact spot unknown)",
       "category": "personal",
-      "themes": ["camellia", "flowers"],
+      "themes": [
+        "camellia",
+        "flowers"
+      ],
       "photo": "assets/photos/personal-mie-shima-camellia.webp",
       "photo_thumb": "assets/photos/personal-mie-shima-camellia.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -287,7 +412,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.3009, 33.2635] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
     "properties": {
       "id": "personal-saga-romancingsaga-aisha",
       "name_en": "Romancing SaGa x Saga City design — Aisha (approx. location)",
@@ -296,10 +427,15 @@
       "prefecture_ja": "佐賀県",
       "municipality": "Saga City (near Saga Station — exact spot unknown; part of a citywide Square Enix collaboration series)",
       "category": "personal",
-      "themes": ["romancing-saga", "square-enix", "licensed-character", "video-game"],
+      "themes": [
+        "romancing-saga",
+        "square-enix",
+        "licensed-character",
+        "video-game"
+      ],
       "photo": "assets/photos/personal-saga-romancingsaga-aisha.webp",
       "photo_thumb": "assets/photos/personal-saga-romancingsaga-aisha.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -309,7 +445,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.3009, 33.2635] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
     "properties": {
       "id": "personal-saga-romancingsaga-urpina",
       "name_en": "Romancing SaGa x Saga City design — Urpina (approx. location)",
@@ -318,10 +460,15 @@
       "prefecture_ja": "佐賀県",
       "municipality": "Saga City (near Saga Station — exact spot unknown; part of a citywide Square Enix collaboration series)",
       "category": "personal",
-      "themes": ["romancing-saga", "square-enix", "licensed-character", "video-game"],
+      "themes": [
+        "romancing-saga",
+        "square-enix",
+        "licensed-character",
+        "video-game"
+      ],
       "photo": "assets/photos/personal-saga-romancingsaga-urpina.webp",
       "photo_thumb": "assets/photos/personal-saga-romancingsaga-urpina.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -331,7 +478,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.3009, 33.2635] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
     "properties": {
       "id": "personal-saga-romancingsaga-polka",
       "name_en": "Romancing SaGa x Saga City design — Polka (approx. location)",
@@ -340,10 +493,15 @@
       "prefecture_ja": "佐賀県",
       "municipality": "Saga City (near Saga Station — exact spot unknown; part of a citywide Square Enix collaboration series)",
       "category": "personal",
-      "themes": ["romancing-saga", "square-enix", "licensed-character", "video-game"],
+      "themes": [
+        "romancing-saga",
+        "square-enix",
+        "licensed-character",
+        "video-game"
+      ],
       "photo": "assets/photos/personal-saga-romancingsaga-polka.webp",
       "photo_thumb": "assets/photos/personal-saga-romancingsaga-polka.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -353,7 +511,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.3009, 33.2635] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.3009,
+        33.2635
+      ]
+    },
     "properties": {
       "id": "personal-saga-romancingsaga-aselus",
       "name_en": "Romancing SaGa x Saga City design — Aselus (approx. location)",
@@ -362,10 +526,15 @@
       "prefecture_ja": "佐賀県",
       "municipality": "Saga City (near Saga Station — exact spot unknown; part of a citywide Square Enix collaboration series)",
       "category": "personal",
-      "themes": ["romancing-saga", "square-enix", "licensed-character", "video-game"],
+      "themes": [
+        "romancing-saga",
+        "square-enix",
+        "licensed-character",
+        "video-game"
+      ],
       "photo": "assets/photos/personal-saga-romancingsaga-aselus.webp",
       "photo_thumb": "assets/photos/personal-saga-romancingsaga-aselus.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -375,7 +544,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [135.1956, 34.6952] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        135.1956,
+        34.6952
+      ]
+    },
     "properties": {
       "id": "personal-hyogo-kobe-skyline",
       "name_en": "\"KOBE\" skyline design (approx. location)",
@@ -384,10 +559,14 @@
       "prefecture_ja": "兵庫県",
       "municipality": "Kobe, near Sannomiya (exact spot unknown)",
       "category": "personal",
-      "themes": ["kobe", "skyline", "port"],
+      "themes": [
+        "kobe",
+        "skyline",
+        "port"
+      ],
       "photo": "assets/photos/personal-hyogo-kobe-skyline.webp",
       "photo_thumb": "assets/photos/personal-hyogo-kobe-skyline.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -397,7 +576,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [135.1956, 34.6952] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        135.1956,
+        34.6952
+      ]
+    },
     "properties": {
       "id": "personal-hyogo-kobe-welcome",
       "name_en": "\"Welcome to KOBE\" design (approx. location)",
@@ -406,10 +591,14 @@
       "prefecture_ja": "兵庫県",
       "municipality": "Kobe, near Sannomiya (exact spot unknown)",
       "category": "personal",
-      "themes": ["kobe", "skyline", "tourism"],
+      "themes": [
+        "kobe",
+        "skyline",
+        "tourism"
+      ],
       "photo": "assets/photos/personal-hyogo-kobe-welcome.webp",
       "photo_thumb": "assets/photos/personal-hyogo-kobe-welcome.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -419,7 +608,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [135.1956, 34.6952] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        135.1956,
+        34.6952
+      ]
+    },
     "properties": {
       "id": "personal-hyogo-kobe-panda",
       "name_en": "\"LOVE KOBE\" panda + fish design (approx. location)",
@@ -428,10 +623,14 @@
       "prefecture_ja": "兵庫県",
       "municipality": "Kobe, near Sannomiya (exact spot unknown)",
       "category": "personal",
-      "themes": ["kobe", "panda", "mascots"],
+      "themes": [
+        "kobe",
+        "panda",
+        "mascots"
+      ],
       "photo": "assets/photos/personal-hyogo-kobe-panda.webp",
       "photo_thumb": "assets/photos/personal-hyogo-kobe-panda.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -441,7 +640,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [135.3853, 34.628] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        135.3853,
+        34.628
+      ]
+    },
     "properties": {
       "id": "personal-osaka-expo2025-myakumyaku",
       "name_en": "Expo 2025 Osaka-Kansai — Myaku-Myaku design (approx. location)",
@@ -450,10 +655,14 @@
       "prefecture_ja": "大阪府",
       "municipality": "Osaka, Yumeshima Expo site area (exact spot unknown)",
       "category": "personal",
-      "themes": ["expo-2025", "myaku-myaku", "mascot"],
+      "themes": [
+        "expo-2025",
+        "myaku-myaku",
+        "mascot"
+      ],
       "photo": "assets/photos/personal-osaka-expo2025-myakumyaku.webp",
       "photo_thumb": "assets/photos/personal-osaka-expo2025-myakumyaku.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -463,7 +672,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [129.8644, 32.7503] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        129.8644,
+        32.7503
+      ]
+    },
     "properties": {
       "id": "personal-nagasaki-siebold-mall",
       "name_en": "Siebold Mall / Shindaiku-machi medallion (approx. location)",
@@ -472,10 +687,13 @@
       "prefecture_ja": "長崎県",
       "municipality": "Nagasaki, Shindaiku-machi shopping arcade (exact spot unknown)",
       "category": "personal",
-      "themes": ["siebold", "shopping-arcade"],
+      "themes": [
+        "siebold",
+        "shopping-arcade"
+      ],
       "photo": "assets/photos/personal-nagasaki-siebold-mall.webp",
       "photo_thumb": "assets/photos/personal-nagasaki-siebold-mall.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -485,7 +703,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [129.8644, 32.7503] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        129.8644,
+        32.7503
+      ]
+    },
     "properties": {
       "id": "personal-nagasaki-allcore-mascot",
       "name_en": "\"ALLCORE Nakadōri\" mascot design (approx. location)",
@@ -494,10 +718,13 @@
       "prefecture_ja": "長崎県",
       "municipality": "Nagasaki, Nakadōri shopping arcade (exact spot unknown)",
       "category": "personal",
-      "themes": ["mascot", "shopping-arcade"],
+      "themes": [
+        "mascot",
+        "shopping-arcade"
+      ],
       "photo": "assets/photos/personal-nagasaki-allcore-mascot.webp",
       "photo_thumb": "assets/photos/personal-nagasaki-allcore-mascot.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -507,7 +734,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.362, 33.5951] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.362,
+        33.5951
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-hawks-sh",
       "name_en": "Fukuoka SoftBank Hawks design (approx. location)",
@@ -516,10 +749,14 @@
       "prefecture_ja": "福岡県",
       "municipality": "Fukuoka City, near Mizuho PayPay Dome (exact spot unknown)",
       "category": "personal",
-      "themes": ["softbank-hawks", "baseball", "licensed-character"],
+      "themes": [
+        "softbank-hawks",
+        "baseball",
+        "licensed-character"
+      ],
       "photo": "assets/photos/personal-fukuoka-hawks-sh.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-hawks-sh.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -529,7 +766,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.362, 33.5951] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.362,
+        33.5951
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-hawks-harry",
       "name_en": "Fukuoka SoftBank Hawks design — Harry Hawk (approx. location)",
@@ -538,10 +781,15 @@
       "prefecture_ja": "福岡県",
       "municipality": "Fukuoka City, near Mizuho PayPay Dome (exact spot unknown)",
       "category": "personal",
-      "themes": ["softbank-hawks", "baseball", "mascot", "licensed-character"],
+      "themes": [
+        "softbank-hawks",
+        "baseball",
+        "mascot",
+        "licensed-character"
+      ],
       "photo": "assets/photos/personal-fukuoka-hawks-harry.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-hawks-harry.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -551,7 +799,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.362, 33.5951] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.362,
+        33.5951
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-hawks-honey",
       "name_en": "Fukuoka SoftBank Hawks design — Honey (approx. location)",
@@ -560,10 +814,15 @@
       "prefecture_ja": "福岡県",
       "municipality": "Fukuoka City, near Mizuho PayPay Dome (exact spot unknown)",
       "category": "personal",
-      "themes": ["softbank-hawks", "baseball", "mascot", "licensed-character"],
+      "themes": [
+        "softbank-hawks",
+        "baseball",
+        "mascot",
+        "licensed-character"
+      ],
       "photo": "assets/photos/personal-fukuoka-hawks-honey.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-hawks-honey.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
@@ -573,7 +832,13 @@
   },
   {
     "type": "Feature",
-    "geometry": { "type": "Point", "coordinates": [130.8752, 33.8834] },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        130.8752,
+        33.8834
+      ]
+    },
     "properties": {
       "id": "personal-fukuoka-kitakyushu-lotus",
       "name_en": "Kitakyushu geometric lotus design (approx. location)",
@@ -582,10 +847,13 @@
       "prefecture_ja": "福岡県",
       "municipality": "Kitakyushu (near Kokura Station — exact spot unknown)",
       "category": "personal",
-      "themes": ["geometric", "lotus"],
+      "themes": [
+        "geometric",
+        "lotus"
+      ],
       "photo": "assets/photos/personal-fukuoka-kitakyushu-lotus.webp",
       "photo_thumb": "assets/photos/personal-fukuoka-kitakyushu-lotus.thumb.webp",
-      "photo_credit": "Cams",
+      "photo_credit": "Riri",
       "photo_license": "own-work",
       "installed": null,
       "source": "personal",
