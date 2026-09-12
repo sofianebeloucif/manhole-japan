@@ -86,6 +86,11 @@ function cardEl(entry) {
 
 async function loadEntries(deps = {}) {
   if (deps.entries) return deps.entries;
+  // No `r.ok` check: this list is load-bearing content for the whole panel,
+  // same as main.js's DATA_URL/PREFECTURES_URL fetches — not an optional
+  // signal like recognize/index.js#geo(), which degrades on a bad response.
+  // The outer try/catch in openUnclassify() turns any failure (network,
+  // non-JSON body, etc.) into a friendly message instead of an unhandled throw.
   const r = await fetch(UNCLASSIFIED_URL);
   return r.json();
 }
