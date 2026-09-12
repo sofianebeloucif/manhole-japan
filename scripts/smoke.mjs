@@ -67,6 +67,7 @@ globalThis.matchMedia = window.matchMedia;
 globalThis.fetch = window.fetch;
 globalThis.addEventListener = window.addEventListener.bind(window);
 globalThis.maplibregl = maplibregl;
+globalThis.Option = window.Option;
 
 await import(path.join(ROOT, "src/main.js"));
 await new Promise((r) => setTimeout(r, 300));
@@ -130,6 +131,14 @@ d.getElementById("batch-open").dispatchEvent(new window.Event("click"));
 check("batch panel opens", d.getElementById("batch").hidden === false);
 d.getElementById("batch-close").dispatchEvent(new window.Event("click"));
 check("batch panel closes", d.getElementById("batch").hidden === true);
+
+// help-classify panel open / close, and its list actually loads real entries
+d.getElementById("unclassify-open").dispatchEvent(new window.Event("click"));
+check("unclassify panel opens", d.getElementById("unclassify").hidden === false);
+await new Promise((r) => setTimeout(r, 100));
+check("unclassify list loads real entries", d.querySelectorAll("#u-list .u-card").length > 0);
+d.getElementById("unclassify-close").dispatchEvent(new window.Event("click"));
+check("unclassify panel closes", d.getElementById("unclassify").hidden === true);
 
 const { duplicateVerdict } = await import(path.join(ROOT, "src/recognize/dedup.js"));
 check("duplicateVerdict: confirmed on both signals",

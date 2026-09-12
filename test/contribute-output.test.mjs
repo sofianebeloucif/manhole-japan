@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
-import { buildFeature, photoCreditsRow, prSteps, zipWebps } from "../src/contribute/output.js";
+import { buildFeature, photoCreditsRow, prSteps, unclassifySteps, zipWebps } from "../src/contribute/output.js";
 
 function schemaValid(obj) {
   const py = `import json,sys,jsonschema; jsonschema.validate(json.load(sys.stdin), json.load(open("scripts/schema.json")))`;
@@ -51,6 +51,14 @@ test("prSteps: mentions the two files and the data command", () => {
   assert.match(s, /assets\/photos\/personal-tokyo-.*\.webp/);
   assert.match(s, /data\/personal\/mine\.json/);
   assert.match(s, /npm run data/);
+});
+
+test("unclassifySteps: mentions the rename from _unclassified/, the new slug, and removing the old entry", () => {
+  const s = unclassifySteps("unclassified-08-frog", input.slug);
+  assert.match(s, /assets\/photos\/_unclassified\/unclassified-08-frog\.webp/);
+  assert.match(s, new RegExp(`assets/photos/${input.slug}\\.webp`));
+  assert.match(s, /data\/personal\/mine\.json/);
+  assert.match(s, /remove.*unclassified-08-frog.*data\/unclassified\.json/i);
 });
 
 test("zipWebps: resolves to a zip Blob using an injected fflate dep", async () => {

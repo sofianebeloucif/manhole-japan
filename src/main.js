@@ -6,6 +6,7 @@ import * as panel from "./panel.js";
 import * as url from "./urlState.js";
 import { openContribute } from "./contribute/form.js";
 import { openBatch } from "./contribute/batch.js";
+import { openUnclassify } from "./contribute/unclassify.js";
 import { openIdentify, bindMap as bindIdentifyMap } from "./identify/view.js";
 
 const fc = (features) => ({ type: "FeatureCollection", features });
@@ -54,6 +55,10 @@ document.getElementById("add-cover").addEventListener("click", openContribute);
 // ---- batch add covers -------------------------------------------------
 document.getElementById("batch-open").addEventListener("click", openBatch);
 if (new URLSearchParams(location.search).get("tool") === "batch") openBatch();
+
+// ---- help classify unidentified covers ---------------------------------
+document.getElementById("unclassify-open").addEventListener("click", () => openUnclassify());
+if (new URLSearchParams(location.search).get("tool") === "unclassify") openUnclassify();
 
 // ---- identify a cover -------------------------------------------------
 bindIdentifyMap(view);

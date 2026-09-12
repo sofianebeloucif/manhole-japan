@@ -33,6 +33,7 @@ export const CDN = {
   embedModel: "https://huggingface.co/Xenova/dinov2-small/resolve/c2bb04a51fab207c420665f1946016107bffc701/onnx/model_quantized.onnx",
 };
 export const MUNICIPALITIES_URL = "data/municipalities.json";
+export const UNCLASSIFIED_URL = "data/unclassified.json";
 export const MODEL_META_URL = "models/meta.json";
 export const MODEL_ONNX_URL = "models/prefecture-clf.onnx";
 export const EMBEDDINGS_URL = "data/embeddings.bin";

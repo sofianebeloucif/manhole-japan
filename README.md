@@ -109,6 +109,16 @@ contributed photos exist; `scripts/build_embeddings.py` + `.github/workflows/emb
 regenerate it via PR. `models/embed-model.json` records the model, revision and
 licence.
 
+### Help classify a cover
+
+Some contributed photos have no usable location — no GPS in the source image,
+and no publicly documented exact address (official "manhole card" locations
+are handed out on physical cards, not published online). `?tool=unclassify`
+(or the **❓ Help classify** button) lists them from `data/unclassified.json`;
+if you recognise one, fill in its name/prefecture/coordinates and it builds
+the same JSON block + publish steps as the normal contribution form. Nothing
+is uploaded automatically — a human still opens the pull request.
+
 ## Data & attribution
 
 | Data | Source | Licence |

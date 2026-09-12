@@ -39,6 +39,7 @@
       <button type="button" id="reset" class="reset" hidden>Clear filters</button>
       <button type="button" id="add-cover" class="reset">＋ Add a cover</button>
       <button type="button" id="batch-open" class="reset">Batch</button>
+      <button type="button" id="unclassify-open" class="reset">❓ Help classify</button>
     </section>
 
     <section id="prefbars" class="prefbars" aria-label="Covers per prefecture"></section>
@@ -122,6 +123,16 @@
       <div class="id-right" id="id-result"></div>
     </div>
   </div>
+
+  <section id="unclassify" hidden aria-label="Help classify a cover">
+    <button type="button" id="unclassify-close" aria-label="Close">×</button>
+    <h2>Help classify a cover</h2>
+    <p class="hint">Nobody could place these covers yet — no GPS in the source
+       photos and no public exact address. If you recognise one, fill in
+       what you know; it builds a JSON block + steps to open a pull request.
+       Nothing is uploaded automatically.</p>
+    <div id="u-list"></div>
+  </section>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.min.js"></script>
   <script type="module" src="src/main.js"></script>
