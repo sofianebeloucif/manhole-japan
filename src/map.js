@@ -10,7 +10,7 @@ export function createMap(theme = "light") {
     // Start on the right style from the very first paint. Creating with
     // "light" and swapping to "dark" right after boot (as this used to do)
     // races map.setStyle()'s async source teardown against the initial
-    // setCovers()/setPrefectures() calls - on a system already in dark
+    // setCovers()/setPrefectures() calls. On a system already in dark
     // mode, the covers/prefectures sources could still be mid-teardown
     // when setData() ran, silently dropping the data (setSource()?.setData
     // no-ops on a missing source, no error). Avoid the swap entirely for

@@ -87,7 +87,7 @@ function refresh({ fit = false } = {}) {
 
 // ---- selection -------------------------------------------------------
 // Several personal covers can intentionally sit at the exact same
-// (approximate) coordinate when the exact spot is unknown - clicking that
+// (approximate) coordinate when the exact spot is unknown. Clicking that
 // one dot should surface all of them, not just whichever MapLibre happened
 // to report first. Grouped by rounded coordinate (same ~1 m precision as
 // scripts/build_covers.py's dedupe) against the currently filtered set, so

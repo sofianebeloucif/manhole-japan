@@ -1,8 +1,8 @@
 # Manhole Japan
 
 An interactive map of Japan's decorative manhole covers. In Japan almost every
-city and ward casts its own design - flowers, castles, festivals, local legends,
-Pokémon - and this map plots where they are.
+city and ward casts its own design (flowers, castles, festivals, local legends,
+Pokémon), and this map plots where they are.
 
 **[Live demo](https://sofianebeloucif.github.io/manhole-japan/)**
 
@@ -16,7 +16,7 @@ Pokémon - and this map plots where they are.
 - A stats panel and a per-prefecture bar chart that follow the current filter.
 - Click a cover for its photo, Japanese name, themes and source link.
 - Light / dark basemap, and a shareable URL (`?pref=Miyagi&q=Lapras&id=…`).
-- Add your own finds via a small JSON file - no build tooling required.
+- Add your own finds via a small JSON file. No build tooling required.
 
 ## Stack
 
@@ -28,7 +28,7 @@ by Actions.
 ```
 src/            vanilla JS modules (map, filters, stats, panel, url state)
 data/
-  covers.geojson      generated - the map reads this
+  covers.geojson      generated, this is what the map reads
   prefectures.geojson  simplified boundaries (for the prefecture filter)
   personal/*.json      hand-added observations, merged at build time
   sources/*.json       raw pulls, committed for reproducible builds
@@ -56,8 +56,8 @@ npm run smoke      # headless functional test
 2. Add an entry to `data/personal/mine.json` (copy `data/personal/_template.json`):
    coordinates `[lon, lat]`, `name_en`, `municipality`, `themes`, and
    `photo: "assets/photos/<slug>.webp"` / `photo_thumb: "…thumb.webp"`.
-   Leave `prefecture_en` null - it's filled in from the coordinates.
-3. `npm run data` then `npm run lint` - open a PR.
+   Leave `prefecture_en` null. It's filled in from the coordinates.
+3. `npm run data` then `npm run lint`, then open a PR.
 
 ## Add a cover from the site
 
@@ -65,7 +65,7 @@ Open **＋ Add a cover** (top of the panel) or the **Identify a cover** link in 
 footer. Pick a JPEG/PNG of a cover: the page reads its EXIF GPS, can OCR the text
 cast into it, and (once enough photos exist) runs a prefecture classifier, then
 gives you a ready-to-paste JSON block, two optimised WebP files, and the steps to
-open a pull request. Everything runs in your browser - the photo is never
+open a pull request. Everything runs in your browser. The photo is never
 uploaded, and its GPS metadata is stripped from the files you download.
 
 ### Origin recognition
@@ -85,12 +85,13 @@ uploaded, and its GPS metadata is stripped from the files you download.
 
 OCR trade-offs worth knowing: `@paddleocr/paddleocr-js` is the official SDK
 from the PaddlePaddle/PaddleOCR monorepo (Apache-2.0), but it's still pre-1.0
-and thinly maintained - pinned to an exact version for that reason. Vertical
+and thinly maintained, so it's pinned to an exact version. Vertical
 Japanese text (common on stamped/circular cover art) hasn't been verified in
 a real browser yet, only horizontal stylised text.
 
-Appending `?tool=identify` to the URL opens the same engine as a standalone tool - drop a photo, read the three signal cards and the verdict, then hand off to the
-pre-filled contribution form.
+Appending `?tool=identify` to the URL opens the same engine as a standalone
+tool: drop a photo, read the three signal cards and the verdict, then hand
+off to the pre-filled contribution form.
 
 ### Batch add + deduplication
 
@@ -102,7 +103,7 @@ by default.
 
 Deduplication combines GPS proximity (< 15 m) and **visual similarity**: a
 DINOv2-small image encoder (Apache-2.0, ~23 MB, loaded lazily from the Hugging
-Face CDN - nothing large is committed) embeds the photo and compares it against
+Face CDN, so nothing large is committed) embeds the photo and compares it against
 `data/embeddings.bin`. Like the classifier, the visual library is empty until
 contributed photos exist; `scripts/build_embeddings.py` + `.github/workflows/embed.yml`
 regenerate it via PR. `models/embed-model.json` records the model, revision and
@@ -110,13 +111,13 @@ licence.
 
 ### Help classify a cover
 
-Some contributed photos have no usable location - no GPS in the source image,
+Some contributed photos have no usable location: no GPS in the source image,
 and no publicly documented exact address (official "manhole card" locations
 are handed out on physical cards, not published online). `?tool=unclassify`
 (or the **Help classify** button) lists them from `data/unclassified.json`;
 if you recognise one, fill in its name/prefecture/coordinates and it builds
 the same JSON block + publish steps as the normal contribution form. Nothing
-is uploaded automatically - a human still opens the pull request.
+is uploaded automatically; a human still opens the pull request.
 
 ## Data & attribution
 
@@ -136,7 +137,7 @@ Nintendo, or the GKP / Japan Sewage Works Association.
 
 ## Roadmap
 
-- **v2** - GKP manhole-card dataset (scraper + ~1000 more covers), list/grid
+- **v2**: GKP manhole-card dataset (scraper + ~1000 more covers), list/grid
   view, prefecture choropleth.
-- **v3** - personal "visited / card collected" layer (localStorage), OSM
+- **v3**: personal "visited / card collected" layer (localStorage), OSM
   enrichment, `flake.nix` dev shell, FR/JA UI.

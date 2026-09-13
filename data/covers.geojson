@@ -244,7 +244,7 @@
     "name_ja": "いすみ市",
     "prefecture_en": "Chiba",
     "prefecture_ja": "千葉県",
-    "municipality": "Isumi (near Isumi Station - exact spot unknown)",
+    "municipality": "Isumi (near Isumi Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "fish",
@@ -399,7 +399,7 @@
     "name_ja": "ちくしの",
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Chikushino (near Chikushino Station - exact spot unknown)",
+    "municipality": "Chikushino (near Chikushino Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "camellia",
@@ -431,7 +431,7 @@
     "name_ja": "ちくしの",
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Chikushino (near Chikushino Station - exact spot unknown; plain variant of the Chikushi-chan cover)",
+    "municipality": "Chikushino (near Chikushino Station, exact spot unknown; plain variant of the Chikushi-chan cover)",
     "category": "personal",
     "themes": [
      "camellia",
@@ -458,7 +458,7 @@
    },
    "properties": {
     "id": "personal-fukuoka-hawks-harry",
-    "name_en": "Fukuoka SoftBank Hawks design - Harry Hawk (approx. location)",
+    "name_en": "Fukuoka SoftBank Hawks design: Harry Hawk (approx. location)",
     "name_ja": null,
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
@@ -491,7 +491,7 @@
    },
    "properties": {
     "id": "personal-fukuoka-hawks-honey",
-    "name_en": "Fukuoka SoftBank Hawks design - Honey (approx. location)",
+    "name_en": "Fukuoka SoftBank Hawks design: Honey (approx. location)",
     "name_ja": null,
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
@@ -560,7 +560,7 @@
     "name_ja": "かすがし",
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Kasuga (near Kasuga Station - exact spot unknown)",
+    "municipality": "Kasuga (near Kasuga Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "flowers"
@@ -590,7 +590,7 @@
     "name_ja": "北九州",
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Kitakyushu (near Kokura Station - exact spot unknown)",
+    "municipality": "Kitakyushu (near Kokura Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "geometric",
@@ -621,7 +621,7 @@
     "name_ja": null,
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Kurume (near Kurume Station - exact spot unknown; place name read from worn/rotated text, not fully certain)",
+    "municipality": "Kurume (near Kurume Station, exact spot unknown; place name read from worn/rotated text, not fully certain)",
     "category": "personal",
     "themes": [
      "castle",
@@ -652,7 +652,7 @@
     "name_ja": "大野城市",
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Onojo (near Onojo Station - exact spot unknown)",
+    "municipality": "Onojo (near Onojo Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "flowers",
@@ -679,11 +679,11 @@
    },
    "properties": {
     "id": "personal-fukuoka-onojo-mountain",
-    "name_en": "Onojo City - Mt. Ōno fortress ruins + wildflowers design (approx. location)",
+    "name_en": "Onojo City: Mt. Ōno fortress ruins + wildflowers design (approx. location)",
     "name_ja": "大野城市",
     "prefecture_en": "Fukuoka",
     "prefecture_ja": "福岡県",
-    "municipality": "Onojo (near Onojo Station - exact spot unknown; corrects an earlier misreading as Ōno, Fukui)",
+    "municipality": "Onojo (near Onojo Station, exact spot unknown; corrects an earlier misreading as Ōno, Fukui)",
     "category": "personal",
     "themes": [
      "mountain",
@@ -6986,7 +6986,7 @@
     "name_ja": "たまの",
     "prefecture_en": "Okayama",
     "prefecture_ja": "岡山県",
-    "municipality": "Tamano (near Tamano Station - exact spot unknown)",
+    "municipality": "Tamano (near Tamano Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "azalea",
@@ -7596,7 +7596,7 @@
    },
    "properties": {
     "id": "personal-osaka-expo2025-myakumyaku",
-    "name_en": "Expo 2025 Osaka-Kansai - Myaku-Myaku design (approx. location)",
+    "name_en": "Expo 2025 Osaka-Kansai: Myaku-Myaku design (approx. location)",
     "name_ja": "おおさか",
     "prefecture_en": "Osaka",
     "prefecture_ja": "大阪府",
@@ -7754,11 +7754,11 @@
    },
    "properties": {
     "id": "personal-saga-romancingsaga-aisha",
-    "name_en": "Romancing SaGa x Saga City design - Aisha (approx. location)",
+    "name_en": "Romancing SaGa x Saga City design: Aisha (approx. location)",
     "name_ja": null,
     "prefecture_en": "Saga",
     "prefecture_ja": "佐賀県",
-    "municipality": "Saga City (near Saga Station - exact spot unknown; part of a citywide Square Enix collaboration series)",
+    "municipality": "Saga City (near Saga Station, exact spot unknown; part of a citywide Square Enix collaboration series)",
     "category": "personal",
     "themes": [
      "romancing-saga",
@@ -7787,11 +7787,11 @@
    },
    "properties": {
     "id": "personal-saga-romancingsaga-albert",
-    "name_en": "Romancing SaGa x Saga City design - Albert (approx. location)",
+    "name_en": "Romancing SaGa x Saga City design: Albert (approx. location)",
     "name_ja": "アルベルト",
     "prefecture_en": "Saga",
     "prefecture_ja": "佐賀県",
-    "municipality": "Saga City (near Saga Station - exact spot unknown; part of a citywide Square Enix collaboration series)",
+    "municipality": "Saga City (near Saga Station, exact spot unknown; part of a citywide Square Enix collaboration series)",
     "category": "personal",
     "themes": [
      "romancing-saga",
@@ -7819,11 +7819,11 @@
    },
    "properties": {
     "id": "personal-saga-romancingsaga-aselus",
-    "name_en": "Romancing SaGa x Saga City design - Aselus (approx. location)",
+    "name_en": "Romancing SaGa x Saga City design: Aselus (approx. location)",
     "name_ja": "アセルス",
     "prefecture_en": "Saga",
     "prefecture_ja": "佐賀県",
-    "municipality": "Saga City (near Saga Station - exact spot unknown; part of a citywide Square Enix collaboration series)",
+    "municipality": "Saga City (near Saga Station, exact spot unknown; part of a citywide Square Enix collaboration series)",
     "category": "personal",
     "themes": [
      "romancing-saga",
@@ -7852,11 +7852,11 @@
    },
    "properties": {
     "id": "personal-saga-romancingsaga-polka",
-    "name_en": "Romancing SaGa x Saga City design - Polka (approx. location)",
+    "name_en": "Romancing SaGa x Saga City design: Polka (approx. location)",
     "name_ja": "ポルカ",
     "prefecture_en": "Saga",
     "prefecture_ja": "佐賀県",
-    "municipality": "Saga City (near Saga Station - exact spot unknown; part of a citywide Square Enix collaboration series)",
+    "municipality": "Saga City (near Saga Station, exact spot unknown; part of a citywide Square Enix collaboration series)",
     "category": "personal",
     "themes": [
      "romancing-saga",
@@ -7885,11 +7885,11 @@
    },
    "properties": {
     "id": "personal-saga-romancingsaga-urpina",
-    "name_en": "Romancing SaGa x Saga City design - Urpina (approx. location)",
+    "name_en": "Romancing SaGa x Saga City design: Urpina (approx. location)",
     "name_ja": null,
     "prefecture_en": "Saga",
     "prefecture_ja": "佐賀県",
-    "municipality": "Saga City (near Saga Station - exact spot unknown; part of a citywide Square Enix collaboration series)",
+    "municipality": "Saga City (near Saga Station, exact spot unknown; part of a citywide Square Enix collaboration series)",
     "category": "personal",
     "themes": [
      "romancing-saga",
@@ -8325,7 +8325,7 @@
     "name_ja": "清水区",
     "prefecture_en": "Shizuoka",
     "prefecture_ja": "静岡県",
-    "municipality": "Shimizu-ku, Shizuoka (near Shimizu Station - exact spot unknown)",
+    "municipality": "Shimizu-ku, Shizuoka (near Shimizu Station, exact spot unknown)",
     "category": "personal",
     "themes": [
      "shizura",
@@ -9196,7 +9196,7 @@
     "name_ja": "とやま ゆるゆり",
     "prefecture_en": "Toyama",
     "prefecture_ja": "富山県",
-    "municipality": "Toyama City (near Toyama Station - exact spot unknown; official map covers 10 covers citywide)",
+    "municipality": "Toyama City (near Toyama Station, exact spot unknown; official map covers 10 covers citywide)",
     "category": "personal",
     "themes": [
      "yuru-yuri",

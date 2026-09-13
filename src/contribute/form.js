@@ -1,5 +1,5 @@
 /* global document, localStorage, Option */
-// src/contribute/form.js - the "＋ Add a cover" panel controller.
+// src/contribute/form.js: the "＋ Add a cover" panel controller.
 import { analyze } from "../recognize/index.js";
 import { toWebp, slugify, randHex } from "./image.js";
 import { buildFeature, photoCreditsRow, prSteps, download, esc } from "./output.js";
@@ -40,17 +40,17 @@ function renderAnalysis(a) {
     box.innerHTML +=
       `<div class="sig" style="color:#b45309">${esc(v.level)} duplicate` +
       (v.of ? ` of <a href="?id=${esc(v.of.id)}">${esc(v.of.name_en || v.of.id)}</a>` : "") +
-      ` - ${esc(v.reasons.join("; "))}. Add it only if it is a different design.</div>`;
+      `: ${esc(v.reasons.join("; "))}. Add it only if it is a different design.</div>`;
   }
 
   if (a.visual && a.visual.status === "ok") {
     box.innerHTML +=
       `<div class="sig"><b>Visual match</b><br>` +
       a.visual.matches.slice(0, 3).map((m) =>
-        `${esc(m.name_en || m.id)} (${esc(m.prefecture_en || "?")}) - ${(m.similarity * 100).toFixed(0)}%`,
+        `${esc(m.name_en || m.id)} (${esc(m.prefecture_en || "?")}): ${(m.similarity * 100).toFixed(0)}%`,
       ).join("<br>") + `</div>`;
   } else if (a.visual && a.visual.status === "no_library") {
-    box.innerHTML += `<div class="sig">Visual match: no reference library yet - add contributed photos to build it.</div>`;
+    box.innerHTML += `<div class="sig">Visual match: no reference library yet. Add contributed photos to build it.</div>`;
   } else if (a.visual && a.visual.status === "unavailable") {
     box.innerHTML += `<div class="sig">Visual match: unavailable.</div>`;
   }
@@ -71,7 +71,7 @@ function renderAnalysis(a) {
         prefill(current.analysis);
       } catch {
         btn.disabled = false;
-        btn.textContent = "OCR failed - try again";
+        btn.textContent = "OCR failed, try again";
       }
     };
     box.appendChild(btn);
@@ -92,7 +92,7 @@ function renderAnalysis(a) {
         prefill(current.analysis);
       } catch {
         vbtn.disabled = false;
-        vbtn.textContent = "Visual match failed - try again";
+        vbtn.textContent = "Visual match failed, try again";
       }
     };
     box.appendChild(vbtn);

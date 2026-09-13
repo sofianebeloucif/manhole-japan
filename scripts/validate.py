@@ -18,7 +18,7 @@ SCHEMA = json.loads((ROOT / "scripts" / "schema.json").read_text(encoding="utf-8
 def main() -> int:
     path = ROOT / "data" / "covers.geojson"
     if not path.exists():
-        print("data/covers.geojson missing - run scripts/build_covers.py", file=sys.stderr)
+        print("data/covers.geojson missing, run scripts/build_covers.py", file=sys.stderr)
         return 1
     fc = json.loads(path.read_text(encoding="utf-8"))
 
@@ -70,7 +70,7 @@ def main() -> int:
             if not (122 <= r["lon"] <= 154 and 20 <= r["lat"] <= 46):
                 print(f"municipalities.json: coord out of range {r['code']}", file=sys.stderr)
                 return 1
-        print(f"OK - {len(rows)} municipalities in gazetteer")
+        print(f"OK: {len(rows)} municipalities in gazetteer")
 
     meta_p = ROOT / "models" / "meta.json"
     if meta_p.exists():
@@ -105,9 +105,9 @@ def main() -> int:
         if got != want:
             print(f"embeddings.bin: {got} bytes, expected {want}", file=sys.stderr)
             return 1
-        print(f"OK - {len(idx['ids'])} embeddings")
+        print(f"OK: {len(idx['ids'])} embeddings")
 
-    print(f"OK - {len(fc['features'])} features, {fc['metadata']['prefectures']} prefectures")
+    print(f"OK: {len(fc['features'])} features, {fc['metadata']['prefectures']} prefectures")
     return 0
 
 
