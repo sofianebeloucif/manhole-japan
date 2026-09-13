@@ -145,6 +145,36 @@
   <div id="lightbox" hidden aria-label="Enlarged photo">
     <button type="button" id="lightbox-close" aria-label="Close">×</button>
     <img id="lightbox-img" alt="">
+    <div id="lightbox-actions">
+      <button type="button" id="lightbox-reconstruct" class="reset">Relief tools</button>
+    </div>
+  </div>
+
+  <div id="reconstruct" hidden aria-label="Cover relief tools">
+    <button type="button" id="reconstruct-close" aria-label="Close">×</button>
+    <h2>Relief tools</h2>
+    <p class="hint">Classical image processing on this photo's own pixels:
+       an unsharp mask to make the cast relief easier to read, and a
+       normal map turned into an interactive light. Nothing here is
+       generated or guessed.</p>
+    <div class="recon-tabs">
+      <button type="button" class="reset" id="recon-tab-enhanced" aria-pressed="true">Enhanced relief</button>
+      <button type="button" class="reset" id="recon-tab-3d">3D relief view</button>
+    </div>
+    <div id="recon-enhanced-view">
+      <p class="recon-status recon-loading">Processing…</p>
+      <p class="recon-status recon-error">Could not process this photo.</p>
+      <div class="recon-compare">
+        <figure><figcaption>Original</figcaption><canvas id="recon-original-canvas"></canvas></figure>
+        <figure><figcaption>Enhanced</figcaption><canvas id="recon-enhanced-canvas"></canvas></figure>
+      </div>
+    </div>
+    <div id="recon-3d-view" hidden>
+      <p class="recon-status recon-loading">Loading the 3D viewer…</p>
+      <p class="recon-status recon-error">Could not load the 3D viewer.</p>
+      <canvas id="recon-3d-canvas"></canvas>
+      <p class="hint">Move your mouse over the cover to shine a light across it.</p>
+    </div>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/5.6.0/maplibre-gl.min.js"></script>

@@ -46,7 +46,7 @@ themeToggle.addEventListener("click", () => {
 
 // ---- sidebar collapse (mobile) --------------------------------------
 // The button only ever removed "collapsed" here, and CSS only ever shows
-// it once "collapsed" is already set — so nothing could add the class in
+// it once "collapsed" is already set, so nothing could add the class in
 // the first place, and on a narrow viewport (sidebar pinned to the top,
 // covering 62dvh) there was no way to dismiss it at all. toggle() plus the
 // mobile CSS change below (button always visible under 640px) fixes both.
@@ -186,6 +186,9 @@ Promise.all([
   // No view.setBasemap() here: createMap(theme) already started the map
   // with the right style, so there's nothing to swap on initial boot.
   applyFromUrl(url.read(), { fit: true });
-  syncUrl({ replace: true });
+  // Must run before syncUrl() rewrites location.search down to just
+  // q/pref/cat/id (it doesn't preserve "tool", so checking after the
+  // rewrite always misses it).
   if (new URLSearchParams(location.search).get("tool") === "gallery") openGalleryNow();
+  syncUrl({ replace: true });
 });

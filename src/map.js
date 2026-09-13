@@ -5,7 +5,7 @@ const catMatch = CATEGORIES.flatMap((c) => [c.id, c.color]);
 // Desktop reserves a left gutter for the docked sidebar. Under the 640px
 // breakpoint (style.css) the sidebar sits on TOP of the map instead, so a
 // 360px left pad would leave almost nothing to fit into on a phone-width
-// viewport — pad the top a bit for the always-visible toggle button instead.
+// viewport, so pad the top a bit for the always-visible toggle button instead.
 const PAD_DESKTOP = { top: 40, right: 40, bottom: 40, left: 360 };
 const PAD_MOBILE = { top: 90, right: 20, bottom: 20, left: 20 };
 const pad = () =>

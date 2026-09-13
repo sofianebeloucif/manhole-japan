@@ -172,6 +172,17 @@ check("lightbox shows the full-size (non-thumb) photo",
 d.getElementById("lightbox").dispatchEvent(new window.Event("click"));
 check("lightbox closes", d.getElementById("lightbox").hidden === true);
 
+// relief tools: opens from the lightbox. jsdom has no real canvas/WebGL,
+// so the actual image processing can't complete here (same degrade-under-
+// jsdom situation as the OCR/visual-match checks above) -- this only
+// confirms the overlay itself opens and closes without an uncaught error.
+d.querySelector("#u-list .u-thumb").dispatchEvent(new window.Event("click"));
+d.getElementById("lightbox-reconstruct").dispatchEvent(new window.Event("click"));
+check("relief tools overlay opens from the lightbox", d.getElementById("reconstruct").hidden === false);
+await new Promise((r) => setTimeout(r, 50));
+d.getElementById("reconstruct-close").dispatchEvent(new window.Event("click"));
+check("relief tools overlay closes", d.getElementById("reconstruct").hidden === true);
+
 // gallery: shows the currently-filtered set that actually has a photo
 d.getElementById("prefecture").value = "";
 d.getElementById("prefecture").dispatchEvent(new window.Event("change"));
