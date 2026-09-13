@@ -54,6 +54,12 @@ accepted. Add a row when you add a photo.
 | commons-wakayama-kudoyama-persimmon.webp | Kudoyama persimmon design | VKaeru | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_Kudoyama_kakis.jpg) |
 | commons-ehime-mikan.webp | Mikan (mandarin orange) design | VKaeru | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_Mikan.jpg) |
 | commons-yamagata-kaminoyama-scarecrow.webp | Kaminoyama scarecrow design | Suz-b | CC-BY-SA-4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaminoyama_kakashi-manhole.JPG) |
+| commons-akita-kanto-festival.webp | Kanto Festival lantern design | 掬茶 | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_in_Akita,_Akita.jpg) |
+| commons-kochi-nojidokei-clock.webp | Nojidokei (field clock) design | r18 INO (PACHIMO) | CC-BY-3.0 | [Wikimedia Commons](<https://commons.wikimedia.org/wiki/File:野良時計のマンホール蓋_-_panoramio.jpg>) |
+| commons-oita-birds.webp | Birds and plum blossoms design | VKaeru | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_birds_2.jpg) |
+| commons-shimane-matsue.webp | Matsue City design | x768 | CC-BY-SA-2.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover,_Matsue_City,_Shimane_Prefecture,_August_2016.jpg) |
+| commons-tokushima-onaruto-bridge.webp | Onaruto Bridge design | VKaeru | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_Ohnaruto_bridge.jpg) |
+| commons-yamaguchi-shimonoseki-fugu.webp | Fugu (pufferfish) design | そらみみ (Soramimi) | CC-BY-SA-4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Shimonoseki,_Yamaguchi.jpg) |
 
 For OpenStreetMap-sourced covers the map shows no photo; it links to the OSM
 node instead.

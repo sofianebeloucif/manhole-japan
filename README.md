@@ -6,7 +6,7 @@ Pokémon), and this map plots where they are.
 
 **[Live demo](https://sofianebeloucif.github.io/manhole-japan/)**
 
-<!-- ![Screenshot](docs/screenshot.webp) -->
+![Screenshot](docs/screenshot.webp)
 
 ## What it does
 

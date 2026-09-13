@@ -196,5 +196,137 @@
       "source_url": "https://commons.wikimedia.org/wiki/File:Kaminoyama_kakashi-manhole.JPG",
       "visited": false
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [140.1024, 39.7186] },
+    "properties": {
+      "id": "commons-akita-kanto-festival",
+      "name_en": "Kanto Festival lantern design (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Akita",
+      "prefecture_ja": "秋田県",
+      "municipality": "Akita City (exact spot unknown)",
+      "category": "commons",
+      "themes": ["kanto-festival", "folklore"],
+      "photo": "assets/photos/commons-akita-kanto-festival.webp",
+      "photo_thumb": "assets/photos/commons-akita-kanto-festival.thumb.webp",
+      "photo_credit": "掬茶",
+      "photo_license": "CC-BY-SA-3.0",
+      "installed": null,
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover_in_Akita,_Akita.jpg",
+      "visited": false
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [133.9135, 33.5179] },
+    "properties": {
+      "id": "commons-kochi-nojidokei-clock",
+      "name_en": "Nojidokei (field clock) design",
+      "name_ja": "野良時計",
+      "prefecture_en": "Kochi",
+      "prefecture_ja": "高知県",
+      "municipality": "Aki, Kochi",
+      "category": "commons",
+      "themes": ["clock-tower", "landmark", "flowers"],
+      "photo": "assets/photos/commons-kochi-nojidokei-clock.webp",
+      "photo_thumb": "assets/photos/commons-kochi-nojidokei-clock.thumb.webp",
+      "photo_credit": "r18 INO (PACHIMO)",
+      "photo_license": "CC-BY-3.0",
+      "installed": null,
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E9%87%8E%E8%89%AF%E6%99%82%E8%A8%88%E3%81%AE%E3%83%9E%E3%83%B3%E3%83%9B%E3%83%BC%E3%83%AB%E8%93%8B_-_panoramio.jpg",
+      "visited": false
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [131.6126, 33.2382] },
+    "properties": {
+      "id": "commons-oita-birds",
+      "name_en": "Birds and plum blossoms design (approx. location, exact city not documented)",
+      "name_ja": null,
+      "prefecture_en": "Oita",
+      "prefecture_ja": "大分県",
+      "municipality": "Oita (exact municipality not recorded by the photographer)",
+      "category": "commons",
+      "themes": ["birds", "plum-blossom"],
+      "photo": "assets/photos/commons-oita-birds.webp",
+      "photo_thumb": "assets/photos/commons-oita-birds.thumb.webp",
+      "photo_credit": "VKaeru",
+      "photo_license": "CC-BY-SA-3.0",
+      "installed": null,
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_birds_2.jpg",
+      "visited": false
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [133.0505, 35.4723] },
+    "properties": {
+      "id": "commons-shimane-matsue",
+      "name_en": "Matsue City design",
+      "name_ja": null,
+      "prefecture_en": "Shimane",
+      "prefecture_ja": "島根県",
+      "municipality": "Matsue, Shimane (exact spot unknown)",
+      "category": "commons",
+      "themes": ["castle", "river", "scenic"],
+      "photo": "assets/photos/commons-shimane-matsue.webp",
+      "photo_thumb": "assets/photos/commons-shimane-matsue.thumb.webp",
+      "photo_credit": "x768",
+      "photo_license": "CC-BY-SA-2.0",
+      "installed": null,
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover,_Matsue_City,_Shimane_Prefecture,_August_2016.jpg",
+      "visited": false
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [134.6396, 34.2379] },
+    "properties": {
+      "id": "commons-tokushima-onaruto-bridge",
+      "name_en": "Onaruto Bridge design (approx. location)",
+      "name_ja": null,
+      "prefecture_en": "Tokushima",
+      "prefecture_ja": "徳島県",
+      "municipality": "Naruto, Tokushima (exact spot unknown)",
+      "category": "commons",
+      "themes": ["bridge", "sea", "scenic"],
+      "photo": "assets/photos/commons-tokushima-onaruto-bridge.webp",
+      "photo_thumb": "assets/photos/commons-tokushima-onaruto-bridge.thumb.webp",
+      "photo_credit": "VKaeru",
+      "photo_license": "CC-BY-SA-3.0",
+      "installed": null,
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_Ohnaruto_bridge.jpg",
+      "visited": false
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": { "type": "Point", "coordinates": [130.9245, 33.9509] },
+    "properties": {
+      "id": "commons-yamaguchi-shimonoseki-fugu",
+      "name_en": "Fugu (pufferfish) design",
+      "name_ja": "しものせき",
+      "prefecture_en": "Yamaguchi",
+      "prefecture_ja": "山口県",
+      "municipality": "Shimonoseki, Yamaguchi",
+      "category": "commons",
+      "themes": ["fugu", "pufferfish", "fish"],
+      "photo": "assets/photos/commons-yamaguchi-shimonoseki-fugu.webp",
+      "photo_thumb": "assets/photos/commons-yamaguchi-shimonoseki-fugu.thumb.webp",
+      "photo_credit": "そらみみ (Soramimi)",
+      "photo_license": "CC-BY-SA-4.0",
+      "installed": null,
+      "source": "Wikimedia Commons",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Shimonoseki,_Yamaguchi.jpg",
+      "visited": false
+    }
   }
 ]
