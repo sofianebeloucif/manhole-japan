@@ -42,6 +42,21 @@ class DedupeTests(unittest.TestCase):
         out = dedupe([a, b])
         self.assertEqual(len(out), 2)
 
+    def test_a_commons_entry_and_a_personal_entry_at_the_same_spot_both_survive(self):
+        # "commons" (Wikimedia Commons-sourced photos) is hand-curated too,
+        # same as "personal" -- it must not collapse against a personal
+        # entry, or against another commons entry, sharing a coordinate.
+        a = feature("personal-x", 130.3009, 33.2635, category="personal")
+        b = feature("commons-y", 130.3009, 33.2635, category="commons")
+        out = dedupe([a, b])
+        self.assertEqual({f["properties"]["id"] for f in out}, {"personal-x", "commons-y"})
+
+    def test_a_commons_entry_replaces_a_pokefuta_one_at_the_same_spot(self):
+        osm = feature("pokefuta-x", 130.3009, 33.2635, category="pokefuta")
+        commons = feature("commons-y", 130.3009, 33.2635, category="commons")
+        out = dedupe([osm, commons])
+        self.assertEqual([f["properties"]["id"] for f in out], ["commons-y"])
+
 
 if __name__ == "__main__":
     unittest.main()
