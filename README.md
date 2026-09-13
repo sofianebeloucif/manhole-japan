@@ -119,6 +119,15 @@ if you recognise one, fill in its name/prefecture/coordinates and it builds
 the same JSON block + publish steps as the normal contribution form. Nothing
 is uploaded automatically; a human still opens the pull request.
 
+### Gallery
+
+`?tool=gallery` (or the **Gallery** button) is a clean grid showcase of
+every cover in the current filter that actually has a photo. Poké Lids are
+location-only (OSM data, no image rights to show), so they're skipped
+automatically rather than rendering broken thumbnails. Click a photo for
+the full-size version; click a caption to jump straight to that cover on
+the map.
+
 ## Data & attribution
 
 | Data | Source | Licence |
