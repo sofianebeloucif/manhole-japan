@@ -7,6 +7,11 @@ export const BASEMAPS = {
 };
 
 export const JAPAN_BOUNDS = [[122.0, 24.0], [154.0, 46.5]];
+// Hard pan/zoom limits so the map never scrolls out to the rest of the
+// world. Padded wider than JAPAN_BOUNDS (which is just the fitBounds
+// target) so panning to the edges of the country doesn't feel clipped.
+export const MAP_MAX_BOUNDS = [[105.0, 12.0], [170.0, 58.0]];
+export const MAP_MIN_ZOOM = 4;
 
 // Only the categories actually present in data/covers.geojson today.
 // scripts/schema.json still allows "manhole_card" and "osm" for the
