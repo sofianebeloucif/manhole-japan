@@ -9,6 +9,7 @@ import { UNCLASSIFIED_URL } from "../config.js";
 import { buildFeature, photoCreditsRow, unclassifySteps, esc } from "./output.js";
 import { PREFS } from "./form.js";
 import { slugify, randHex } from "./image.js";
+import { openLightbox } from "../lightbox.js";
 
 const $ = (id) => document.getElementById(id);
 
@@ -116,16 +117,4 @@ export function closeUnclassify() {
   $("unclassify").hidden = true;
 }
 
-function openLightbox(src) {
-  $("lightbox-img").src = src;
-  $("lightbox").hidden = false;
-}
-
-function closeLightbox() {
-  $("lightbox").hidden = true;
-  $("lightbox-img").src = "";
-}
-
 $("unclassify-close").addEventListener("click", closeUnclassify);
-$("lightbox").addEventListener("click", closeLightbox);
-$("lightbox-close").addEventListener("click", (e) => { e.stopPropagation(); closeLightbox(); });

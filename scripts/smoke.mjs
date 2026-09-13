@@ -172,6 +172,22 @@ check("lightbox shows the full-size (non-thumb) photo",
 d.getElementById("lightbox").dispatchEvent(new window.Event("click"));
 check("lightbox closes", d.getElementById("lightbox").hidden === true);
 
+// gallery: shows the currently-filtered set that actually has a photo
+d.getElementById("prefecture").value = "";
+d.getElementById("prefecture").dispatchEvent(new window.Event("change"));
+await new Promise((r) => setTimeout(r, 250));
+const allCovers = Number(d.querySelector("#stats .stat b").textContent);
+d.getElementById("gallery-open").dispatchEvent(new window.Event("click"));
+check("gallery opens", d.getElementById("gallery").hidden === false);
+const galCards = d.querySelectorAll("#gallery-grid .gal-card");
+check("gallery renders cards for photographed covers", galCards.length > 0);
+check("gallery skips covers with no photo (pokefuta)", galCards.length < allCovers);
+d.querySelector("#gallery-grid .gal-thumb").dispatchEvent(new window.Event("click"));
+check("gallery thumbnail opens the shared lightbox", d.getElementById("lightbox").hidden === false);
+d.getElementById("lightbox").dispatchEvent(new window.Event("click"));
+d.getElementById("gallery-close").dispatchEvent(new window.Event("click"));
+check("gallery closes", d.getElementById("gallery").hidden === true);
+
 d.getElementById("unclassify-close").dispatchEvent(new window.Event("click"));
 check("unclassify panel closes", d.getElementById("unclassify").hidden === true);
 

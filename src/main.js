@@ -8,6 +8,7 @@ import { openContribute } from "./contribute/form.js";
 import { openBatch } from "./contribute/batch.js";
 import { openUnclassify } from "./contribute/unclassify.js";
 import { openIdentify, bindMap as bindIdentifyMap } from "./identify/view.js";
+import { openGallery } from "./gallery.js";
 
 const fc = (features) => ({ type: "FeatureCollection", features });
 
@@ -68,6 +69,15 @@ if (new URLSearchParams(location.search).get("tool") === "unclassify") openUncla
 // ---- identify a cover -------------------------------------------------
 bindIdentifyMap(view);
 if (new URLSearchParams(location.search).get("tool") === "identify") openIdentify();
+
+// ---- gallery ------------------------------------------------------------
+// Shows whatever the current filter has on the map right now (currentShown,
+// assigned below), so filtering by prefecture/search/category before
+// opening it narrows the showcase the same way it narrows the map.
+function openGalleryNow() {
+  openGallery(currentShown, { onSelect: (id) => { select(id, { fly: true }); syncUrl(); } });
+}
+document.getElementById("gallery-open").addEventListener("click", openGalleryNow);
 
 // ---- render loop --------------------------------------------------------
 let currentShown = [];
@@ -177,4 +187,5 @@ Promise.all([
   // with the right style, so there's nothing to swap on initial boot.
   applyFromUrl(url.read(), { fit: true });
   syncUrl({ replace: true });
+  if (new URLSearchParams(location.search).get("tool") === "gallery") openGalleryNow();
 });

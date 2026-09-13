@@ -37,6 +37,7 @@
         <legend>Type</legend>
       </fieldset>
       <button type="button" id="reset" class="reset" hidden>Clear filters</button>
+      <button type="button" id="gallery-open" class="reset">Gallery</button>
       <button type="button" id="add-cover" class="reset">＋ Add a cover</button>
       <button type="button" id="batch-open" class="reset">Batch</button>
       <button type="button" id="unclassify-open" class="reset">Help classify</button>
@@ -112,6 +113,13 @@
       <pre id="b-steps"></pre>
     </div>
   </section>
+
+  <div id="gallery" hidden aria-label="Photo gallery">
+    <button type="button" id="gallery-close" aria-label="Close">×</button>
+    <h2>Gallery</h2>
+    <p class="hint" id="gallery-count"></p>
+    <div id="gallery-grid"></div>
+  </div>
 
   <div id="identify" hidden aria-label="Identify a cover">
     <button type="button" id="identify-close" aria-label="Close">×</button>
