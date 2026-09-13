@@ -1,4 +1,4 @@
-import { BASEMAPS, JAPAN_BOUNDS, CATEGORIES } from "./config.js";
+import { BASEMAPS, JAPAN_BOUNDS, MAP_MAX_BOUNDS, MAP_MIN_ZOOM, CATEGORIES } from "./config.js";
 
 const EMPTY = { type: "FeatureCollection", features: [] };
 const catMatch = CATEGORIES.flatMap((c) => [c.id, c.color]);
@@ -19,6 +19,10 @@ export function createMap(theme = "light") {
     bounds: JAPAN_BOUNDS,
     fitBoundsOptions: { padding: PAD },
     attributionControl: { compact: true },
+    // Nothing here to see outside Japan, so don't let panning or zooming
+    // out reach the rest of the world.
+    maxBounds: MAP_MAX_BOUNDS,
+    minZoom: MAP_MIN_ZOOM,
   });
   map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "bottom-right");
   map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "bottom-right");
