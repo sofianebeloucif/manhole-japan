@@ -45,7 +45,7 @@ def main() -> None:
     photos = collect_photos()
     if not photos:
         _write([], [])
-        print("no contributed photos — wrote empty embeddings index", file=sys.stderr)
+        print("no contributed photos - wrote empty embeddings index", file=sys.stderr)
         return
 
     import numpy as np

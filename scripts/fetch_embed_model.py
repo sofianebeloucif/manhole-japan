@@ -26,7 +26,7 @@ def model_path() -> pathlib.Path:
         f.write(r.read())
     if DEST.stat().st_size < 1_000_000:
         DEST.unlink(missing_ok=True)
-        raise SystemExit("download too small — revision may have moved")
+        raise SystemExit("download too small - revision may have moved")
     return DEST
 
 

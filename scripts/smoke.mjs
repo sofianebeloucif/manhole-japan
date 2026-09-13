@@ -103,9 +103,9 @@ d.getElementById("q").dispatchEvent(new window.Event("input"));
 await new Promise((r) => setTimeout(r, 250));
 check("search narrows results", Number(d.querySelector("#stats .stat b").textContent) <= covers);
 
-// clicking a cover that shares its (approximate) coordinate with others —
+// clicking a cover that shares its (approximate) coordinate with others -
 // several personal entries intentionally do, when the exact spot is
-// unknown — must show every one of them stacked, not just the first.
+// unknown - must show every one of them stacked, not just the first.
 d.getElementById("prefecture").value = "";
 d.getElementById("prefecture").dispatchEvent(new window.Event("change"));
 d.getElementById("q").value = "";

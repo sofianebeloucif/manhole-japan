@@ -1,7 +1,7 @@
 // Regression coverage for panel.js#showMultiple: several personal covers can
 // intentionally share the same (approximate) coordinate when the exact spot
 // is unknown. Clicking that spot must surface every one of them, not just
-// whichever MapLibre happened to report first — see main.js#siblingsOf.
+// whichever MapLibre happened to report first - see main.js#siblingsOf.
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { JSDOM } from "jsdom";

@@ -3,7 +3,7 @@
 // theme was dark. map.setStyle()'s async source teardown raced the initial
 // setCovers()/setPrefectures() calls, and on a system already in dark mode
 // this silently dropped all map data (source.setData() on a torn-down
-// source is a no-op, not an error) — the map showed the basemap with zero
+// source is a no-op, not an error) - the map showed the basemap with zero
 // markers, no console error. Fixed by starting the map with the right
 // style up front instead of swapping after the fact.
 import { test } from "node:test";

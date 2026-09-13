@@ -132,7 +132,7 @@ async function buildAll() {
       zipBtn.textContent = zipLabel;
     } catch {
       zipBtn.disabled = false;
-      zipBtn.textContent = "Zip failed — try again";
+      zipBtn.textContent = "Zip failed - try again";
     }
   };
 }

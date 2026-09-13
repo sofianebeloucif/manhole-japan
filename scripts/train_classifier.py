@@ -56,7 +56,7 @@ def main() -> None:
 
     if n < min_samples:
         _write_meta(n, min_samples=min_samples)
-        print("below threshold — refreshed models/meta.json only")
+        print("below threshold - refreshed models/meta.json only")
         return
 
     import torch
