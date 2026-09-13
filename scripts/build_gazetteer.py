@@ -104,7 +104,7 @@ def main() -> None:
     print(f"downloaded {len(resp.content):,} bytes")
     rows = rows_from_records(_records_from_csv(resp.text))
     if len(rows) < 1500:
-        sys.exit(f"only {len(rows)} municipalities - source format likely changed")
+        sys.exit(f"only {len(rows)} municipalities, source format likely changed")
     OUT.write_text(json.dumps(rows, ensure_ascii=False, indent=0) + "\n", encoding="utf-8")
     print(f"wrote {len(rows)} municipalities -> {OUT}")
 

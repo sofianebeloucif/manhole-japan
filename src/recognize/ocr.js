@@ -1,4 +1,4 @@
-// src/recognize/ocr.js - client-side OCR of cover text via PaddleOCR (ONNX, PP-OCRv5 "ch" model).
+// src/recognize/ocr.js: client-side OCR of cover text via PaddleOCR (ONNX, PP-OCRv5 "ch" model).
 // PaddleOCR (~26 MB: OpenCV.js + onnxruntime-web det/cls/rec models) is loaded
 // ONLY via lazy import() here, never at module top level, so it never touches
 // first paint. Reads kanji reliably even in stylized/illustrated cover art
@@ -15,8 +15,8 @@ async function getOcr(deps) {
   if (!_ocr) {
     // CDN.paddleocrJs is pinned to an exact npm version, but the SDK itself
     // then fetches OpenCV.js + the det/cls/rec ONNX models from URLs baked
-    // into its own bundle - those nested assets aren't something this repo
-    // controls or audits directly.
+    // into its own bundle, and those nested assets aren't something this
+    // repo controls or audits directly.
     const { PaddleOCR } = await import(/* @vite-ignore */ CDN.paddleocrJs);
     _ocr = await PaddleOCR.create({ lang: "ch", ocrVersion: "PP-OCRv5" });
   }

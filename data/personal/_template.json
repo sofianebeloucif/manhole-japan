@@ -4,7 +4,7 @@
     "geometry": { "type": "Point", "coordinates": [139.700464, 35.690184] },
     "properties": {
       "id": "personal-example-shinjuku",
-      "name_en": "Example - replace me (Shinjuku ward flower design)",
+      "name_en": "Example, replace this (Shinjuku ward flower design)",
       "name_ja": null,
       "prefecture_en": null,
       "municipality": "Shinjuku, Tokyo",

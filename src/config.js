@@ -8,11 +8,14 @@ export const BASEMAPS = {
 
 export const JAPAN_BOUNDS = [[122.0, 24.0], [154.0, 46.5]];
 
+// Only the categories actually present in data/covers.geojson today.
+// scripts/schema.json still allows "manhole_card" and "osm" for the
+// roadmap items in README.md (GKP manhole cards, OSM enrichment); add
+// them back here once real data for either one exists, so the filter
+// chips never offer a category with nothing behind it.
 export const CATEGORIES = [
   { id: "pokefuta", label: "Poké Lids", color: "#3b82f6" },
-  { id: "manhole_card", label: "Manhole cards", color: "#f59e0b" },
   { id: "personal", label: "My finds", color: "#16a34a" },
-  { id: "osm", label: "Other (OSM)", color: "#8957e5" },
 ];
 
 export const CATEGORY_COLOR = Object.fromEntries(
@@ -24,7 +27,7 @@ export const CDN = {
   exifr: "https://cdn.jsdelivr.net/npm/exifr@7.1.3/dist/full.esm.mjs",
   // esm.sh, not jsdelivr: this package's dist file has bare-specifier
   // imports (js-yaml, clipper-lib, @techstark/opencv-js) that only resolve
-  // via a bundler/node_modules - a raw browser import() of the jsdelivr
+  // via a bundler/node_modules, so a raw browser import() of the jsdelivr
   // file throws immediately. esm.sh rewrites those into resolvable URLs.
   paddleocrJs: "https://esm.sh/@paddleocr/paddleocr-js@0.4.2",
   ort: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.min.mjs",

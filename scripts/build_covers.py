@@ -7,7 +7,7 @@
   one; a personal entry replaces a non-personal one at the same spot (the
   same physical cover, imported and also photographed) but never collapses
   against another personal entry, since many intentionally share an
-  approximate city-center coordinate - one per distinct design - when the
+  approximate city-center coordinate, one per distinct design, when the
   exact spot is unknown
 - validates every feature against scripts/schema.json
 """
@@ -123,7 +123,7 @@ def load_personal(prefs: Prefectures, existing: list[dict] | None = None) -> lis
             for prev in existing + out:
                 plon, plat = prev["geometry"]["coordinates"]
                 if _haversine_m(lon, lat, plon, plat) < 15:
-                    print(f"  ~ {p.get('id', '?')} is <15 m from an existing cover - possible duplicate", file=sys.stderr)
+                    print(f"  ~ {p.get('id', '?')} is <15 m from an existing cover, possible duplicate", file=sys.stderr)
                     break
             out.append(e)
     return out
@@ -165,7 +165,7 @@ def main() -> None:
         fetched_at = payload.get("fetched_at")
         features += from_osm_pokefuta(payload, prefs)
     else:
-        print("  (no data/sources/pokefuta_osm.json - run fetch_pokefuta.py first)", file=sys.stderr)
+        print("  (no data/sources/pokefuta_osm.json, run fetch_pokefuta.py first)", file=sys.stderr)
 
     features += load_personal(prefs, features)
     features = dedupe(features)

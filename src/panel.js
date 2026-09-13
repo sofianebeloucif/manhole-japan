@@ -61,13 +61,13 @@ export function show(feature, { onTheme } = {}) {
   el.scrollTop = 0;
 }
 
-// Several covers sharing the same (approximate) spot - main.js#siblingsOf
+// Several covers sharing the same (approximate) spot: main.js#siblingsOf
 // decides when this applies. Renders every one as its own card in the same
 // already-scrollable #detail panel, so scrolling the panel steps through
 // them all.
 export function showMultiple(features, { onTheme } = {}) {
   body.innerHTML =
-    `<p class="stack-hint">${features.length} covers at this spot - scroll to see them all.</p>` +
+    `<p class="stack-hint">${features.length} covers at this spot. Scroll to see them all.</p>` +
     features.map((f) => `<div class="detail-card">${cardHtml(f)}</div>`).join("");
   bindThemeHandlers(onTheme);
   el.hidden = false;

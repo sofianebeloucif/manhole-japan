@@ -1,5 +1,5 @@
 /* global document, location, history, URL */
-// src/identify/view.js - the standalone "Identify a cover" full-screen tool.
+// src/identify/view.js: the standalone "Identify a cover" full-screen tool.
 import { analyze } from "../recognize/index.js";
 import { openContributeWith } from "../contribute/form.js";
 import { duplicateVerdict } from "../recognize/dedup.js";
@@ -24,7 +24,7 @@ function render(a) {
     dupLine +
     `<div class="verdict">${esc(c.prefecture_en || "Origin unknown")} · ${esc(c.confidence)} confidence</div>` +
     `<div class="sig"><b>GPS</b><br>${a.gps
-      ? `${esc(a.gps.prefecture_en)} - nearest known cover ${a.gps.nearestCover ? `${esc(a.gps.nearestCover.name_en)} (${esc(a.gps.nearestCover.dist_m)} m)` : "none"}`
+      ? `${esc(a.gps.prefecture_en)}, nearest known cover ${a.gps.nearestCover ? `${esc(a.gps.nearestCover.name_en)} (${esc(a.gps.nearestCover.dist_m)} m)` : "none"}`
       : "no GPS in this photo"}</div>` +
     `<div class="sig"><b>OCR</b><br>${a.ocr && a.ocr.status === "ok"
       ? `read: “${esc(a.ocr.rawText.replace(/\n/g, " ").slice(0, 80))}” → ${a.ocr.municipalityGuesses.map((g) => `${esc(g.name_ja)} (${esc(g.prefecture_en)})`).join(", ") || "no match"}`
@@ -32,12 +32,12 @@ function render(a) {
     `<div class="sig"><b>Classifier</b><br>${a.classifier && a.classifier.status === "ok"
       ? a.classifier.predictions.map((p) => `${esc(p.prefecture_en)} ${(p.prob * 100).toFixed(0)}%`).join(", ")
       : a.classifier && a.classifier.status === "insufficient_data"
-      ? `not enough data yet (${esc(a.classifier.have)}/${esc(a.classifier.need)}) - contribute photos to train it`
+      ? `not enough data yet (${esc(a.classifier.have)}/${esc(a.classifier.need)}), contribute photos to train it`
       : "unavailable"}</div>` +
     `<div class="sig"><b>Visual match</b><br>${a.visual && a.visual.status === "ok"
       ? a.visual.matches.slice(0, 3).map((m) => `${esc(m.name_en || m.id)} (${esc(m.prefecture_en || "?")}) ${(m.similarity * 100).toFixed(0)}%`).join(", ")
       : a.visual && a.visual.status === "no_library"
-      ? "no reference library yet - add contributed photos to build it"
+      ? "no reference library yet, add contributed photos to build it"
       : a.visual && a.visual.status === "unavailable"
       ? "unavailable"
       : "not run"}</div>` +
@@ -55,7 +55,7 @@ function render(a) {
         render(last.analysis);
       } catch {
         vbtn.disabled = false;
-        vbtn.textContent = "Visual match failed - try again";
+        vbtn.textContent = "Visual match failed, try again";
       }
     };
   }

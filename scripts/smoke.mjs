@@ -89,7 +89,7 @@ const stats = d.querySelectorAll("#stats .stat b");
 check("stats rendered", stats.length === 3);
 check("prefecture filter from URL applied", d.getElementById("prefecture").value === "Miyagi");
 check("prefecture options populated", d.getElementById("prefecture").options.length > 20);
-check("category chips built", d.querySelectorAll("#categories .chip").length === 4);
+check("category chips built", d.querySelectorAll("#categories .chip").length === 2);
 check("prefecture bars rendered", d.querySelectorAll("#prefbars .row").length > 0);
 const covers = Number(stats[0]?.textContent || 0);
 check("Miyagi cover count sane (10-60)", covers >= 10 && covers <= 60);
@@ -103,9 +103,9 @@ d.getElementById("q").dispatchEvent(new window.Event("input"));
 await new Promise((r) => setTimeout(r, 250));
 check("search narrows results", Number(d.querySelector("#stats .stat b").textContent) <= covers);
 
-// clicking a cover that shares its (approximate) coordinate with others -
-// several personal entries intentionally do, when the exact spot is
-// unknown - must show every one of them stacked, not just the first.
+// clicking a cover that shares its (approximate) coordinate with others,
+// which several personal entries intentionally do when the exact spot is
+// unknown, must show every one of them stacked, not just the first.
 d.getElementById("prefecture").value = "";
 d.getElementById("prefecture").dispatchEvent(new window.Event("change"));
 d.getElementById("q").value = "";
