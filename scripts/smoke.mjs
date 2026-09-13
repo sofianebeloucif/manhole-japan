@@ -89,7 +89,7 @@ const stats = d.querySelectorAll("#stats .stat b");
 check("stats rendered", stats.length === 3);
 check("prefecture filter from URL applied", d.getElementById("prefecture").value === "Miyagi");
 check("prefecture options populated", d.getElementById("prefecture").options.length > 20);
-check("category chips built", d.querySelectorAll("#categories .chip").length === 2);
+check("category chips built", d.querySelectorAll("#categories .chip").length === 3);
 check("prefecture bars rendered", d.querySelectorAll("#prefbars .row").length > 0);
 const covers = Number(stats[0]?.textContent || 0);
 check("Miyagi cover count sane (10-60)", covers >= 10 && covers <= 60);

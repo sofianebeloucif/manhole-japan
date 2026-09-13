@@ -129,20 +129,31 @@ def load_personal(prefs: Prefectures, existing: list[dict] | None = None) -> lis
     return out
 
 
+# Categories added one hand-picked feature at a time (a real photo behind
+# each entry). Two of these never dedupe against each other purely by
+# sharing a coordinate: many intentionally share an approximate city-center
+# point when the exact spot is unknown, and each still represents a
+# distinct, real cover. "pokefuta" (bulk Overpass import) is the only
+# category where two points at ~the same spot are actually likely to be
+# the same physical cover reported twice.
+HAND_CURATED_CATEGORIES = {"personal", "commons"}
+
+
 def dedupe(features: list[dict]) -> list[dict]:
-    """Collapse coordinate collisions between two non-personal (OSM) points,
-    and let a personal entry replace a non-personal one at the same spot.
-    Two personal entries never dedupe against each other purely by
-    coordinate: personal entries are appended last on purpose, so this still
-    prefers a personal photo over a plain OSM import of the same cover."""
+    """Collapse coordinate collisions between two non-hand-curated (OSM
+    import) points, and let a hand-curated entry replace a non-hand-curated
+    one at the same spot (the same physical cover, imported and also
+    photographed). Two hand-curated entries never dedupe against each other
+    purely by coordinate: they are appended last on purpose, so this still
+    prefers a real photo over a plain OSM import of the same cover."""
     by_coord: dict[tuple, dict] = {}
     out: list[dict] = []
     for f in features:
         lon, lat = f["geometry"]["coordinates"]
         key = (round(lon, 5), round(lat, 5))
-        if f["properties"].get("category") == "personal":
+        if f["properties"].get("category") in HAND_CURATED_CATEGORIES:
             prev = by_coord.get(key)
-            if prev is not None and prev["properties"].get("category") != "personal":
+            if prev is not None and prev["properties"].get("category") not in HAND_CURATED_CATEGORIES:
                 out.remove(prev)
             by_coord[key] = f
             out.append(f)

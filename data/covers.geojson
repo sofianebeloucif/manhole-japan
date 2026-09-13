@@ -2,9 +2,10 @@
  "type": "FeatureCollection",
  "metadata": {
   "sources_fetched_at": "2026-09-09T23:02:09.551219+00:00",
-  "count": 298,
-  "prefectures": 31,
+  "count": 307,
+  "prefectures": 39,
   "by_category": {
+   "commons": 9,
    "personal": 39,
    "pokefuta": 259
   },
@@ -381,6 +382,69 @@
     "installed": null,
     "source": "OpenStreetMap",
     "source_url": "https://www.openstreetmap.org/node/9518478817",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.7657,
+     33.8392
+    ]
+   },
+   "properties": {
+    "id": "commons-ehime-mikan",
+    "name_en": "Mikan (mandarin orange) design (approx. location, exact city not documented)",
+    "name_ja": null,
+    "prefecture_en": "Ehime",
+    "prefecture_ja": "愛媛県",
+    "municipality": "Ehime (exact municipality not recorded by the photographer)",
+    "category": "commons",
+    "themes": [
+     "mikan",
+     "fruit"
+    ],
+    "photo": "assets/photos/commons-ehime-mikan.webp",
+    "photo_thumb": "assets/photos/commons-ehime-mikan.thumb.webp",
+    "photo_credit": "VKaeru",
+    "photo_license": "CC-BY-SA-3.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_Mikan.jpg",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.173,
+     35.9037
+    ]
+   },
+   "properties": {
+    "id": "commons-fukui-echizen-fish",
+    "name_en": "Echizen fish design (approx. location)",
+    "name_ja": null,
+    "prefecture_en": "Fukui",
+    "prefecture_ja": "福井県",
+    "municipality": "Echizen, Fukui (exact spot unknown)",
+    "category": "commons",
+    "themes": [
+     "fish",
+     "river",
+     "bridge"
+    ],
+    "photo": "assets/photos/commons-fukui-echizen-fish.webp",
+    "photo_thumb": "assets/photos/commons-fukui-echizen-fish.thumb.webp",
+    "photo_credit": "Osarusan",
+    "photo_license": "CC-BY-SA-3.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:EchizenSewerlid.JPG",
     "visited": false
    }
   },
@@ -1524,6 +1588,37 @@
     "source": "personal",
     "source_url": "https://github.com/sofianebeloucif/manhole-japan",
     "visited": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     132.3196,
+     34.2971
+    ]
+   },
+   "properties": {
+    "id": "commons-hiroshima-miyajima",
+    "name_en": "Miyajima design (approx. location)",
+    "name_ja": null,
+    "prefecture_en": "Hiroshima",
+    "prefecture_ja": "広島県",
+    "municipality": "Miyajima, Hatsukaichi, Hiroshima (exact spot unknown)",
+    "category": "commons",
+    "themes": [
+     "miyajima",
+     "geometric"
+    ],
+    "photo": "assets/photos/commons-hiroshima-miyajima.webp",
+    "photo_thumb": "assets/photos/commons-hiroshima-miyajima.thumb.webp",
+    "photo_credit": "そらみみ (Soramimi)",
+    "photo_license": "CC-BY-SA-4.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Miyajima,_Hatsukaichi,_Hiroshima.jpg",
+    "visited": false
    }
   },
   {
@@ -4392,6 +4487,69 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     130.7079,
+     32.8032
+    ]
+   },
+   "properties": {
+    "id": "commons-kumamoto-camellia",
+    "name_en": "Kumamoto camellia design (approx. location)",
+    "name_ja": "つばき",
+    "prefecture_en": "Kumamoto",
+    "prefecture_ja": "熊本県",
+    "municipality": "Kumamoto City, Chuo-ku (exact spot unknown)",
+    "category": "commons",
+    "themes": [
+     "camellia",
+     "flowers"
+    ],
+    "photo": "assets/photos/commons-kumamoto-camellia.webp",
+    "photo_thumb": "assets/photos/commons-kumamoto-camellia.thumb.webp",
+    "photo_credit": "そらみみ (Soramimi)",
+    "photo_license": "CC-BY-SA-4.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Kumamoto,_Kumamoto.jpg",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.7967,
+     34.9331
+    ]
+   },
+   "properties": {
+    "id": "commons-kyoto-uji-bridge-maple",
+    "name_en": "Uji bridge and maple leaves design",
+    "name_ja": "宇治市",
+    "prefecture_en": "Kyoto",
+    "prefecture_ja": "京都府",
+    "municipality": "Uji, Kyoto",
+    "category": "commons",
+    "themes": [
+     "bridge",
+     "maple",
+     "river"
+    ],
+    "photo": "assets/photos/commons-kyoto-uji-bridge-maple.webp",
+    "photo_thumb": "assets/photos/commons-kyoto-uji-bridge-maple.thumb.webp",
+    "photo_credit": "そらみみ (Soramimi)",
+    "photo_license": "CC-BY-SA-3.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Uji,_Kyoto.jpg",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      135.743512,
      34.987838
     ]
@@ -6474,6 +6632,38 @@
     "installed": null,
     "source": "OpenStreetMap",
     "source_url": "https://www.openstreetmap.org/node/9518288702",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     137.972,
+     36.2381
+    ]
+   },
+   "properties": {
+    "id": "commons-nagano-matsumoto-temari",
+    "name_en": "Matsumoto temari thread-ball design (approx. location)",
+    "name_ja": "松本てまり",
+    "prefecture_en": "Nagano",
+    "prefecture_ja": "長野県",
+    "municipality": "Matsumoto, Nagano (exact spot unknown)",
+    "category": "commons",
+    "themes": [
+     "temari",
+     "craft",
+     "geometric"
+    ],
+    "photo": "assets/photos/commons-nagano-matsumoto-temari.webp",
+    "photo_thumb": "assets/photos/commons-nagano-matsumoto-temari.thumb.webp",
+    "photo_credit": "HAL-Guandu",
+    "photo_license": "CC-BY-SA-4.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manhole-cover-matsumoto-colour.jpg",
     "visited": false
    }
   },
@@ -9238,6 +9428,100 @@
     "installed": null,
     "source": "OpenStreetMap",
     "source_url": "https://www.openstreetmap.org/node/13271718279",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.5194,
+     34.3272
+    ]
+   },
+   "properties": {
+    "id": "commons-wakayama-kudoyama-persimmon",
+    "name_en": "Kudoyama persimmon design (approx. location)",
+    "name_ja": null,
+    "prefecture_en": "Wakayama",
+    "prefecture_ja": "和歌山県",
+    "municipality": "Kudoyama, Wakayama (exact spot unknown)",
+    "category": "commons",
+    "themes": [
+     "persimmon",
+     "fruit"
+    ],
+    "photo": "assets/photos/commons-wakayama-kudoyama-persimmon.webp",
+    "photo_thumb": "assets/photos/commons-wakayama-kudoyama-persimmon.thumb.webp",
+    "photo_credit": "VKaeru",
+    "photo_license": "CC-BY-SA-3.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manhole_cover_Kudoyama_kakis.jpg",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.2681,
+     38.1558
+    ]
+   },
+   "properties": {
+    "id": "commons-yamagata-kaminoyama-scarecrow",
+    "name_en": "Kaminoyama scarecrow design",
+    "name_ja": null,
+    "prefecture_en": "Yamagata",
+    "prefecture_ja": "山形県",
+    "municipality": "Kaminoyama, Yamagata (near Kaminoyama Onsen Station, exact spot unknown)",
+    "category": "commons",
+    "themes": [
+     "scarecrow",
+     "folklore"
+    ],
+    "photo": "assets/photos/commons-yamagata-kaminoyama-scarecrow.webp",
+    "photo_thumb": "assets/photos/commons-yamagata-kaminoyama-scarecrow.thumb.webp",
+    "photo_credit": "Suz-b",
+    "photo_license": "CC-BY-SA-4.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kaminoyama_kakashi-manhole.JPG",
+    "visited": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     138.7665,
+     35.5129
+    ]
+   },
+   "properties": {
+    "id": "commons-yamanashi-fujikawaguchiko-fuji",
+    "name_en": "Mt. Fuji and Lake Kawaguchi design",
+    "name_ja": "河口湖町",
+    "prefecture_en": "Yamanashi",
+    "prefecture_ja": "山梨県",
+    "municipality": "Fujikawaguchiko, Yamanashi",
+    "category": "commons",
+    "themes": [
+     "mount-fuji",
+     "lake",
+     "bridge"
+    ],
+    "photo": "assets/photos/commons-yamanashi-fujikawaguchiko-fuji.webp",
+    "photo_thumb": "assets/photos/commons-yamanashi-fujikawaguchiko-fuji.thumb.webp",
+    "photo_credit": "DimiTalen",
+    "photo_license": "CC0-1.0",
+    "installed": null,
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_and_Kawaguchiko_Lake_and_Bridge_on_a_manhole_cover,_Fujikawaguchiko,_2016.jpg",
     "visited": false
    }
   }

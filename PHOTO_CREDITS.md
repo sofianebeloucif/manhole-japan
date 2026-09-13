@@ -45,6 +45,21 @@ accepted. Add a row when you add a photo.
 | personal-saga-tile-craft-loom.webp | Weaving loom craft tile, Saga City | Riri | own-work | own photo |
 | personal-saga-tile-fish-shell.webp | Fish and shell pattern tile, Saga City | Riri | own-work | own photo |
 | personal-saga-tile-mudskipper.webp | Jumping mudskipper photo tile, Saga City | Riri | own-work | own photo |
+| commons-kyoto-uji-bridge-maple.webp | Uji bridge and maple leaves design | そらみみ (Soramimi) | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Uji,_Kyoto.jpg) |
+| commons-fukui-echizen-fish.webp | Echizen fish design | Osarusan | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:EchizenSewerlid.JPG) |
+| commons-nagano-matsumoto-temari.webp | Matsumoto temari thread-ball design | HAL-Guandu | CC-BY-SA-4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole-cover-matsumoto-colour.jpg) |
+| commons-hiroshima-miyajima.webp | Miyajima design | そらみみ (Soramimi) | CC-BY-SA-4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Miyajima,_Hatsukaichi,_Hiroshima.jpg) |
+| commons-kumamoto-camellia.webp | Kumamoto camellia design | そらみみ (Soramimi) | CC-BY-SA-4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_of_Kumamoto,_Kumamoto.jpg) |
+| commons-yamanashi-fujikawaguchiko-fuji.webp | Mt. Fuji and Lake Kawaguchi design | DimiTalen | CC0-1.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Mount_Fuji_and_Kawaguchiko_Lake_and_Bridge_on_a_manhole_cover,_Fujikawaguchiko,_2016.jpg) |
+| commons-wakayama-kudoyama-persimmon.webp | Kudoyama persimmon design | VKaeru | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_cover_Kudoyama_kakis.jpg) |
+| commons-ehime-mikan.webp | Mikan (mandarin orange) design | VKaeru | CC-BY-SA-3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Manhole_Mikan.jpg) |
+| commons-yamagata-kaminoyama-scarecrow.webp | Kaminoyama scarecrow design | Suz-b | CC-BY-SA-4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kaminoyama_kakashi-manhole.JPG) |
 
 For OpenStreetMap-sourced covers the map shows no photo; it links to the OSM
 node instead.
+
+The `commons-*` photos above were deliberately picked for generic municipal
+motifs (flowers, fruit, bridges, folklore) with no third-party character
+IP, and their licences verified directly on the Wikimedia Commons file page
+before use. See the "Origin recognition" section of README.md for why
+Poké Lid designs are not sourced this way.

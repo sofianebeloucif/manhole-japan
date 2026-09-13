@@ -21,6 +21,7 @@ export const MAP_MIN_ZOOM = 4;
 export const CATEGORIES = [
   { id: "pokefuta", label: "Poké Lids", color: "#3b82f6" },
   { id: "personal", label: "My finds", color: "#16a34a" },
+  { id: "commons", label: "Community photos", color: "#f59e0b" },
 ];
 
 export const CATEGORY_COLOR = Object.fromEntries(

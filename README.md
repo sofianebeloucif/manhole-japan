@@ -127,10 +127,16 @@ is uploaded automatically; a human still opens the pull request.
 | Prefecture boundaries | [dataofjapan/land](https://github.com/dataofjapan/land) | as upstream |
 | Basemap | [OpenFreeMap](https://openfreemap.org/) / OpenStreetMap | ODbL 1.0 |
 | Personal observations & photos | Sofiane Beloucif | see `PHOTO_CREDITS.md` |
+| Community photos (`commons` category) | [Wikimedia Commons](https://commons.wikimedia.org/) contributors | CC-BY-SA / CC0, credited per entry in `PHOTO_CREDITS.md` |
 
 Photos in this repo are the author's own work or Creative Commons / public
-domain, credited per entry. The code is MIT (`LICENSE`); generated data files
-derived from OpenStreetMap remain under ODbL.
+domain, credited per entry. The `commons` category is picked by hand for
+generic municipal motifs only (flowers, fruit, bridges, folklore); a free
+licence on a photo does not clear the copyright of a third-party character
+depicted in it, so no Poké Lid design is sourced this way; see "Origin
+recognition" above for why those stay location-only. The code is MIT
+(`LICENSE`); generated data files derived from OpenStreetMap remain under
+ODbL.
 
 This is a fan project. It is **not affiliated with** The Pokémon Company,
 Nintendo, or the GKP / Japan Sewage Works Association.
