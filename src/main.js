@@ -44,9 +44,14 @@ themeToggle.addEventListener("click", () => {
 });
 
 // ---- sidebar collapse (mobile) --------------------------------------
+// The button only ever removed "collapsed" here, and CSS only ever shows
+// it once "collapsed" is already set — so nothing could add the class in
+// the first place, and on a narrow viewport (sidebar pinned to the top,
+// covering 62dvh) there was no way to dismiss it at all. toggle() plus the
+// mobile CSS change below (button always visible under 640px) fixes both.
 const sidebar = document.getElementById("sidebar");
 document.getElementById("sidebar-toggle").addEventListener("click", () => {
-  sidebar.classList.remove("collapsed");
+  sidebar.classList.toggle("collapsed");
 });
 
 // ---- contribute panel ---------------------------------------------------

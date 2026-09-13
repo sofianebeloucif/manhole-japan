@@ -2,7 +2,14 @@ import { BASEMAPS, JAPAN_BOUNDS, MAP_MAX_BOUNDS, MAP_MIN_ZOOM, CATEGORIES } from
 
 const EMPTY = { type: "FeatureCollection", features: [] };
 const catMatch = CATEGORIES.flatMap((c) => [c.id, c.color]);
-const PAD = { top: 40, right: 40, bottom: 40, left: 360 };
+// Desktop reserves a left gutter for the docked sidebar. Under the 640px
+// breakpoint (style.css) the sidebar sits on TOP of the map instead, so a
+// 360px left pad would leave almost nothing to fit into on a phone-width
+// viewport — pad the top a bit for the always-visible toggle button instead.
+const PAD_DESKTOP = { top: 40, right: 40, bottom: 40, left: 360 };
+const PAD_MOBILE = { top: 90, right: 20, bottom: 20, left: 20 };
+const pad = () =>
+  typeof window !== "undefined" && window.innerWidth <= 640 ? PAD_MOBILE : PAD_DESKTOP;
 
 export function createMap(theme = "light") {
   const map = new maplibregl.Map({
@@ -17,7 +24,7 @@ export function createMap(theme = "light") {
     // the common case; setBasemap() below still handles a later manual toggle.
     style: BASEMAPS[theme] || BASEMAPS.light,
     bounds: JAPAN_BOUNDS,
-    fitBoundsOptions: { padding: PAD },
+    fitBoundsOptions: { padding: pad() },
     attributionControl: { compact: true },
     // Nothing here to see outside Japan, so don't let panning or zooming
     // out reach the rest of the world.
@@ -151,7 +158,7 @@ export function createMap(theme = "light") {
       ]);
     },
     fitJapan() {
-      map.fitBounds(JAPAN_BOUNDS, { padding: PAD });
+      map.fitBounds(JAPAN_BOUNDS, { padding: pad() });
     },
     flyToFeature(f) {
       map.flyTo({ center: f.geometry.coordinates, zoom: Math.max(map.getZoom(), 13), speed: 1.4 });
@@ -160,7 +167,8 @@ export function createMap(theme = "light") {
       if (!features.length) return;
       const b = new maplibregl.LngLatBounds();
       for (const f of features) b.extend(f.geometry.coordinates);
-      map.fitBounds(b, { padding: { ...PAD, left: 380 }, maxZoom: 12 });
+      const p = pad();
+      map.fitBounds(b, { padding: { ...p, left: p.left + 20 }, maxZoom: 12 });
     },
     setBasemap(theme) {
       map.setStyle(BASEMAPS[theme] || BASEMAPS.light);

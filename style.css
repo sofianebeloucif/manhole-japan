@@ -289,7 +289,10 @@ a { color: inherit; }
 @media (max-width: 640px) {
   #sidebar { top: 0; left: 0; width: 100%; max-height: 62dvh; border-radius: 0 0 var(--radius) var(--radius); }
   #sidebar.collapsed { transform: translateY(calc(-100% - 20px)); }
-  #sidebar-toggle { top: 10px; left: 10px; }
+  /* On a phone the sidebar sits on TOP of the map (not beside it), so the
+     toggle must stay reachable however wide open the sidebar is: always
+     visible, and above it in stacking order. */
+  #sidebar-toggle { display: block; top: 10px; left: auto; right: 10px; z-index: 6; }
   #detail { top: auto; bottom: 0; right: 0; left: 0; width: 100%; max-height: 62dvh;
     border-radius: var(--radius) var(--radius) 0 0; }
   #contribute { top: auto; bottom: 0; right: 0; left: 0; width: 100%;
