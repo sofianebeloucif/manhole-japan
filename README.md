@@ -1,3 +1,5 @@
+![Manhole Japan logo](docs/logo.webp)
+
 # Manhole Japan
 
 An interactive map of Japan's decorative manhole covers. In Japan almost every
