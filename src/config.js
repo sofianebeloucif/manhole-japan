@@ -36,7 +36,6 @@ export const CDN = {
   // via a bundler/node_modules, so a raw browser import() of the jsdelivr
   // file throws immediately. esm.sh rewrites those into resolvable URLs.
   paddleocrJs: "https://esm.sh/@paddleocr/paddleocr-js@0.4.2",
-  three: "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
   ort: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/ort.min.mjs",
   ortWasm: "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/",
   fflate: "https://cdn.jsdelivr.net/npm/fflate@0.8.3/esm/browser.js",
