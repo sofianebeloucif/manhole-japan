@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-09-09T23:02:09.551219+00:00",
+ "fetched_at": "2026-11-01T11:36:32.755625+00:00",
  "source": "OpenStreetMap via Overpass",
  "license": "ODbL 1.0",
  "attribution": "(c) OpenStreetMap contributors",
@@ -1364,10 +1364,13 @@
    "tags": {
     "alt_name": "ポケモンマンホール（ラプラス・ラッキー）",
     "alt_name:en": "Pokémon Manhole (Lapras & Chansey)",
+    "alt_name:ja": "ポケモンマンホール（ラプラス・ラッキー）",
+    "location": "overground",
     "man_made": "manhole",
     "manhole": "yes",
     "name": "ポケふた（ラプラス・ラッキー）",
     "name:en": "Poké Lids (Lapras & Chansey)",
+    "name:ja": "ポケふた（ラプラス・ラッキー）",
     "tourism": "attraction"
    }
   },
@@ -3603,8 +3606,8 @@
   {
    "type": "node",
    "id": 13047818992,
-   "lat": 32.7537591,
-   "lon": 129.8674316,
+   "lat": 32.7536593,
+   "lon": 129.867317,
    "tags": {
     "man_made": "manhole",
     "manhole": "yes",
